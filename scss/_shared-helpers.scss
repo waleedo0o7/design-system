@@ -1,0 +1,88 @@
+
+.gap-1 {
+  gap: .25rem !important;
+}
+
+.gap-2 {
+  gap: .5rem !important;
+}
+
+.gap-3 {
+  gap: 1rem !important;
+}
+
+.gap-4 {
+  gap: 1.5rem !important;
+}
+
+.gap-5 {
+  gap: 3rem !important;
+}
+
+.row-gap-1 {
+  row-gap: .25rem !important;
+}
+
+.row-gap-2 {
+  row-gap: .5rem !important;
+}
+
+.row-gap-3 {
+  row-gap: 1rem !important;
+}
+
+.row-gap-4 {
+  row-gap: 30px !important;
+}
+
+.row-gap-5 {
+  row-gap: 3rem !important;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bg-gray {
+  background-color: var(--gray1);
+}
+
+/* Width classes */
+@for $i from 1 through 100 {
+  .w-#{$i * 5}px {
+    width: #{$i * 5}px;
+    min-width: #{$i * 5}px;
+  }
+}
+
+/* Height classes */
+@for $i from 1 through 100 {
+  .h-#{$i * 5}px {
+    height: #{$i * 5}px;
+    min-height: #{$i * 5}px;
+  }
+}

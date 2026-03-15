@@ -1,0 +1,8 @@
+@use "base"; // for base styles
+@use "shared-helpers"; // for utilities .text-center .w-100px etc.
+@use "shared-components"; // for reusable components .product-card .offer-card .banner etc.
+@use "shared"; // for anything shared else
+@use "layout"; // for layout header , footer , sidebar etc.
+@use "pages"; // for custom style for specific page .home .about .contact etc.
+
+/* here you can write draft code if there is no time to handel it BUT WE will handel it in future */
