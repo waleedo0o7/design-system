@@ -6,3 +6,238 @@
 @use "pages"; // for custom style for specific page .home .about .contact etc.
 
 /* here you can write draft code if there is no time to handel it BUT WE will handel it in future */
+
+.custom-tabs-wrapper {
+
+    .nav-link {
+        height: 40px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        background: transparent;
+        cursor: pointer;
+
+        &.nav-link-sm {
+            height: 36px;
+        }
+    }
+
+    &.style1 {
+        >.nav-tabs-wrapper {
+            >.nav-tabs {
+                display: flex;
+                align-items: center;
+                flex-wrap: nowrap;
+                padding: 0;
+                border-bottom: 1px solid #E5E7EB;
+
+                >.nav-item {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: fit-content;
+
+                    &:last-child {
+                        .nav-link {
+                            margin-inline-end: 0;
+                        }
+                    }
+
+                    >.nav-link {
+                        border-width: 1px 0;
+                        border-top-color: transparent;
+                        border-bottom-color: transparent;
+                        border-radius: 0 !important;
+                        color: #9CA3AF;
+                        padding: 0.5rem 0;
+                        margin-inline-end: 20px;
+                        position: relative;
+                        font-weight: 400;
+
+                        &:after {
+                            background-color: #3B82F6;
+                            position: absolute;
+                            bottom: -2px;
+                            left: 0;
+                            width: 100%;
+                            height: 4px;
+                            border-radius: 500px;
+                        }
+
+                        &.active {
+                            color: #111827;
+                            border-bottom-color: #E5E7EB;
+                            background: transparent;
+
+                            &:after {
+                                content: "";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.style2 {
+        >.nav-tabs-wrapper {
+            >.nav-tabs {
+                display: flex;
+                align-items: center;
+                flex-wrap: nowrap;
+                padding: 0;
+                border-bottom: none;
+
+                >.nav-item {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: fit-content;
+
+                    &:last-child {
+                        .nav-link {
+                            margin-inline-end: 0;
+                        }
+                    }
+
+                    >.nav-link {
+                        border-width: 1px 0;
+                        border-top-color: transparent;
+                        border-bottom-color: transparent;
+                        border-radius: 0 !important;
+                        color: #9CA3AF;
+                        padding: 0.5rem 0;
+                        margin-inline-end: 20px;
+                        position: relative;
+                        font-weight: 400;
+                        height: 35px;
+
+                        &:after {
+                            background-color: #3B82F6;
+                            position: absolute;
+                            bottom: -2px;
+                            left: 0;
+                            width: 100%;
+                            height: 4px;
+                            border-radius: 500px;
+                        }
+
+                        &.active {
+                            color: #111827;
+                            border-bottom-color: #E5E7EB;
+                            background: transparent;
+
+                            &:after {
+                                content: "";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.style3 {
+        >.nav-tabs-wrapper {
+            >.nav-tabs {
+                display: flex;
+                align-items: center;
+                flex-wrap: nowrap;
+                padding: 0;
+                border-bottom: none;
+
+                >.nav-item {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: fit-content;
+
+                    &:last-child {
+                        .nav-link {
+                            margin-inline-end: 0;
+                        }
+                    }
+
+                    >.nav-link {
+                        position: relative;
+                        font-weight: 400;
+
+                        border: 1px solid #E5E7EB;
+                        border-radius: 500px !important;
+                        padding: 8px 16px;
+                        margin-inline-end: 10px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        color: #9CA3AF;
+
+                        &.active {
+                            background-color: #3B82F6;
+                            border-color: #3B82F6;
+                            color: #FFFFFF;
+                        }
+
+                        .tab-button-icon {
+                            margin-inline-end: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.style4 {
+        >.nav-tabs-wrapper {
+            >.nav-tabs {
+                display: flex;
+                align-items: center;
+                flex-wrap: nowrap;
+                padding: 0;
+                border-bottom: none;
+
+                >.nav-item {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: fit-content;
+                    height: 40px;
+
+                    &:last-child {
+                        .nav-link {
+                            margin-inline-end: 0;
+                        }
+                    }
+
+                    .nav-link {
+                        position: relative;
+                        font-weight: 300;
+                        border: 1px solid transparent;
+                        border-radius: 500px !important;
+                        padding: 8px 16px;
+                        margin-inline-end: 10px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #6B7280;
+                        background-color: #F3F4F6;
+
+                        &.nav-link-gray {
+                            background-color: #EBEDF0;
+                        }
+
+                        &.active {
+                            background-color: #EFF6FF;
+                            border-color: #BFDBFE;
+                            color: #3B82F6;
+                        }
+
+                        .tab-button-icon {
+                            margin-inline-end: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
