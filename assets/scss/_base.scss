@@ -1,0 +1,25 @@
+// override bootstrap Colors
+$primary: #4a009e;
+// $danger: #EB1F2D;
+// $warning: #F1C735;
+// $success: #50C879;
+// $secondary: #111827;
+// $info: #1849A9;
+
+// this shared vars we will use this 
+:root {
+    --color-primary: #4a009e;
+    --color-primary-faded: #4a009e19;
+
+    --color-success: #50C879;
+    --color-success-faded: #50c87a18;
+
+    --color-danger: #EB1F2D;
+    --color-danger-faded: #eb1f2d1e;
+
+    --color-warning: #F1C735;
+    --color-warning-faded: #f1c83520;
+
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

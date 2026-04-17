@@ -1,5 +1,7 @@
 <?php include '_header.php' ?>
 
+<h1 class="text-primary"> Hello </h1>
+
 <div class="flex-start gap-4 bg-gray mb-3">
     <h1> 11 </h1>
     <h1> 22 </h1>
