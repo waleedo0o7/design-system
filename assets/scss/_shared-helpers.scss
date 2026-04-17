@@ -1,4 +1,3 @@
-
 .gap-1 {
   gap: .25rem !important;
 }
@@ -67,9 +66,27 @@
   align-items: center;
 }
 
-.bg-gray {
-  background-color: var(--gray1);
+.color-gray {
+  color: var(--color-gray);
 }
+
+.bg-gray {
+  background-color: var(--color-gray);
+}
+
+.color-white {
+  color: #fff;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-beige {
+  background-color: #EBE7D4;
+}
+
+
 
 /* Width classes */
 @for $i from 1 through 100 {

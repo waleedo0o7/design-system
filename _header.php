@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html dir="<?php echo (isset($_GET['dir'])) ? $_GET['dir'] : 'ltr'; ?>">
 
 <head>
     <!-- Required meta tags -->

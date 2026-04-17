@@ -37,29 +37,6 @@
             </div>
 
 
-
-            <div class="ds-sub-section mb-5">
-                <div class="row">
-                    <div class="col-md-2">
-                        <p class="m-0 mt-3 lead"> Disabled </p>
-                    </div>
-                    <div class="col-md-10">
-                        <div class="d-flex ">
-                            <button type="button" disabled class="btn btn-primary">Primary</button>
-                            <button type="button" disabled class="btn btn-success">Success</button>
-                            <button type="button" disabled class="btn btn-danger">Danger</button>
-                            <button type="button" disabled class="btn btn-warning">Warning</button>
-                            <button type="button" disabled class="btn btn-info">Info</button>
-                            <button type="button" disabled class="btn btn-light">Light</button>
-                            <button type="button" disabled class="btn btn-dark">Dark</button>
-                            <button type="button" disabled class="btn btn-secondary">Secondary</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
             <div class="ds-sub-section mb-5">
                 <div class="row">
                     <div class="col-md-2">
@@ -72,37 +49,13 @@
                             <button type="button" class="btn btn-outline-danger">Danger</button>
                             <button type="button" class="btn btn-outline-warning">Warning</button>
                             <button type="button" class="btn btn-outline-info">Info</button>
-                            <button type="button" disabled class="btn btn-outline-light">Light</button>
+                            <button type="button" class="btn btn-outline-light">Light</button>
                             <button type="button" class="btn btn-outline-dark">Dark</button>
                             <button type="button" class="btn btn-outline-secondary">Secondary</button>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-            <div class="ds-sub-section mb-5">
-                <div class="row">
-                    <div class="col-md-2">
-                        <p class="m-0 mt-3 lead"> Outline Disabled </p>
-                    </div>
-                    <div class="col-md-10">
-                        <div class="d-flex ">
-                            <button type="button" disabled class="btn btn-outline-primary">Primary</button>
-                            <button type="button" disabled class="btn btn-outline-success">Success</button>
-                            <button type="button" disabled class="btn btn-outline-danger">Danger</button>
-                            <button type="button" disabled class="btn btn-outline-warning">Warning</button>
-                            <button type="button" disabled class="btn btn-outline-info">Info</button>
-                            <button type="button" disabled class="btn btn-outline-light">Light</button>
-                            <button type="button" disabled class="btn btn-outline-dark">Dark</button>
-                            <button type="button" disabled class="btn btn-outline-secondary">Secondary</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
 
 
             <div class="ds-sub-section mb-5">
@@ -217,30 +170,6 @@
                             <button type="button" class="btn btn-link min-w-200"> Continue </button>
                         </div>
 
-
-                        <div class="mb-3">
-                            <button type="button" disabled class="btn btn-primary min-w-200"> Continue </button>
-                            <button type="button" disabled class="btn btn-primary-faded min-w-200"> Continue </button>
-                            <button type="button" disabled class="btn btn-outline-primary min-w-200"> Continue </button>
-                            <button type="button" disabled class="btn btn-link min-w-200"> Continue </button>
-                        </div>
-
-
-                        <div class="mb-3">
-                            <button type="button" class="btn btn-primary min-w-200"> <i class="start-center-icon icon icon-trash"></i> Continue </button>
-                            <button type="button" class="btn btn-primary-faded min-w-200"> <i class="start-center-icon icon icon-trash"></i> Continue </button>
-                            <button type="button" class="btn btn-outline-primary min-w-200"> <i class="start-center-icon icon icon-trash"></i> Continue </button>
-                            <button type="button" class="btn btn-link min-w-200"> <i class="start-center-icon icon icon-trash"></i> Continue </button>
-                        </div>
-
-
-                        <div class="mb-3">
-                            <button type="button" class="btn btn-primary min-w-200"> Continue <i class="end-center-icon icon icon-trash"></i> </button>
-                            <button type="button" class="btn btn-primary-faded min-w-200"> Continue <i class="end-center-icon icon icon-trash"></i> </button>
-                            <button type="button" class="btn btn-outline-primary min-w-200"> Continue <i class="end-center-icon icon icon-trash"></i> </button>
-                            <button type="button" class="btn btn-link min-w-200"> Continue <i class="end-center-icon icon icon-trash"></i> </button>
-                        </div>
-
                         <p> for more click <button type="button" class="btn btn-link p-0"> here </button> </p>
 
                         <button href="#" class="btn btn-action btn-primary"> <i class="icon icon-star"></i> </button>
@@ -249,8 +178,30 @@
 
                     </div>
 
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+                    <p class="color-gray"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
 
                 </div>
+
+
+                <div class="row bg-gray p-3">
+                    <div class="col-md-2">
+                        <p class="m-0 mt-3 lead color-white"> App buttons </p>
+                    </div>
+                    <div class="col-md-10">
+
+
+                        <button type="button" class="btn btn-outline-light">Light</button>
+
+
+                    </div>
+
+
+                </div>
+
+
             </div>
 
 

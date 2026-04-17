@@ -298,7 +298,16 @@
 
 }
 
+
+
 .btn {
+    border-radius: 500px;
+    line-height: 56px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+
 
     &.min-w-200 {
         min-width: 200px !important;
@@ -410,4 +419,8 @@
     background-color: transparent;
     border: 1px solid;
     border-color: var(--color-warning);
+}
+
+body {
+    color: var(--text-color);
 }

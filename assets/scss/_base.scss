@@ -1,5 +1,5 @@
 // override bootstrap Colors
-$primary: #4a009e;
+$primary: #89ced7;
 // $danger: #EB1F2D;
 // $warning: #F1C735;
 // $success: #50C879;
@@ -8,8 +8,8 @@ $primary: #4a009e;
 
 // this shared vars we will use this 
 :root {
-    --color-primary: #4a009e;
-    --color-primary-faded: #4a009e19;
+    --color-primary: #89ced7;
+    --color-primary-faded: #89ced728;
 
     --color-success: #50C879;
     --color-success-faded: #50c87a18;
@@ -19,6 +19,14 @@ $primary: #4a009e;
 
     --color-warning: #F1C735;
     --color-warning-faded: #f1c83520;
+    
+    --color-gray: #4B5561;
+    
+    --text-color: #1F252D;
+    
+    
+    
+
 
 }
 
