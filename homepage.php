@@ -95,7 +95,7 @@
                         <img src="imgs/stats-img-3.png" alt="">
                     </div>
                     <div class="project-stats-card-content">
-                        <p class="m-0 h4">>+31 الف شخص </p>
+                        <p class="m-0 h4">+31 الف شخص </p>
                         <span> الحضور</span>
                     </div>
 
@@ -108,7 +108,7 @@
                         <img src="imgs/stats-img-4.png" alt="">
                     </div>
                     <div class="project-stats-card-content">
-                        <p class="m-0 h4">>185 راعي</p>
+                        <p class="m-0 h4">185 راعي</p>
                         <span> الرعاه</span>
                     </div>
                 </div>
