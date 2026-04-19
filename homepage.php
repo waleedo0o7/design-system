@@ -82,7 +82,7 @@
                         <img src="imgs/stats-img-2.png" alt="">
                     </div>
                     <div class="project-stats-card-content">
-                        <h4>+42 الف مشروع</h4>
+                        <p class="m-0 h4">+42 الف مشروع</p>
                         <span>عدد المشاريع</span>
                     </div>
 
@@ -95,7 +95,7 @@
                         <img src="imgs/stats-img-3.png" alt="">
                     </div>
                     <div class="project-stats-card-content">
-                        <h4>+31 الف شخص </h4>
+                        <p class="m-0 h4">>+31 الف شخص </p>
                         <span> الحضور</span>
                     </div>
 
@@ -108,7 +108,7 @@
                         <img src="imgs/stats-img-4.png" alt="">
                     </div>
                     <div class="project-stats-card-content">
-                        <h4>185 راعي</h4>
+                        <p class="m-0 h4">>185 راعي</p>
                         <span> الرعاه</span>
                     </div>
                 </div>
