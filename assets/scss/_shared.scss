@@ -1,9 +1,66 @@
-ul{
+ul {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
-    &:hover{
+
+    &:hover {
         text-decoration-line: none;
+    }
+}
+
+
+
+.container {
+    @media (min-width: $breakpoint-xl) {
+        max-width: 1500px;
+    }
+
+    @media (max-width: $breakpoint-xl) {
+        max-width: unset;
+    }
+}
+
+.container {
+    @media (max-width: 1500px) and (min-width: 1300px) {
+        max-width: 1400px;
+    }
+
+    @media (max-width: $breakpoint-lg) {
+        max-width: unset;
+    }
+}
+
+
+.container {
+    @media (max-width: 1300px) and (min-width: 768px) {
+        max-width: 1200px;
+    }
+
+    @media (max-width: $breakpoint-lg) {
+        max-width: unset;
+    }
+}
+
+
+
+.container-md {
+    @media (min-width: $breakpoint-md) {
+        max-width: 720px;
+    }
+
+    @media (max-width: $breakpoint-md) {
+        max-width: unset;
+    }
+}
+
+.container-sm {
+    @media (min-width: $breakpoint-sm) {
+        max-width: 540px;
+    }
+
+    @media (max-width: $breakpoint-sm) {
+        max-width: unset;
     }
 }

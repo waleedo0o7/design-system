@@ -19,18 +19,33 @@ $primary: #89ced7;
 
     --color-warning: #F1C735;
     --color-warning-faded: #f1c83520;
-    
+
     --color-gray: #4B5561;
-    
+
     --text-color: #1F252D;
-    --text-color-2:#4B5561;
+    --text-color-2: #4B5561;
 
-    --card-bg-color:#dde8ef52;
-    
-    
-    
-
+    --card-bg-color: #dde8ef52;
 
 }
+
+// === Custom Breakpoints as Variables ===
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1250px;
+$breakpoint-2xl: 1600px; // for zoom 125%
+
+// === Override Bootstrap Breakpoints ===
+$grid-breakpoints: (
+    xs: $breakpoint-xs,
+    sm: $breakpoint-sm,
+    md: $breakpoint-md,
+    lg: $breakpoint-lg,
+    xl: $breakpoint-xl
+);
+
+
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

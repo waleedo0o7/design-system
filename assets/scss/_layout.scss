@@ -1,0 +1,14 @@
+.menu-items-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .menu-item {
+        &.active {
+            .menu-link {
+            color: var(--color-primary);}
+        }
+
+    }
+}

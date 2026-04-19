@@ -1,6 +1,8 @@
 <?php include '_header.php' ?>
 <?php include '_header-design.php' ?>
+
 <div class="hero-section">
+
     <img src="imgs/hero-background.png" class="hero-img" alt="">
 
     <div class="hero-content color-white">
