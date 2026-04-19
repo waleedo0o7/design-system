@@ -1,4 +1,3 @@
-<?php include '_header.php' ?>
 
 <div class="project-stats-card flex-start gap-3">
     <div class="img-wrapper badge-primary-faded p-2">
@@ -9,5 +8,3 @@
         <span>قيمة المشاريع</span>
     </div>
 </div>
-
-<?php include '_footer.php' ?>

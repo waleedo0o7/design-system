@@ -274,15 +274,35 @@
     </div>
 </div>
 
-<div class="our-sponsors">
+<div class="our-sponsors py-5">
     <h1 class="text-center font-weight-bold mb-4"> الرعاة</h1>
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                 <?php include 'shared-html/_sponsors-card.php' ?>
+        <div class="row mb-4">
+            <div class="col-lg-8">
+                <?php include 'shared-html/_sponsors-card.php' ?>
+            </div>
+            <div class="col-lg-4">
+                <?php include 'shared-html/_sponsors-card.php' ?>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-lg-12">
+                <?php include 'shared-html/_sponsors-card.php' ?>
             </div>
         </div>
     </div>
+</div>
+
+<div class="testimonials py-5">
+    <h1 class="text-center font-weight-bold mb-4"> التوصيات</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                 <?php include 'shared-html/_testimonials-card.php' ?>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 

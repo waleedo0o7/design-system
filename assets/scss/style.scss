@@ -839,6 +839,48 @@ body {
     }
 }
 
+.our-sponsors {
+    background-color: #FAFBFD;
+}
+
+.sponsors-card {
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+
+    .sponsors-lable {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #E1E6EC;
+        padding: 10px;
+        border-radius: 16px;
+
+    }
+
+    .img-wrapper {
+        img {
+            width: 120px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.testimonials-card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+    border-top: 3px solid var(--color-primary);
+
+    .img-wrapper {
+        img {
+            width: 70px;
+        }
+    }
+
+    .end {
+        align-self: flex-start;
+    }
+}
 
 html[dir=rtl] {
 
