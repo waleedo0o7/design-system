@@ -1,0 +1,18 @@
+ <div class="card-1 p-3 flex-between ">
+
+     <div class="">
+         <div class="img-wrapper mb-3">
+             <img src="imgs/ncf-logo.png">
+         </div>
+         <p class="font-weight-bold">المهرجان الوطني للبناء</p>
+        <button type="button" class="btn btn-main flex-center gap-2 color-gray">
+            
+             <span>تفاصيل الفعالية</span>
+
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                 <path d="M41.4 297.4C28.9 309.9 28.9 330.2 41.4 342.7L169.4 470.7C181.9 483.2 202.2 483.2 214.7 470.7C227.2 458.2 227.2 437.9 214.7 425.4L141.3 352L576 352C593.7 352 608 337.7 608 320C608 302.3 593.7 288 576 288L141.3 288L214.7 214.6C227.2 202.1 227.2 181.8 214.7 169.3C202.2 156.8 181.9 156.8 169.4 169.3L41.4 297.3z"></path>
+             </svg>
+             
+         </button>
+     </div>
+ </div>

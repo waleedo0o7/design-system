@@ -10,6 +10,8 @@
   --color-warning-faded: #f1c83520;
   --color-gray: #4B5561;
   --text-color: #1F252D;
+  --text-color-2:#4B5561;
+  --card-bg-color:#dde8ef52;
 }
 
 /*!
@@ -9329,6 +9331,18 @@ a.text-dark:hover, a.text-dark:focus {
   align-items: center;
 }
 
+.color-primary {
+  color: var(--color-primary);
+}
+
+.text-color {
+  color: var(--text-color);
+}
+
+.text-color-2 {
+  color: var(--text-color-2);
+}
+
 .color-gray {
   color: var(--color-gray);
 }
@@ -9350,7 +9364,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .bg-beige {
-  background-color: #EBE7D4;
+  background-color: #EBE7D4 !important;
 }
 
 /* Width classes */
@@ -10596,7 +10610,7 @@ a:hover {
 
 .btn {
   border-radius: 500px;
-  line-height: 56px;
+  line-height: 46px;
   padding-top: 0;
   padding-bottom: 0;
   padding-inline-start: 20px;
@@ -10613,6 +10627,10 @@ a:hover {
 }
 .btn:focus, .btn.focus {
   text-decoration: none;
+}
+
+.fw-bold {
+  font-weight: bold;
 }
 
 .badge {
@@ -10719,6 +10737,7 @@ body {
 .hero-section {
   position: relative;
   height: 100vh;
+  z-index: 1;
 }
 .hero-section .hero-img {
   position: absolute;
@@ -10754,6 +10773,12 @@ body {
 .hero-section button svg {
   width: 15px;
 }
+.hero-section .btn-main.bg-beige:hover {
+  padding-right: 35px;
+}
+.hero-section .btn-main.bg-beige:hover span {
+  transform: translateX(15px);
+}
 .hero-section .hero-bage {
   width: -moz-fit-content;
   width: fit-content;
@@ -10770,6 +10795,14 @@ body {
   width: 20px;
 }
 
+.project-stats {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 50px 50px 0 0;
+  margin-top: -50px;
+  background-color: #fff;
+  z-index: 2;
+  position: relative;
+}
 .project-stats .project-stats-card {
   background-color: rgba(177, 225, 232, 0.14);
   border-radius: 10px;
@@ -10791,9 +10824,16 @@ body {
   border-radius: 10px;
 }
 
+.about-us {
+  background-image: url(../../imgs/about-shape.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0px 0px;
+}
 .about-us .about-badge {
   border-radius: 100px;
   border: 1px solid #4B5561;
+  background-color: #E9EBEC;
 }
 .about-us .about-us-content .about-us-headline {
   font-weight: bold;
@@ -10897,15 +10937,126 @@ body {
 }
 .btn-main:hover {
   background-color: #E9EBEC;
-  padding-right: 25px;
 }
 .btn-main:hover span {
-  transform: translateX(5px);
+  transform: translateX(-5px);
 }
 .btn-main svg {
   width: 15px;
 }
 
 .card-1 {
-  background-color: rgba(221, 232, 239, 0.168627451);
+  background-color: var(--card-bg-color);
+  border-radius: 15px;
+  background-image: url(../../imgs/rectangles.png);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) 10px;
+}
+.card-1 img {
+  width: 130px;
+}
+@media (max-width: 768px) {
+  .card-1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.card-2 {
+  background-color: var(--card-bg-color);
+  border-radius: 15px;
+  align-items: stretch;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .card-2 {
+    text-align: center;
+  }
+}
+.card-2 .img-wrapper {
+  width: 40%;
+}
+.card-2 .img-wrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card-2 .card-2-content {
+  width: 60%;
+  background-image: url(../../imgs/shape-2.svg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: 100% 10px;
+}
+.card-2 .card-2-content .logo img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.card-3 {
+  background-color: var(--card-bg-color);
+  border-radius: 15px;
+}
+.card-3 .card-3-content {
+  background-image: url(../../imgs/shape-3.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.agenda-section .taps-wrapper {
+  background-color: #F9FBFC;
+  padding: 20px;
+}
+.agenda-section .taps-wrapper li {
+  width: 32%;
+  text-align: center;
+  margin: 5px;
+}
+.agenda-section .taps-wrapper li a {
+  padding: 18px;
+}
+.agenda-section .taps-wrapper li a:hover {
+  border-radius: 10px;
+}
+.agenda-section .taps-wrapper li a .date-of-day {
+  font-size: 12px;
+  font-weight: 500;
+}
+.agenda-section .taps-wrapper .nav-tabs .nav-link.active,
+.agenda-section .taps-wrapper .nav-tabs .nav-item.show .nav-link {
+  color: #1F252D;
+  background-color: white;
+  border: 1px solid #CBDCDE;
+  border-radius: 10px;
+}
+.agenda-section .taps-wrapper .nav-tabs {
+  border: none;
+}
+.agenda-section .card {
+  border-radius: 15px;
+}
+.agenda-section .card .card-header {
+  margin-bottom: 0px;
+}
+.agenda-section .card p {
+  margin: 0;
+}
+.agenda-section .card .card-header {
+  background-color: white;
+}
+.agenda-section .card-body {
+  background-color: #FAFDFF;
+}
+
+html[dir=rtl] body {
+  text-align: right;
+}
+html[dir=rtl] .btn-main:hover span {
+  transform: translateX(5px);
+}
+html[dir=rtl] .card-2 .card-2-content {
+  background-position: 10px 10px;
 }/*# sourceMappingURL=style.css.map */

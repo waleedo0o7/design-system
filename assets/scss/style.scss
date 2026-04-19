@@ -298,11 +298,9 @@
 
 }
 
-
-
 .btn {
     border-radius: 500px;
-    line-height: 56px;
+    line-height: 46px;
     padding-top: 0;
     padding-bottom: 0;
     padding-inline-start: 20px;
@@ -331,7 +329,9 @@
 
 
 
-
+.fw-bold {
+    font-weight: bold;
+}
 
 
 .badge {
@@ -425,7 +425,9 @@ body {
     color: var(--text-color);
     font-family: 'Tajawal', sans-serif;
 
+
 }
+
 
 .header-design {
 
@@ -461,6 +463,7 @@ body {
 .hero-section {
     position: relative;
     height: 100vh;
+    z-index: 1;
 
     .hero-img {
         position: absolute;
@@ -503,6 +506,17 @@ body {
         }
     }
 
+    .btn-main.bg-beige {
+        &:hover {
+            padding-right: 35px;
+
+            span {
+                transform: translateX(15px);
+            }
+
+        }
+    }
+
     .hero-bage {
         width: fit-content;
         padding: 8px 20px;
@@ -526,6 +540,12 @@ body {
 }
 
 .project-stats {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 50px 50px 0 0;
+    margin-top: -50px;
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
 
     .project-stats-card {
         background-color: rgb(177 225 232 / 14%);
@@ -550,9 +570,15 @@ body {
 }
 
 .about-us {
+    background-image: url(../../imgs/about-shape.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px 0px;
+
     .about-badge {
         border-radius: 100px;
         border: 1px solid #4B5561;
+        background-color: #E9EBEC;
     }
 
     .about-us-content {
@@ -672,10 +698,9 @@ body {
 
     &:hover {
         background-color: #E9EBEC;
-        padding-right: 25px;
 
         span {
-            transform: translateX(5px);
+            transform: translateX(-5px);
         }
     }
 
@@ -684,6 +709,170 @@ body {
     }
 }
 
-.card-1{
-    background-color: #dde8ef2b;
+.card-1 {
+    background-color: var(--card-bg-color);
+    border-radius: 15px;
+    background-image: url(../../imgs/rectangles.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) 10px;
+
+    img {
+        width: 130px;
+    }
+
+    @media (max-width: 768px) {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
 }
+
+.card-2 {
+    background-color: var(--card-bg-color);
+    border-radius: 15px;
+    align-items: stretch;
+    overflow: hidden;
+
+    @media (max-width: 768px) {
+        text-align: center;
+
+    }
+
+    .img-wrapper {
+        width: 40%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    }
+
+    .card-2-content {
+        width: 60%;
+        background-image: url(../../imgs/shape-2.svg);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: 100% 10px;
+
+        .logo {
+            img {
+                width: 150px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+.card-3 {
+    background-color: var(--card-bg-color);
+    border-radius: 15px;
+
+    .card-3-content {
+        background-image: url(../../imgs/shape-3.svg);
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+    }
+}
+
+
+.agenda-section {
+    .taps-wrapper {
+        background-color: #F9FBFC;
+        padding: 20px;
+
+        li {
+            width: 32%;
+            text-align: center;
+            margin: 5px;
+
+            a {
+                padding: 18px;
+
+                &:hover {
+                    border-radius: 10px;
+                }
+
+                .date-of-day {
+                    font-size: 12px;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .nav-tabs .nav-link.active,
+        .nav-tabs .nav-item.show .nav-link {
+            color: #1F252D;
+            background-color: white;
+            border: 1px solid #CBDCDE;
+            border-radius: 10px;
+
+        }
+
+        .nav-tabs {
+            border: none;
+        }
+    }
+
+    .card {
+        border-radius: 15px;
+
+        .card-header {
+            margin-bottom: 0px;
+
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .card-header {
+            background-color: white;
+        }
+
+    }
+
+    .card-body {
+        background-color: #FAFDFF;
+    }
+}
+
+
+html[dir=rtl] {
+
+    body {
+        text-align: right
+    }
+
+
+    .btn-main {
+        &:hover {
+            span {
+                transform: translateX(5px);
+            }
+
+        }
+    }
+
+
+    .card-2 {
+        .card-2-content {
+            background-position: 10px 10px;
+        }
+    }
+
+}
+
+
+// @font-face {
+//   font-family: 'Watad';
+//   src: url('/fonts/Watad.otf') format('opentype');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// body {
+//   font-family: 'Watad', sans-serif;
+// }

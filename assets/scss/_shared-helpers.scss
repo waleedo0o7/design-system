@@ -66,6 +66,15 @@
   align-items: center;
 }
 
+.color-primary {
+  color: var(--color-primary);
+}
+.text-color{
+  color: var(--text-color);
+}
+.text-color-2{
+  color: var(--text-color-2);
+}
 .color-gray {
   color: var(--color-gray);
 }
@@ -73,7 +82,8 @@
 .bg-gray {
   background-color: var(--color-gray);
 }
-.bg-black{
+
+.bg-black {
   background-color: black;
 }
 
@@ -86,7 +96,7 @@
 }
 
 .bg-beige {
-  background-color: #EBE7D4;
+  background-color: #EBE7D4 !important;
 }
 
 

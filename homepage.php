@@ -28,7 +28,7 @@
             </div>
         </div>
 
-        <button type="button" class="btn bg-beige mt-4 btn-flex">
+        <button type="button" class="btn bg-beige mt-4 btn-flex btn-main">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                 <path d="M41.4 297.4C28.9 309.9 28.9 330.2 41.4 342.7L169.4 470.7C181.9 483.2 202.2 483.2 214.7 470.7C227.2 458.2 227.2 437.9 214.7 425.4L141.3 352L576 352C593.7 352 608 337.7 608 320C608 302.3 593.7 288 576 288L141.3 288L214.7 214.6C227.2 202.1 227.2 181.8 214.7 169.3C202.2 156.8 181.9 156.8 169.4 169.3L41.4 297.3z" />
             </svg>
@@ -53,54 +53,63 @@
     </div>
 </div>
 
-<div class="project-stats pt-4 mb-4">
+<div class="project-stats py-4">
+
     <div class="container">
+
         <div class="row">
+
             <div class="col-lg-3">
+
                 <div class="project-stats-card flex-start gap-3">
 
-                    <div class="project-stats-card-content">
-                        <h4>+9 تريليون ريال</h4>
-                        <span>قيمة المشاريع</span>
-                    </div>
                     <div class="img-wrapper badge-primary-faded p-2">
                         <img src="imgs/icons/money.svg" alt="">
                     </div>
+
+                    <div class="project-stats-card-content">
+                        <p class="m-0 h4">+9 تريليون ريال</p>
+                        <span>قيمة المشاريع</span>
+                    </div>
+
                 </div>
+
             </div>
+
             <div class="col-lg-3">
                 <div class="project-stats-card flex-start gap-3">
-
+                    <div class="img-wrapper badge-primary-faded p-2">
+                        <img src="imgs/icons/money.svg" alt="">
+                    </div>
                     <div class="project-stats-card-content">
                         <h4>+42 الف مشروع</h4>
                         <span>عدد المشاريع</span>
                     </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="project-stats-card flex-start gap-3">
                     <div class="img-wrapper badge-primary-faded p-2">
                         <img src="imgs/icons/money.svg" alt="">
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="project-stats-card flex-start gap-3">
-
                     <div class="project-stats-card-content">
                         <h4>+31 الف شخص </h4>
                         <span> الحضور</span>
                     </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="project-stats-card flex-start gap-3">
                     <div class="img-wrapper badge-primary-faded p-2">
                         <img src="imgs/icons/money.svg" alt="">
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="project-stats-card flex-start gap-3">
-
                     <div class="project-stats-card-content">
                         <h4>185 راعي</h4>
                         <span> الرعاه</span>
-                    </div>
-                    <div class="img-wrapper badge-primary-faded p-2">
-                        <img src="imgs/icons/money.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -113,7 +122,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <span class="badge bg-beige about-badge mb-4">عن المنتدى</span>
+                <span class="badge about-badge mb-4">عن المنتدى</span>
                 <div class="about-us-content mb-4">
                     <h2 class="about-us-headline mb-3">منتدى ومعرض المشاريع المستقبلية <span>الدولي</span> </h2>
                     <p>يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العمل، ويمثل الحدث مساحة تفاعلية لاستعراض المشاريع المستقبلية ، وتمكين فرص التمويل، وتعزيز الابتكار، وتبادل الخبرات، وبناء الشراكات الاستراتيجية، بما يسهم في دعم نمو قطاع المقاولات ورفع تنافسيته.</p>
@@ -157,26 +166,124 @@
 </div>
 <div class="container">
     <div class="flex-between">
-        <button type="button" class="btn btn-main flex-center gap-2">
+        <button type="button" class="btn btn-main flex-center gap-2 color-gray">
+
+            <span>اكتشف الفعاليات </span>
+
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                 <path d="M41.4 297.4C28.9 309.9 28.9 330.2 41.4 342.7L169.4 470.7C181.9 483.2 202.2 483.2 214.7 470.7C227.2 458.2 227.2 437.9 214.7 425.4L141.3 352L576 352C593.7 352 608 337.7 608 320C608 302.3 593.7 288 576 288L141.3 288L214.7 214.6C227.2 202.1 227.2 181.8 214.7 169.3C202.2 156.8 181.9 156.8 169.4 169.3L41.4 297.3z"></path>
-            </svg><span>اكتشف الفعاليات</span></button>
+            </svg>
+
+        </button>
         <div class=""></div>
 
     </div>
 </div>
 
 <div class="events-section mt-5 mb-5">
-    <h1 class="text-center font-weight-bold">الفعاليات</h1>
+    <h1 class="text-center font-weight-bold mb-4">الفعاليات</h1>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
-                <?php include 'shared-html/_card-1' ?>
+            <div class="col-lg-8">
+                <?php include 'shared-html/_card-2.php' ?>
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <?php include 'shared-html/_card-1.php' ?>
+                    </div>
+                    <div class="col-lg-6">
+                        <?php include 'shared-html/_card-1.php' ?>
+                    </div>
+                </div>
+
             </div>
+            <div class="col-lg-4">
+                <?php include 'shared-html/_card-3.php' ?>
+
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-3"> <?php include 'shared-html/_card-1.php' ?></div>
+            <div class="col-lg-3"> <?php include 'shared-html/_card-1.php' ?></div>
+            <div class="col-lg-3"> <?php include 'shared-html/_card-1.php' ?></div>
+            <div class="col-lg-3"> <?php include 'shared-html/_card-1.php' ?></div>
         </div>
     </div>
 </div>
 
+
+<div class="agenda-section">
+    <h1 class="text-center font-weight-bold mb-4">اجندة المنتدى</h1>
+    <div class="container">
+        <div class="taps-wrapper mb-2">
+            <ul class="nav nav-tabs" id="agendaTabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active font-weight-bold text-color" data-toggle="tab" href="#day1">اليوم الاول <br><span class="date-of-day">15 مارس، 2026</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold text-color" data-toggle="tab" href="#day2">اليوم الثاني <br><span class="date-of-day">16 مارس، 2026</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold text-color" data-toggle="tab" href="#day3">اليوم الثالث <br><span class="date-of-day">17 مارس، 2026</span></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tab-content ">
+
+            <div class="tab-pane fade show active" id="day1">
+                <div class="accordion" id="accordionDay1">
+                    <div class="card">
+                        <div class="card-header flex-between" data-toggle="collapse" data-target="#collapseOne">
+
+                            <div class="flex-start gap-2">
+                                <p class="d-inline-block">12:00 PM ← 9:00 AM</p>
+                                <img src="imgs/tv.png">
+                                <p class="fw-bold">عرض مشاريع مستقبلية محلية</p>
+                            </div>
+
+                            <div class="flex-end gap-2">
+                                <img src="imgs/location.svg">
+                                <p>القاعة الرئيسية</p>
+                            </div>
+
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" data-parent="#accordionDay1">
+                            <div class="card-body">
+                                <p class="text-color-2">يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العمل.</p>
+                                <div class="felx-start mt-3">
+                                    <img src="imgs/user-circle.png" alt="">
+                                    <span class="user-name"> د.فهد الحقباني</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="day2">
+                    محتوى اليوم الثاني
+                </div>
+
+                <div class="tab-pane fade" id="day3">
+                    محتوى اليوم الثالث
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="our-sponsors">
+    <h1 class="text-center font-weight-bold mb-4"> الرعاة</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                 <?php include 'shared-html/_sponsors-card.php' ?>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
