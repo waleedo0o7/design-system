@@ -1,4 +1,3 @@
-<?php include '_header.php' ?>
 <div class="header-design color-white bg-black pt-2">
     <div class="container">
         <div class="flex-between">
@@ -19,17 +18,25 @@
             </div>
             <div class="end">
                 <ul class="d-flex gap-3">
+
                     <li><a href="#">السفر والتآشيرة</a></li>
+
                     <li><a href="#">العربية</a></li>
-                    <li><a href="#"><button type="button" class="btn btn-outline-light">a حسابي</button></a></li>
-                    <li><a href="#"><button type="button" class="btn btn-outline-light">a</button></a></li>
+
+                    <li>
+                        <a href="#" class="btn btn-outline-light">
+                            a حسابي
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="btn btn-outline-light">
+                            <i class="icon icon-moon"></i>
+                        </a>
+                    </li>
+
                 </ul>
             </div>
         </div>
     </div>
 </div>
-
-
-
-
-<?php include '_footer.php' ?>
