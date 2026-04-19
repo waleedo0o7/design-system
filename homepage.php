@@ -278,16 +278,20 @@
     <h1 class="text-center font-weight-bold mb-4"> الرعاة</h1>
     <div class="container">
         <div class="row mb-4">
-            <div class="col-lg-8">
-                <?php include 'shared-html/_sponsors-card.php' ?>
-            </div>
-            <div class="col-lg-4">
-                <?php include 'shared-html/_sponsors-card.php' ?>
-            </div>
-        </div>
-        <div class="row mb-4">
             <div class="col-lg-12">
-                <?php include 'shared-html/_sponsors-card.php' ?>
+                <div class="sponsors-card p-3 my-1">
+                    <div class="sponsors-lable">
+                        راعي ماسي
+                    </div>
+                    <div class="img-wrapper my-5 flex-center">
+                       <img src="imgs/logo-1.png" alt="">
+                       <img src="imgs/logo-2.png" alt="">
+                       <img src="imgs/logo-3.png" alt="">
+                       <img src="imgs/logo-4.png" alt="">
+                       <img src="imgs/logo-5.png" alt="">
+                       <img src="imgs/logo-6.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -298,7 +302,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                 <?php include 'shared-html/_testimonials-card.php' ?>
+                <?php include 'shared-html/_testimonials-card.php' ?>
             </div>
         </div>
     </div>

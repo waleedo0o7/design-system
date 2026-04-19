@@ -847,6 +847,7 @@ body {
     background-color: white;
     border-radius: 15px;
     position: relative;
+    border: 1px solid #E1E5EC;
 
     .sponsors-lable {
         position: absolute;
@@ -860,7 +861,7 @@ body {
 
     .img-wrapper {
         img {
-            width: 120px;
+            width: 150px;
             margin-bottom: 10px;
         }
     }

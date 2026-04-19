@@ -11059,6 +11059,7 @@ body {
   background-color: white;
   border-radius: 15px;
   position: relative;
+  border: 1px solid #E1E5EC;
 }
 .sponsors-card .sponsors-lable {
   position: absolute;
@@ -11069,7 +11070,7 @@ body {
   border-radius: 16px;
 }
 .sponsors-card .img-wrapper img {
-  width: 120px;
+  width: 150px;
   margin-bottom: 10px;
 }
 
