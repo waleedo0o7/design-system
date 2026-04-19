@@ -11010,6 +11010,16 @@ body {
   background-color: #F9FBFC;
   padding: 20px;
 }
+@media (max-width: 768px) {
+  .agenda-section .taps-wrapper ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.agenda-section .taps-wrapper ul li {
+  width: 100%;
+}
 .agenda-section .taps-wrapper li {
   width: 32%;
   text-align: center;
@@ -11067,7 +11077,12 @@ body {
   left: 0;
   background-color: #E1E6EC;
   padding: 10px;
-  border-radius: 16px;
+  border-radius: 10px 10px 23px 0;
+}
+@media (max-width: 768px) {
+  .sponsors-card .img-wrapper {
+    flex-direction: column;
+  }
 }
 .sponsors-card .img-wrapper img {
   width: 150px;

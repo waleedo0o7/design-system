@@ -64,7 +64,7 @@
                 <div class="project-stats-card flex-start gap-3">
 
                     <div class="img-wrapper badge-primary-faded p-2">
-                        <img src="imgs/icons/money.svg" alt="">
+                        <img src="imgs/stats-img-1.png" alt="">
                     </div>
 
                     <div class="project-stats-card-content">
@@ -79,7 +79,7 @@
             <div class="col-lg-3">
                 <div class="project-stats-card flex-start gap-3">
                     <div class="img-wrapper badge-primary-faded p-2">
-                        <img src="imgs/icons/money.svg" alt="">
+                        <img src="imgs/stats-img-2.png" alt="">
                     </div>
                     <div class="project-stats-card-content">
                         <h4>+42 الف مشروع</h4>
@@ -92,7 +92,7 @@
             <div class="col-lg-3">
                 <div class="project-stats-card flex-start gap-3">
                     <div class="img-wrapper badge-primary-faded p-2">
-                        <img src="imgs/icons/money.svg" alt="">
+                        <img src="imgs/stats-img-3.png" alt="">
                     </div>
                     <div class="project-stats-card-content">
                         <h4>+31 الف شخص </h4>
@@ -105,7 +105,7 @@
             <div class="col-lg-3">
                 <div class="project-stats-card flex-start gap-3">
                     <div class="img-wrapper badge-primary-faded p-2">
-                        <img src="imgs/icons/money.svg" alt="">
+                        <img src="imgs/stats-img-4.png" alt="">
                     </div>
                     <div class="project-stats-card-content">
                         <h4>185 راعي</h4>
@@ -130,17 +130,17 @@
                 </div>
                 <div class="">
                     <div class="flex-between gap-2 mb-3 badges-wrapper">
-                        <div class="about-us-badge"> <img src="imgs/icons/globe.svg"><span class="ms-2">تواصل عالمي</span></div>
-                        <div class="about-us-badge"> <img src="imgs/icons/globe.svg"><span class="ms-2">تفاصيل للمشاريع المستقبلية </span></div>
+                        <div class="about-us-badge"> <img src="imgs/globe.png"><span class="ms-2">تواصل عالمي</span></div>
+                        <div class="about-us-badge"> <img src="imgs/rocket-01.png"><span class="ms-2">تفاصيل للمشاريع المستقبلية </span></div>
                     </div>
 
                     <div class="flex-between gap-2 mb-3 badges-wrapper">
-                        <div class="about-us-badge"> <img src="imgs/icons/globe.svg"><span class="ms-2">حلول تمويلية مبتكرة </span></div>
-                        <div class="about-us-badge"> <img src="imgs/icons/globe.svg"><span class="ms-2">معرض ضخم</span></div>
+                        <div class="about-us-badge"> <img src="imgs/money-bag-02.png"><span class="ms-2">حلول تمويلية مبتكرة </span></div>
+                        <div class="about-us-badge"> <img src="imgs/building-04.png"><span class="ms-2">معرض ضخم</span></div>
                     </div>
                     <div class="flex-between gap-2 mb-3 badges-wrapper">
-                        <div class="about-us-badge"> <img src="imgs/icons/globe.svg"><span class="ms-2">فرص للمقاولين</span></div>
-                        <div class="about-us-badge"> <img src="imgs/icons/globe.svg"><span class="ms-2">تعزيز شبكه علاقاتك </span></div>
+                        <div class="about-us-badge"> <img src="imgs/labor.png"><span class="ms-2">فرص للمقاولين</span></div>
+                        <div class="about-us-badge"> <img src="imgs/neural-network.png"><span class="ms-2">تعزيز شبكه علاقاتك </span></div>
                     </div>
 
 
