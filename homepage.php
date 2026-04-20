@@ -193,22 +193,32 @@
         </div>
     </div>
 </div>
-<div class="container">
-    <div class="flex-between">
-        <button type="button" class="btn btn-main flex-center gap-2 color-gray">
 
-            <span>
-                <?= $isRTL ? 'اكتشف الفعاليات' : 'Explore Events'; ?>
-            </span>
+<div class="line-with-button">
 
-            <i class="icone icon-arrow-right"></i>
+    <div class="container">
 
-        </button>
+        <div class="flex-between gap-3">
 
+            <hr class="flex-grow-1" />
+
+            <button type="button" class="btn btn-main flex-center gap-2 color-gray">
+
+                <span>
+                    <?= $isRTL ? 'اكتشف الفعاليات' : 'Explore Events'; ?>
+                </span>
+
+                <i class="icone icon-arrow-right"></i>
+
+            </button>
+
+
+        </div>
     </div>
+
 </div>
 
-<div class="events-section mt-5 mb-5">
+<div class="events-section py-5">
     <h1 class="text-center font-weight-bold mb-4">الفعاليات</h1>
     <div class="container">
 
@@ -267,10 +277,12 @@
     </div>
 </div>
 
+<div class="agenda-section py-5">
 
-<div class="agenda-section">
     <h1 class="text-center font-weight-bold mb-4">اجندة المنتدى</h1>
+
     <div class="container">
+
         <div class="taps-wrapper mb-2">
             <ul class="nav nav-tabs" id="agendaTabs" role="tablist">
                 <li class="nav-item">
@@ -285,11 +297,14 @@
             </ul>
         </div>
 
-        <div class="tab-content ">
+        <div class="tab-content">
 
             <div class="tab-pane fade show active" id="day1">
+
                 <div class="accordion" id="accordionDay1">
+
                     <div class="card">
+
                         <div class="card-header flex-between" data-toggle="collapse" data-target="#collapseOne">
 
                             <div class="flex-start gap-2">
@@ -314,18 +329,21 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
 
-                <div class="tab-pane fade" id="day2">
-                    محتوى اليوم الثاني
-                </div>
+                    </div> <!-- card -->
 
-                <div class="tab-pane fade" id="day3">
-                    محتوى اليوم الثالث
-                </div>
+                </div> <!-- accordion -->
 
             </div>
+
+            <div class="tab-pane fade" id="day2">
+                محتوى اليوم الثاني
+            </div>
+
+            <div class="tab-pane fade" id="day3">
+                محتوى اليوم الثالث
+            </div>
+
 
         </div>
     </div>
@@ -355,40 +373,61 @@
 </div>
 
 <div class="testimonials py-5">
+
     <h1 class="text-center font-weight-bold mb-4"> التوصيات</h1>
+
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <?php include 'shared-html/_testimonials-card.php' ?>
+
+
+
+        <div class="swiper-slider-wrapper arrows-sides pagination-bottom">
+
+            <div class="swiper-container swiper-custom"
+                data-per-view="2"
+                data-per-view-md="2"
+                data-per-view-sm="1"
+                data-per-view-xs="1"
+                data-space-between="40"
+                data-next-button="test2-button-next"
+                data-prev-button="test2-button-prev"
+                data-pagination="test2-pagination">
+
+                <div class="swiper-wrapper">
+
+                    <?php foreach (range(0, 5) as $inner_i) { ?>
+
+                        <div class="swiper-slide">
+
+                            <?php include 'shared-html/_testimonials-card.php' ?>
+
+                        </div>
+
+                    <?php } ?>
+
+                </div>
+
             </div>
-        </div>
+
+            <div class="swiper-button-prev" id="test2-button-prev">
+                <i class="icon icon-arrow-circle-left"></i>
+            </div>
+
+            <div class="swiper-button-next" id="test2-button-next">
+                <i class="icon icon-arrow-circle-right"></i>
+            </div>
+
+            <div class="pagination-wrapper">
+                <div class="swiper-pagination" id="test2-pagination"></div>
+            </div>
+
+        </div> <!-- swiper-slider-wrapper -->
+
+
+
+
     </div>
 
 </div>
 
 
-
-
-
 <?php include '_footer.php' ?>
-<script>
-    let countDownDate = new Date();
-    countDownDate.setDate(countDownDate.getDate() + 70);
-
-    let x = setInterval(function() {
-
-        let now = new Date().getTime();
-        let distance = countDownDate - now;
-
-        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        document.getElementById("days").innerHTML = String(days).padStart(2, '0');
-        document.getElementById("hours").innerHTML = String(hours).padStart(2, '0');
-        document.getElementById("minutes").innerHTML = String(minutes).padStart(2, '0');
-        document.getElementById("seconds").innerHTML = String(seconds).padStart(2, '0');
-
-    }, 1000);
-</script>

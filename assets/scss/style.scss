@@ -1,3 +1,4 @@
+@use "../../node_modules/swiper/swiper-bundle.css";
 @import "base"; // for base styles
 @import "shared-helpers"; // for utilities .text-center .w-100px etc.
 @import "shared-components"; // for reusable components .product-card .offer-card .banner etc.
@@ -248,6 +249,109 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+
+.swiper-slider-wrapper {
+    position: relative;
+
+    &.arrows-sides {
+
+        .swiper-container {
+            width: calc(100% - 80px);
+
+            @media all and (max-width: $breakpoint-sm) {
+                width: calc(100% - 40px);
+            }
+        }
+    }
+
+    &.pagination-bottom {
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            top: calc(50% - 25px);
+            width: 30px;
+            height: 30px;
+            margin-top: unset !important;
+        }
+    }
+
+    .swiper-container {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        margin: auto;
+    }
+
+    .pagination-wrapper {
+        width: 140px;
+        margin: auto;
+    }
+
+    .swiper-pagination {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        height: 4px;
+        border-radius: 500px;
+        margin-top: 15px;
+        z-index: 1;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        z-index: 1;
+
+        &.swiper-button-disabled {
+            opacity: 0.25;
+        }
+
+        i {
+            font-size: 28px;
+            color: var(--color-text-light-50);
+        }
+
+
+        [dir="rtl"] & {
+            transform: rotate(180deg);
+        }
+
+    }
+
+    .swiper-button-prev {
+        left: 0;
+
+
+
+        [dir="rtl"] & {
+            left: auto;
+            right: 0;
+        }
+
+    }
+
+    .swiper-button-next {
+        right: 0;
+
+
+
+        [dir="rtl"] & {
+            right: auto;
+            left: 0;
+        }
+
+    }
+
+    .swiper-pagination-clickable .swiper-pagination-bullet {
+        transform: translate(0, -17px);
+    }
+
+}
+
+
+hr {
+    border-color: #BCC0C6;
 }
 
 .btn-primary-faded {
