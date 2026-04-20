@@ -133,37 +133,37 @@
 
                     <div class="row">
                         <div class="col-lg-6 ">
-                            <div class="felx-start card-4 gap-2 my-2">
+                            <div class="flex-start card-4 gap-2 my-2">
                                 <img src="imgs/about-icon-1.svg">
                                 <span class="">تواصل عالمي</span>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="felx-start card-4 gap-2 my-2">
+                            <div class="flex-start card-4 gap-2 my-2">
                                 <img src="imgs/about-icon-2.svg">
                                 <span class="">تفاصيل للمشاريع المستقبلية </span>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="felx-start card-4 gap-2 my-2">
+                            <div class="flex-start card-4 gap-2 my-2">
                                 <img src="imgs/about-icon-3.svg">
                                 <span class="">حلول تمويلية مبتكرة </span>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="felx-start card-4 gap-2 my-2">
+                            <div class="flex-start card-4 gap-2 my-2">
                                 <img src="imgs/about-icon-4.svg">
                                 <span class="">معرض ضخم</span>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="felx-start card-4 gap-2 my-2">
+                            <div class="flex-start card-4 gap-2 my-2">
                                 <img src="imgs/about-icon-5.svg">
                                 <span class="">فرص للمقاولين</span>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="felx-start card-4 gap-2 my-2">
+                            <div class="flex-start card-4 gap-2 my-2">
                                 <img src="imgs/about-icon-6.svg">
                                 <span class="">تعزيز شبكه علاقاتك </span>
 
@@ -182,11 +182,11 @@
                     </div>
                     <div class="top">
                         <p>2025</p>
-                        <span>النسخة الثانية</span>
+                        <span class="color-black-black">النسخة الثانية</span>
                     </div>
                     <div class="bottom">
                         <p>+10K</p>
-                        <span> مشارك</span>
+                        <span class="color-black-black"> مشارك</span>
                     </div>
                 </div>
             </div>
@@ -197,12 +197,13 @@
     <div class="flex-between">
         <button type="button" class="btn btn-main flex-center gap-2 color-gray">
 
-            <span>اكتشف الفعاليات </span>
+            <span>
+                <?= $isRTL ? 'اكتشف الفعاليات' : 'Explore Events'; ?>
+            </span>
 
             <i class="icone icon-arrow-right"></i>
 
         </button>
-        <div class=""></div>
 
     </div>
 </div>
@@ -210,29 +211,58 @@
 <div class="events-section mt-5 mb-5">
     <h1 class="text-center font-weight-bold mb-4">الفعاليات</h1>
     <div class="container">
+
         <div class="row">
+
             <div class="col-lg-8">
+
                 <?php include 'shared-html/_card-2.php' ?>
+
                 <div class="row mt-4">
+
                     <div class="col-lg-6">
+
+                        <?php $imgNum = 1; ?>
                         <?php include 'shared-html/_card-1.php' ?>
+
                     </div>
+
                     <div class="col-lg-6">
+
+                        <?php $imgNum = 2; ?>
                         <?php include 'shared-html/_card-1.php' ?>
+
                     </div>
+
                 </div>
 
             </div>
+
             <div class="col-lg-4">
                 <?php include 'shared-html/_card-3.php' ?>
 
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-lg-3"> <?php include 'shared-html/_card-1.php' ?></div>
-            <div class="col-lg-3"> <?php include 'shared-html/_card-1.php' ?></div>
-            <div class="col-lg-3"> <?php include 'shared-html/_card-1.php' ?></div>
-            <div class="col-lg-3"> <?php include 'shared-html/_card-1.php' ?></div>
+            <div class="col-lg-3">
+                <?php $imgNum = 3; ?>
+                <?php include 'shared-html/_card-1.php' ?>
+            </div>
+
+            <div class="col-lg-3">
+                <?php $imgNum = 4; ?>
+                <?php include 'shared-html/_card-1.php' ?>
+            </div>
+
+            <div class="col-lg-3">
+                <?php $imgNum = 5; ?>
+                <?php include 'shared-html/_card-1.php' ?>
+            </div>
+
+            <div class="col-lg-3">
+                <?php $imgNum = 6; ?>
+                <?php include 'shared-html/_card-1.php' ?>
+            </div>
         </div>
     </div>
 </div>
@@ -277,8 +307,8 @@
 
                         <div id="collapseOne" class="collapse show" data-parent="#accordionDay1">
                             <div class="card-body">
-                                <p class="text-color-2">يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العمل.</p>
-                                <div class="felx-start mt-3">
+                                <p class="text-color-2">يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العملsponsors-lable
+                                <div class="flex-start mt-3">
                                     <img src="imgs/user-circle.svg" alt="">
                                     <span class="user-name"> د.فهد الحقباني</span>
                                 </div>
