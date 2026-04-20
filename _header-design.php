@@ -39,8 +39,9 @@
                     <li><a href="#">العربية</a></li>
 
                     <li>
-                        <a href="#" class="btn btn-outline-light">
-                            a حسابي
+                        <a href="#" class="btn btn-outline-light flex-center gap-1">
+                             <i class="icon icon-user"></i>
+                             <span>حسابي</span>
                         </a>
                     </li>
 

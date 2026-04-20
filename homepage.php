@@ -30,25 +30,21 @@
             </div>
         </div>
 
-        <button type="button" class="btn bg-beige mt-4 btn-flex btn-main">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                <path d="M41.4 297.4C28.9 309.9 28.9 330.2 41.4 342.7L169.4 470.7C181.9 483.2 202.2 483.2 214.7 470.7C227.2 458.2 227.2 437.9 214.7 425.4L141.3 352L576 352C593.7 352 608 337.7 608 320C608 302.3 593.7 288 576 288L141.3 288L214.7 214.6C227.2 202.1 227.2 181.8 214.7 169.3C202.2 156.8 181.9 156.8 169.4 169.3L41.4 297.3z" />
-            </svg>
+        <button type="button" class="btn bg-beige mt-4 btn-main flex-center mx-auto gap-1">
             <span>سجل اهتمامك بمنتدى المشاريع المستقبلية</span>
+            <i class="icon icon-arrow-right"></i>
+
 
 
         </button>
         <div class="hero-bage flex-between gap-2">
-            <div class="start"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
-                    <path d="M128 252.6C128 148.4 214 64 320 64C426 64 512 148.4 512 252.6C512 371.9 391.8 514.9 341.6 569.4C329.8 582.2 310.1 582.2 298.3 569.4C248.1 514.9 127.9 371.9 127.9 252.6zM320 320C355.3 320 384 291.3 384 256C384 220.7 355.3 192 320 192C284.7 192 256 220.7 256 256C256 291.3 284.7 320 320 320z" />
-                </svg>
+            <div class="start flex-center gap-1">
+                <i class="icon icon-location"></i>
                 <span>مركز المؤتمرات الدولي</span>
             </div>
             <div class="">|</div>
-            <div class="end">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
-                    <path d="M224 64C206.3 64 192 78.3 192 96L192 128L160 128C124.7 128 96 156.7 96 192L96 240L544 240L544 192C544 156.7 515.3 128 480 128L448 128L448 96C448 78.3 433.7 64 416 64C398.3 64 384 78.3 384 96L384 128L256 128L256 96C256 78.3 241.7 64 224 64zM96 288L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 288L96 288z" />
-                </svg>
+            <div class="end flex-center gap-1">
+                <i class="icon icon-calendar"></i>
                 <span>15←18 مارس، 2026</span>
             </div>
         </div>
@@ -66,7 +62,7 @@
                 <div class="project-stats-card flex-start gap-3">
 
                     <div class="img-wrapper badge-primary-faded p-2">
-                        <img src="imgs/stats-img-1.png" alt="">
+                        <img src="imgs/stats-icon-1.svg" alt="">
                     </div>
 
                     <div class="project-stats-card-content">
@@ -81,7 +77,7 @@
             <div class="col-lg-3">
                 <div class="project-stats-card flex-start gap-3">
                     <div class="img-wrapper badge-primary-faded p-2">
-                        <img src="imgs/stats-img-2.png" alt="">
+                        <img src="imgs/stats-icon-2.svg" alt="">
                     </div>
                     <div class="project-stats-card-content">
                         <p class="m-0 h4">+42 الف مشروع</p>
@@ -94,7 +90,7 @@
             <div class="col-lg-3">
                 <div class="project-stats-card flex-start gap-3">
                     <div class="img-wrapper badge-primary-faded p-2">
-                        <img src="imgs/stats-img-3.png" alt="">
+                        <img src="imgs/stats-icon-3.svg" alt="">
                     </div>
                     <div class="project-stats-card-content">
                         <p class="m-0 h4">+31 الف شخص </p>
@@ -107,7 +103,7 @@
             <div class="col-lg-3">
                 <div class="project-stats-card flex-start gap-3">
                     <div class="img-wrapper badge-primary-faded p-2">
-                        <img src="imgs/stats-img-4.png" alt="">
+                        <img src="imgs/stats-icon-4.svg" alt="">
                     </div>
                     <div class="project-stats-card-content">
                         <p class="m-0 h4">185 راعي</p>
@@ -126,23 +122,23 @@
             <div class="col-lg-6">
                 <span class="badge about-badge mb-4">عن المنتدى</span>
                 <div class="about-us-content mb-4">
-                    <h2 class="about-us-headline mb-3">منتدى ومعرض المشاريع المستقبلية <span>الدولي</span> </h2>
+                    <h1 class="about-us-headline mb-3">منتدى ومعرض المشاريع المستقبلية <span>الدولي</span> </h1>
                     <p>يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العمل، ويمثل الحدث مساحة تفاعلية لاستعراض المشاريع المستقبلية ، وتمكين فرص التمويل، وتعزيز الابتكار، وتبادل الخبرات، وبناء الشراكات الاستراتيجية، بما يسهم في دعم نمو قطاع المقاولات ورفع تنافسيته.</p>
 
                 </div>
                 <div class="">
-                    <div class="flex-between gap-2 mb-3 badges-wrapper">
-                        <div class="about-us-badge"> <img src="imgs/globe.png"><span class="ms-2">تواصل عالمي</span></div>
-                        <div class="about-us-badge"> <img src="imgs/rocket-01.png"><span class="ms-2">تفاصيل للمشاريع المستقبلية </span></div>
+                    <div class="flex-between gap-2  badges-wrapper">
+                        <div class="about-us-badge"> <img src="imgs/about-icon-1.svg"><span class="">تواصل عالمي</span></div>
+                        <div class="about-us-badge"> <img src="imgs/about-icon-2.svg"><span class="">تفاصيل للمشاريع المستقبلية </span></div>
                     </div>
 
-                    <div class="flex-between gap-2 mb-3 badges-wrapper">
-                        <div class="about-us-badge"> <img src="imgs/money-bag-02.png"><span class="ms-2">حلول تمويلية مبتكرة </span></div>
-                        <div class="about-us-badge"> <img src="imgs/building-04.png"><span class="ms-2">معرض ضخم</span></div>
+                    <div class="flex-between gap-2  badges-wrapper">
+                        <div class="about-us-badge"> <img src="imgs/about-icon-3.svg"><span class="">حلول تمويلية مبتكرة </span></div>
+                        <div class="about-us-badge"> <img src="imgs/about-icon-4.svg"><span class="">معرض ضخم</span></div>
                     </div>
-                    <div class="flex-between gap-2 mb-3 badges-wrapper">
-                        <div class="about-us-badge"> <img src="imgs/labor.png"><span class="ms-2">فرص للمقاولين</span></div>
-                        <div class="about-us-badge"> <img src="imgs/neural-network.png"><span class="ms-2">تعزيز شبكه علاقاتك </span></div>
+                    <div class="flex-between gap-2  badges-wrapper">
+                        <div class="about-us-badge"> <img src="imgs/about-icon-5.svg"><span class="">فرص للمقاولين</span></div>
+                        <div class="about-us-badge"> <img src="imgs/about-icon-6.svg"><span class="">تعزيز شبكه علاقاتك </span></div>
                     </div>
 
 
@@ -153,7 +149,7 @@
                     <div class="img-wrapper mt-5">
                         <img src="imgs/about-us-img.jpg" class="img-fluid about-us-img mt-4" alt="">
                     </div>
-                    <div class="top ">
+                    <div class="top">
                         <p>2025</p>
                         <span>النسخة الثانية</span>
                     </div>
@@ -172,9 +168,7 @@
 
             <span>اكتشف الفعاليات </span>
 
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                <path d="M41.4 297.4C28.9 309.9 28.9 330.2 41.4 342.7L169.4 470.7C181.9 483.2 202.2 483.2 214.7 470.7C227.2 458.2 227.2 437.9 214.7 425.4L141.3 352L576 352C593.7 352 608 337.7 608 320C608 302.3 593.7 288 576 288L141.3 288L214.7 214.6C227.2 202.1 227.2 181.8 214.7 169.3C202.2 156.8 181.9 156.8 169.4 169.3L41.4 297.3z"></path>
-            </svg>
+            <i class="icone icon-arrow-right"></i>
 
         </button>
         <div class=""></div>
@@ -239,12 +233,12 @@
 
                             <div class="flex-start gap-2">
                                 <p class="d-inline-block">12:00 PM ← 9:00 AM</p>
-                                <img src="imgs/tv.png">
+                                <img src="imgs/tv.svg">
                                 <p class="fw-bold">عرض مشاريع مستقبلية محلية</p>
                             </div>
 
                             <div class="flex-end gap-2">
-                                <img src="imgs/location.svg">
+                                <i class="icon icon-location-2"></i>
                                 <p>القاعة الرئيسية</p>
                             </div>
 
@@ -254,7 +248,7 @@
                             <div class="card-body">
                                 <p class="text-color-2">يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العمل.</p>
                                 <div class="felx-start mt-3">
-                                    <img src="imgs/user-circle.png" alt="">
+                                    <img src="imgs/user-circle.svg" alt="">
                                     <span class="user-name"> د.فهد الحقباني</span>
                                 </div>
                             </div>
@@ -286,12 +280,12 @@
                         راعي ماسي
                     </div>
                     <div class="img-wrapper my-5 flex-center">
-                       <img src="imgs/logo-1.png" alt="">
-                       <img src="imgs/logo-2.png" alt="">
-                       <img src="imgs/logo-3.png" alt="">
-                       <img src="imgs/logo-4.png" alt="">
-                       <img src="imgs/logo-5.png" alt="">
-                       <img src="imgs/logo-6.png" alt="">
+                        <img src="imgs/logo-1.png" alt="">
+                        <img src="imgs/logo-2.png" alt="">
+                        <img src="imgs/logo-3.png" alt="">
+                        <img src="imgs/logo-4.png" alt="">
+                        <img src="imgs/logo-5.png" alt="">
+                        <img src="imgs/logo-6.png" alt="">
                     </div>
                 </div>
             </div>
