@@ -129,20 +129,48 @@
 
                 </div>
                 <div class="">
-                    
-                    <div class="flex-between gap-2  badges-wrapper">
-                        <div class="about-us-badge"> <img src="imgs/about-icon-1.svg"><span class="">تواصل عالمي</span></div>
-                        <div class="about-us-badge"> <img src="imgs/about-icon-2.svg"><span class="">تفاصيل للمشاريع المستقبلية </span></div>
+
+
+                    <div class="row">
+                        <div class="col-lg-6 ">
+                            <div class="felx-start card-4 gap-2 my-2">
+                                <img src="imgs/about-icon-1.svg">
+                                <span class="">تواصل عالمي</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="felx-start card-4 gap-2 my-2">
+                                <img src="imgs/about-icon-2.svg">
+                                <span class="">تفاصيل للمشاريع المستقبلية </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="felx-start card-4 gap-2 my-2">
+                                <img src="imgs/about-icon-3.svg">
+                                <span class="">حلول تمويلية مبتكرة </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="felx-start card-4 gap-2 my-2">
+                                <img src="imgs/about-icon-4.svg">
+                                <span class="">معرض ضخم</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="felx-start card-4 gap-2 my-2">
+                                <img src="imgs/about-icon-5.svg">
+                                <span class="">فرص للمقاولين</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="felx-start card-4 gap-2 my-2">
+                                <img src="imgs/about-icon-6.svg">
+                                <span class="">تعزيز شبكه علاقاتك </span>
+
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="flex-between gap-2  badges-wrapper">
-                        <div class="about-us-badge"> <img src="imgs/about-icon-3.svg"><span class="">حلول تمويلية مبتكرة </span></div>
-                        <div class="about-us-badge"> <img src="imgs/about-icon-4.svg"><span class="">معرض ضخم</span></div>
-                    </div>
-                    <div class="flex-between gap-2  badges-wrapper">
-                        <div class="about-us-badge"> <img src="imgs/about-icon-5.svg"><span class="">فرص للمقاولين</span></div>
-                        <div class="about-us-badge"> <img src="imgs/about-icon-6.svg"><span class="">تعزيز شبكه علاقاتك </span></div>
-                    </div>
 
 
                 </div>
