@@ -46,7 +46,7 @@
                     </li>
 
                     <li>
-                        <a href="#" class="btn btn-outline-light">
+                        <a href="#" class="btn btn-outline-light" id="toggle-dark-mode">
                             <i class="icon icon-moon"></i>
                         </a>
                     </li>

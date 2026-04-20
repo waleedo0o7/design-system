@@ -424,8 +424,11 @@
 body {
     color: var(--text-color);
     font-family: 'Tajawal', sans-serif;
+    background-color: #FFF;
 
-
+    &.dark {
+        background-color: #000;
+    }
 }
 
 
@@ -576,6 +579,7 @@ body {
     .about-us-content {
         .about-us-headline {
             font-weight: bold;
+
             span {
                 color: var(--color-primary);
             }
