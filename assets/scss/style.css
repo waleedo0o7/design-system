@@ -10897,12 +10897,6 @@ body {
 }
 .about-us .about-us-content .about-us-headline {
   font-weight: bold;
-  font-size: 56px;
-}
-@media (max-width: 768px) {
-  .about-us .about-us-content .about-us-headline {
-    font-size: 32px;
-  }
 }
 .about-us .about-us-content .about-us-headline span {
   color: var(--color-primary);

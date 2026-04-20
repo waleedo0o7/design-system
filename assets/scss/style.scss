@@ -576,12 +576,6 @@ body {
     .about-us-content {
         .about-us-headline {
             font-weight: bold;
-            font-size: 56px;
-                @media (max-width: 768px) {
-
-                font-size: 32px;
-            }
-
             span {
                 color: var(--color-primary);
             }
