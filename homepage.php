@@ -7,7 +7,7 @@
 
     <div class="hero-content color-white">
         <img src="imgs/gfpf-2026.png" class="mb-2" alt="">
-        <h1>المنتدى العالمي للمشاريع المستقبلية</h1>
+        <h1 class="color-white-white">المنتدى العالمي للمشاريع المستقبلية</h1>
         <div class="countdown">
             <div class="box">
                 <h2 id="days">00</h2>
@@ -120,13 +120,16 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <span class="badge about-badge mb-4">عن المنتدى</span>
+
+                <span class="badge badge-1 mb-4">عن المنتدى</span>
+
                 <div class="about-us-content mb-4">
                     <h1 class="about-us-headline mb-3">منتدى ومعرض المشاريع المستقبلية <span>الدولي</span> </h1>
                     <p>يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العمل، ويمثل الحدث مساحة تفاعلية لاستعراض المشاريع المستقبلية ، وتمكين فرص التمويل، وتعزيز الابتكار، وتبادل الخبرات، وبناء الشراكات الاستراتيجية، بما يسهم في دعم نمو قطاع المقاولات ورفع تنافسيته.</p>
 
                 </div>
                 <div class="">
+                    
                     <div class="flex-between gap-2  badges-wrapper">
                         <div class="about-us-badge"> <img src="imgs/about-icon-1.svg"><span class="">تواصل عالمي</span></div>
                         <div class="about-us-badge"> <img src="imgs/about-icon-2.svg"><span class="">تفاصيل للمشاريع المستقبلية </span></div>
@@ -276,7 +279,7 @@
         <div class="row mb-4">
             <div class="col-lg-12">
                 <div class="sponsors-card p-3 my-1">
-                    <div class="sponsors-lable">
+                    <div class="sponsors-label">
                         راعي ماسي
                     </div>
                     <div class="img-wrapper my-5 flex-center">

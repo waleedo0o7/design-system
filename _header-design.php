@@ -1,6 +1,9 @@
-<div class="header-design color-white bg-black pt-2">
+<div class="top-header">
+
     <div class="container">
-        <div class="flex-between">
+
+        <div class="flex-between py-4">
+
             <div class="start">
 
                 <div class="logo d-inline-block">
@@ -40,8 +43,8 @@
 
                     <li>
                         <a href="#" class="btn btn-outline-light flex-center gap-1">
-                             <i class="icon icon-user"></i>
-                             <span>حسابي</span>
+                            <i class="icon icon-user"></i>
+                            <span>حسابي</span>
                         </a>
                     </li>
 

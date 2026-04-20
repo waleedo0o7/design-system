@@ -69,12 +69,15 @@
 .color-primary {
   color: var(--color-primary);
 }
-.text-color{
+
+.text-color {
   color: var(--text-color);
 }
-.text-color-2{
+
+.text-color-2 {
   color: var(--text-color-2);
 }
+
 .color-gray {
   color: var(--color-gray);
 }
@@ -88,11 +91,15 @@
 }
 
 .color-white {
-  color: #fff;
+  color: var(--color-white);
+}
+
+.color-white-white {
+  color: var(--color-white-white);
 }
 
 .bg-white {
-  background-color: #fff;
+  background-color: var(--color-white);
 }
 
 .bg-beige {

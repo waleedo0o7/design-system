@@ -15,7 +15,7 @@
                 <h3 class="text-left mb-4"> Badges Normal </h3>
 
                 <span class="badge badge-primary">Primary</span>
-                
+
                 <span class="badge badge-success">Success</span>
                 <span class="badge badge-danger">Danger</span>
                 <span class="badge badge-warning">Warning</span>
@@ -30,7 +30,7 @@
                 <h3 class="text-left mb-4"> Badges Faded </h3>
 
                 <span class="badge badge-primary-faded">Primary</span>
-                
+
                 <span class="badge badge-success-faded">Success</span>
                 <span class="badge badge-danger-faded">Danger</span>
                 <span class="badge badge-warning-faded">Warning</span>
@@ -56,6 +56,21 @@
 
             </div> <!-- ds-sub-section -->
 
+            <hr />
+            <hr />
+            <hr />
+
+            <div class="ds-sub-section mb-5">
+
+                <h3 class="text-left mb-4"> Custom Badges </h3>
+
+                <span class="badge badge-1">عن المنتدى </span>
+
+
+            </div> <!-- ds-sub-section -->
+
+            <hr />
+            <hr />
             <hr />
 
             <div class="ds-sub-section mb-5">

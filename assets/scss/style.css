@@ -8,10 +8,13 @@
   --color-danger-faded: #eb1f2d1e;
   --color-warning: #F1C735;
   --color-warning-faded: #f1c83520;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
   --color-gray: #4B5561;
   --text-color: #1F252D;
   --text-color-2: #4B5561;
   --card-bg-color: #dde8ef52;
+  --color-white-white: #FFFFFF;
 }
 
 /*!
@@ -9315,11 +9318,15 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .color-white {
-  color: #fff;
+  color: var(--color-white);
+}
+
+.color-white-white {
+  color: var(--color-white-white);
 }
 
 .bg-white {
-  background-color: #fff;
+  background-color: var(--color-white);
 }
 
 .bg-beige {
@@ -10330,6 +10337,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 ul {
   list-style: none;
+  margin: 0;
 }
 
 a {
@@ -10540,7 +10548,7 @@ a:hover {
 .custom-tabs-wrapper.style3 > .nav-tabs-wrapper > .nav-tabs > .nav-item > .nav-link.active {
   background-color: #3B82F6;
   border-color: #3B82F6;
-  color: #FFFFFF;
+  color: var(--color-white);
 }
 .custom-tabs-wrapper.style3 > .nav-tabs-wrapper > .nav-tabs > .nav-item > .nav-link .tab-button-icon {
   margin-inline-end: 8px;
@@ -10657,7 +10665,7 @@ a:hover {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 6px 12px;
+  padding: 8px 14px;
   font-size: 16px;
   line-height: 1.5;
   font-weight: normal;
@@ -10726,36 +10734,69 @@ a:hover {
   border-color: var(--color-warning);
 }
 
-body {
-  color: var(--text-color);
-  font-family: "Tajawal", sans-serif;
-  background-color: #FFF;
-}
-body.dark {
-  background-color: #000;
-  color: #fff;
+.badge-1 {
+  border-radius: 100px;
+  border: 1px solid #4B5561;
+  background-color: #E9EBEC;
 }
 
-.header-design .start {
+body.dark .badge-1 {
+  background-color: transparent;
+  border-color: #4B5561;
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+  color: var(--text-color);
+  background-color: var(--color-white);
+}
+body.dark {
+  --color-white: #1F252D;
+  --text-color: #FFF;
+}
+
+.top-header {
+  display: block;
+  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.top-header:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 38%, rgba(0, 0, 0, 0) 100%);
+}
+.top-header * {
+  position: relative;
+  z-index: 1;
+}
+.top-header .start {
   display: flex;
   align-items: center;
   gap: 15px;
 }
-.header-design .start img {
+.top-header .start img {
   width: 100px;
 }
-.header-design .end {
+.top-header .end {
   display: flex;
   align-items: center;
 }
-.header-design .end ul {
+.top-header .end ul {
   align-items: center;
 }
-.header-design a {
+.top-header a {
   color: white;
   transition: 0.3s;
 }
-.header-design a:hover {
+.top-header a:hover {
   color: var(--color-primary);
 }
 
@@ -10774,8 +10815,11 @@ body.dark {
 .hero-section .hero-content {
   position: relative;
   text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .hero-section .countdown {
   display: flex;
@@ -10816,13 +10860,13 @@ body.dark {
 .project-stats {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 50px 50px 0 0;
-  margin-top: -50px;
-  background-color: #fff;
+  margin-top: -100px;
+  background-color: var(--color-white);
   z-index: 2;
   position: relative;
 }
 .project-stats .project-stats-card {
-  background-color: rgba(177, 225, 232, 0.14);
+  background: linear-gradient(270deg, rgba(79, 196, 204, 0.069) 0%, rgba(79, 195, 204, 0) 50%);
   border-radius: 10px;
   padding: 10px 12px;
   width: fit-content;
@@ -10846,11 +10890,9 @@ body.dark {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0px 0px;
-}
-.about-us .about-badge {
-  border-radius: 100px;
-  border: 1px solid #4B5561;
-  background-color: #E9EBEC;
+  background-color: var(--color-white);
+  z-index: 2;
+  position: relative;
 }
 .about-us .about-us-content .about-us-headline {
   font-weight: bold;
@@ -11113,7 +11155,7 @@ body.dark {
   position: relative;
   border: 1px solid #E1E5EC;
 }
-.sponsors-card .sponsors-lable {
+.sponsors-card .sponsors-label {
   position: absolute;
   top: 0;
   left: 0;
@@ -11149,7 +11191,7 @@ html[dir=rtl] body {
 html[dir=rtl] .icon-arrow-right {
   transform: rotate(180deg);
 }
-html[dir=rtl] .sponsors-lable {
+html[dir=rtl] .sponsors-label {
   right: 0;
   width: fit-content;
   border-radius: 10px 10px 0px 23px;

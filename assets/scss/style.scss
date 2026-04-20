@@ -175,7 +175,7 @@
                         &.active {
                             background-color: #3B82F6;
                             border-color: #3B82F6;
-                            color: #FFFFFF;
+                            color: var(--color-white);
                         }
 
                         .tab-button-icon {
@@ -326,19 +326,15 @@
 
 }
 
-
-
-
 .fw-bold {
     font-weight: bold;
 }
-
 
 .badge {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding: 6px 12px;
+    padding: 8px 14px;
     font-size: 16px;
     line-height: 1.5;
     font-weight: normal;
@@ -356,14 +352,12 @@
 
 }
 
-
 .badge-primary-faded {
     border: 1px solid;
     color: var(--color-primary);
     background-color: var(--color-primary-faded);
     border-color: var(--color-primary);
 }
-
 
 .badge-success-faded {
     border: 1px solid;
@@ -372,7 +366,6 @@
     border-color: var(--color-success);
 }
 
-
 .badge-danger-faded {
     border: 1px solid;
     color: var(--color-danger);
@@ -380,18 +373,12 @@
     border-color: var(--color-danger);
 }
 
-
 .badge-warning-faded {
     border: 1px solid;
     color: var(--color-warning);
     background-color: var(--color-warning-faded);
     border-color: var(--color-warning);
 }
-
-
-
-
-
 
 .badge-outline-primary {
     color: var(--color-primary);
@@ -421,40 +408,58 @@
     border-color: var(--color-warning);
 }
 
+
+.badge-1 {
+    border-radius: 100px;
+    border: 1px solid #4B5561;
+    background-color: #E9EBEC;
+}
+
 body {
-    color: var(--text-color);
+    &.dark {
+        .badge-1 {
+            background-color: transparent;
+            border-color: #4B5561;
+        }
+    }
+}
+
+body {
     font-family: 'Tajawal', sans-serif;
-    background-color: #FFF;
+    color: var(--text-color);
+    background-color: var(--color-white);
 
     &.dark {
-        background-color: #000;
-        color: #fff;
+        --color-white: #1F252D;
+        --text-color: #FFF;
     }
 }
 
 
-body {
-    &.dark {
-        // هنا حط الي انت عايزة يتطبق في الدارك فقط
+.top-header {
+    display: block;
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 1) 38%, rgba(0, 0, 0, 0) 100%);
     }
-}
 
-body {
-    &.dark {
-        // هنا حط الي انت عايزة يتطبق في الدارك فقط
+    * {
+        position: relative;
+        z-index: 1;
     }
-}
-
-body {
-    &.dark {
-        // هنا حط الي انت عايزة يتطبق في الدارك فقط
-    }
-}
-
-
-
-
-.header-design {
 
     .start {
         display: flex;
@@ -501,8 +506,11 @@ body {
     .hero-content {
         position: relative;
         text-align: center;
-        top: 50%;
-        transform: translateY(-50%);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .countdown {
@@ -559,13 +567,13 @@ body {
 .project-stats {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 50px 50px 0 0;
-    margin-top: -50px;
-    background-color: #fff;
+    margin-top: -100px;
+    background-color: var(--color-white);
     z-index: 2;
     position: relative;
 
     .project-stats-card {
-        background-color: rgb(177 225 232 / 14%);
+        background: linear-gradient(270deg, rgba(79, 196, 204, 0.069) 0%, rgba(79, 195, 204, 0) 50%);
         border-radius: 10px;
         padding: 10px 12px;
         width: fit-content;
@@ -591,12 +599,10 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0px 0px;
+    background-color: var(--color-white);
+    z-index: 2;
+    position: relative;
 
-    .about-badge {
-        border-radius: 100px;
-        border: 1px solid #4B5561;
-        background-color: #E9EBEC;
-    }
 
     .about-us-content {
         .about-us-headline {
@@ -833,7 +839,6 @@ body {
     }
 }
 
-
 .agenda-section {
     .taps-wrapper {
         background-color: #F9FBFC;
@@ -919,7 +924,7 @@ body {
     position: relative;
     border: 1px solid #E1E5EC;
 
-    .sponsors-lable {
+    .sponsors-label {
         position: absolute;
         top: 0;
         left: 0;
@@ -968,7 +973,7 @@ html[dir=rtl] {
         transform: rotate(180deg);
     }
 
-    .sponsors-lable {
+    .sponsors-label {
         right: 0;
         width: fit-content;
         border-radius: 10px 10px 0px 23px;
@@ -1010,6 +1015,7 @@ html[dir=rtl] {
 p {
     line-height: 1.8;
 }
+
 
 
 

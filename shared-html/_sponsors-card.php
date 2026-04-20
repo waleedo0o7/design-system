@@ -1,5 +1,5 @@
 <div class="sponsors-card p-3 my-1">
-    <div class="sponsors-lable">
+    <div class="sponsors-label">
         راعي ماسي
     </div>
     <div class="img-wrapper my-5">
