@@ -94,6 +94,11 @@
   color: var(--color-white);
 }
 
+.color-gray-light,
+.color-light-gray {
+  color: var(--light-gray);
+}
+
 .color-white-white {
   color: var(--color-white-white);
 }
@@ -113,6 +118,20 @@
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+
+
+.font-wight-regular {
+  font-weight: var(--font-wight-regular);
+}
+
+.font-wight-medium {
+  font-weight: var(--font-wight-medium);
+}
+
+.font-wight-bold {
+  font-weight: var(--font-wight-bold);
 }
 
 

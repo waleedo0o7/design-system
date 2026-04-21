@@ -8,12 +8,12 @@
 
 
                 <div class="col-lg-3">
-                    <div class="flex-start gap-2 mb-3">
-                        <img src="imgs/logo.png" class="img-fluid h-70px" alt="logo">
-                        <img src="imgs/footer-icons-0.png" class="img-fluid h-70px">
+                    <div class="flex-start gap-4 mb-3">
+                        <img src="imgs/logo.png" class="img-fluid h-60px" alt="logo">
+                        <img src="imgs/footer-icons-0.png" class="img-fluid h-60px">
                     </div>
 
-                    <p class=""> حائز على جائزة ستيفي الذهبية للشرق الأوسط وشمال أفريقيا لأفضل فعالية مبتكرة لتبادل الأعمال التجارية. </p>
+                    <p class="color-gray-light"> حائز على جائزة ستيفي الذهبية للشرق الأوسط وشمال أفريقيا لأفضل فعالية مبتكرة لتبادل الأعمال التجارية. </p>
 
                 </div>
 
@@ -70,17 +70,17 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
 
+                        </div>
 
                     </div>
 
                 </div>
 
-
                 <div class="col-lg-3">
 
                     <div class="mb-4">
+
                         <h5 class="footer-card-title color-primary-2"> تابعنا على </h5>
 
                         <div class="social-media-icons-wrapper">
@@ -95,17 +95,8 @@
                                 <i class="icon icon-lg icon-instagram"></i>
                             </a>
 
-                            <!-- <a href="#" class="social-media-icon">
-                                <i class="icon icon-lg icon-facebook"></i>
-                            </a>
-                            <a href="#" class="social-media-icon">
-                                <i class="icon icon-lg icon-youtube"></i>
-                            </a>
-                            <a href="#" class="social-media-icon">
-                                <i class="icon icon-lg icon-snapchat"></i>
-                            </a> -->
-
                         </div>
+
                     </div>
 
 
@@ -127,9 +118,9 @@
                             <a href="" class="social-media-icon">
                                 <i class="icon icon-lg icon-zoom-out decreaseFontSizeBtn" id="decreaseFontSizeBtn"></i>
                             </a>
-                            <a href="" class="social-media-icon">
+                            <!-- <a href="" class="social-media-icon">
                                 <i class="icon icon-lg icon-sound-bordered-2 speakBtn" id="speakBtn"></i>
-                            </a>
+                            </a> -->
 
                         </div>
                     </div>
@@ -141,29 +132,32 @@
 
         </div>
 
+        <hr class="footer-hr">
+
         <div class="row">
 
             <div class="col-lg-6">
 
                 <ul class="reset-ul flex-start gap-3 mb-0 mb-lg-3">
                     <li class="w-auto w-lg-20">
-                        <a href="terms-and-conditions.php" class="footer-link hover-move"> الشروط والأحكام </a>
+                        <a href="terms-and-conditions.php" class="footer-link no-hover "> الشروط والأحكام </a>
+                        
                     </li>
 
                     <li class="w-auto w-lg-20">
-                        <a href="privacy-policy.php" class="footer-link hover-move"> سياسة الخصوصية </a>
+                        <a href="privacy-policy.php" class="footer-link no-hover "> سياسة الخصوصية </a>
                     </li>
 
                     <li class="w-auto w-lg-20">
-                        <a href="sitemap.php" class="footer-link hover-move"> خريطة الموقع </a>
+                        <a href="sitemap.php" class="footer-link no-hover "> خريطة الموقع </a>
                     </li>
                 </ul>
 
                 <div class="text-wrapper">
 
-                    <p class="mb-1">2025© جميع الحقوق محفوظة لشركة السلام ASC</p>
+                    <p class="mb-1 color-gray-light">2025© جميع الحقوق محفوظة لشركة السلام ASC</p>
 
-                    <p class="m-0 font-light color-gray-dark"> تم تطويره وصيانته بواسطة شركة السلام </p>
+                    <p class="m-0 font-light color-gray-light"> تم تطويره وصيانته بواسطة شركة السلام </p>
 
                 </div>
             </div>

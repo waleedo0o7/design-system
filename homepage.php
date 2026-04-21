@@ -6,7 +6,7 @@
     <img src="imgs/hero-background.png" class="hero-img" alt="">
 
     <div class="hero-content color-white">
-        <img src="imgs/gfpf-2026.png" class="mb-2" alt="">
+        <img src="imgs/gfpf-2026.png" class="mb-4" alt="">
         <h1 class="color-white-white font-watad">المنتدى العالمي للمشاريع المستقبلية</h1>
         <div class="countdown">
             <div class="box">
@@ -30,12 +30,9 @@
             </div>
         </div>
 
-        <button type="button" class="btn bg-beige mt-4 btn-main flex-center mx-auto gap-1">
-            <span>سجل اهتمامك بمنتدى المشاريع المستقبلية</span>
+        <button type="button" class="btn bg-beige py-2 mt-4 btn-main flex-center mx-auto gap-3">
+            <span class="lead font-wight-medium">سجل اهتمامك بمنتدى المشاريع المستقبلية</span>
             <i class="icon icon-arrow-right"></i>
-
-
-
         </button>
         <div class="hero-bage flex-between gap-2">
             <div class="start flex-center gap-1">
@@ -388,15 +385,13 @@
     </div>
 </div>
 
-<div class="testimonials pt-5">
+<div class="testimonials pt-5 mb-5">
 
     <h1 class="text-center font-weight-bold mb-4 font-watad"> التوصيات</h1>
 
     <div class="container">
 
-
-
-        <div class="swiper-slider-wrapper arrows-sides pagination-bottom">
+        <div class="swiper-slider-wrapper pagination-bottom">
 
             <div class="swiper-container swiper-custom"
                 data-per-view="2"
@@ -424,16 +419,37 @@
 
             </div>
 
-            <div class="swiper-button-prev" id="test2-button-prev">
-                <i class="icon icon-arrow-circle-left"></i>
-            </div>
 
-            <div class="swiper-button-next" id="test2-button-next">
-                <i class="icon icon-arrow-circle-right"></i>
-            </div>
 
-            <div class="pagination-wrapper">
-                <div class="swiper-pagination" id="test2-pagination"></div>
+            <div class="row">
+
+                <div class="col-lg-4"></div>
+
+                <div class="col-lg-4">
+                    <div class="pagination-wrapper">
+                        <div class="swiper-pagination" id="test2-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="flex-end">
+
+                        <div class="arrows-wrapper w-100px flex-end gap-3">
+                            <div class="swiper-button-prev" id="test2-button-prev">
+                                <i class="icon icon-arrow-circle-left"></i>
+                            </div>
+
+                            <div class="swiper-button-next" id="test2-button-next">
+                                <i class="icon icon-arrow-circle-right"></i>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
         </div> <!-- swiper-slider-wrapper -->

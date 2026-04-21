@@ -43,7 +43,15 @@ $primary: #89ced7;
 
     --base-border: 1px solid #D2D6DB;
 
+    --font-wight-regular: 400;
+    --font-wight-medium: 500;
+    --font-wight-bold: 700;
 
+
+}
+
+:root {
+    --swiper-theme-color: #89ced7;
 }
 
 // === Custom Breakpoints as Variables ===
@@ -62,7 +70,6 @@ $grid-breakpoints: (
     lg: $breakpoint-lg,
     xl: $breakpoint-xl
 );
-
 
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

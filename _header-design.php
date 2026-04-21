@@ -7,7 +7,7 @@
             <div class="start">
 
                 <div class="logo d-inline-block">
-                    <img src="imgs/logo.png" class="img-fluid w-10 " alt="">
+                    <img src="imgs/logo.png" class="img-fluid w-90px" alt="">
                 </div>
 
                 <div class="d-inline-block">
@@ -49,7 +49,7 @@
                     </li>
 
                     <li>
-                        <a href="#" class="btn btn-outline-light dark-mode" id="toggle-dark-mode">
+                        <a href="#" class=" btn btn-action btn-action-lg  btn-outline-light dark-mode" id="toggle-dark-mode">
                             <i class="icon icon-moon"></i>
                         </a>
                     </li>

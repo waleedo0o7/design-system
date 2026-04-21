@@ -346,6 +346,43 @@
 }
 
 
+.swiper-button-prev,
+.swiper-button-next {
+    position: relative;
+    top: unset !important;
+    left: unset !important;
+    bottom: unset !important;
+    right: unset !important;
+
+    &:after {
+        display: none;
+    }
+
+    &:before {
+        display: none;
+    }
+}
+
+.swiper-pagination {
+    transition: 0.3s;
+
+    .swiper-pagination-bullet {
+        background-color: #000000;
+        transition: 0.3s;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: var(--color-primary-dark);
+        width: 32px;
+        height: 8px;
+        border-radius: 30px;
+        transition: 0.3s;
+
+    }
+}
+
+
+
 hr {
     border-color: #BCC0C6;
 }
@@ -596,22 +633,29 @@ body {
 
     .countdown {
         display: flex;
-        gap: 20px;
         justify-content: center;
         text-align: center;
+        gap: 50px;
         color: white;
 
-        .box h2 {
-            font-size: 40px;
-            margin: 0;
+        .box {
+            margin: 20px 0;
+
+            h2 {
+                font-size: 92px;
+                margin: 0;
+            }
+
+            span {
+                display: block;
+                margin-top: 5px;
+                font-size: 18px;
+                opacity: 0.8;
+            }
         }
 
-        .box span {
-            display: block;
-            margin-top: 5px;
-            font-size: 14px;
-            opacity: 0.8;
-        }
+
+
     }
 
     button {
@@ -648,7 +692,7 @@ body {
 .project-stats {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 50px 50px 0 0;
-    margin-top: -100px;
+    margin-top: -130px;
     background-color: var(--color-white);
     z-index: 10;
     position: relative;
@@ -658,12 +702,11 @@ body {
         border-radius: var(--border-radius);
         padding: 7px 16px;
         width: 100%;
-        transition: 0.3s;
         border: 1px solid transparent;
-        transition: 0.3s;
+        transition: 0.3s ease-in-out;
         border-right: none;
 
-        .project-stats-card-conten {
+        .project-stats-card-content {
             transition: 0.3s ease-in-out;
         }
 
@@ -1248,7 +1291,6 @@ html[dir=rtl] {
 
             .bottom {
                 right: 30px;
-                left: a;
             }
         }
     }
@@ -1313,28 +1355,6 @@ p {
         background-color: #FAFDFF;
     }
 }
-
-.swiper-pagination {
-    transition: 0.3s;
-
-    .swiper-pagination-bullet {
-        background-color: #D1D5DC;
-        transition: 0.3s;
-
-    }
-
-    .swiper-pagination-bullet-active {
-        background-color: var(--color-primary-dark);
-        width: 32px;
-        height: 8px;
-        border-radius: 30px;
-        transition: 0.3s;
-
-    }
-}
-
-
-
 
 
 a {
@@ -1403,9 +1423,6 @@ button {
         align-items: center;
         gap: 15px;
 
-        img {
-            width: 120px;
-        }
     }
 
     .end {
@@ -1634,6 +1651,9 @@ button {
     background-color: #1B1D21;
     color: #FFF;
 
+
+
+
     &__logo {
         max-width: 100%;
     }
@@ -1705,7 +1725,7 @@ button {
     }
 
     a {
-        color: #FFF;
+        color: var(--light-gray);
     }
 
     .footer-link {
@@ -1727,6 +1747,17 @@ button {
             }
         }
 
+
+
+        &.no-hover {
+            &:hover {
+                background: transparent;
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+
+
         &:hover {
             background: #4fc4cc33;
             color: #4FC3CC;
@@ -1741,11 +1772,15 @@ button {
 
 footer.footer {
 
+    .footer-hr {
+        border-color: rgb(50 52 56);
+    }
+
 
     .footer-card-title {
-        border-bottom: 1px solid hsla(0, 0%, 100%, .3215686275);
-        padding: 9px 0 8px 0;
-        margin-bottom: 15px;
+        border-bottom: 1px solid rgb(50 52 56);
+        padding: 9px 0 15px 0;
+        margin-bottom: 10px;
         height: 45px;
         font-weight: 500;
         color: #FFF;
@@ -1816,4 +1851,24 @@ h1.font-watad {
 
 .font-watad {
     font-family: 'Watad', sans-serif;
+}
+
+.btn-action {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    &.btn-action-sm {
+        width: 38px;
+        height: 38px;
+    }
+
+    &.btn-action-lg {
+        width: 48px;
+        height: 48px;
+        font-size: 16px;
+    }
 }
