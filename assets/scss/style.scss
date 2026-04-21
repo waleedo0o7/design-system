@@ -1192,6 +1192,7 @@ body {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.06);
     border-radius: var(--border-radius);
     border-top: 3px solid var(--color-primary);
+
     body.dark & {
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.06);
     }
@@ -1276,13 +1277,14 @@ p {
         .card-header {
             background-color: white;
 
-            .icon-chevron-arrow-down {
+            .icon-chevron-arrow-up {
                 font-size: 10px;
+                color: var(--color-primary);
             }
 
             &.collapsed {
-                .icon-chevron-arrow-down {
-                    color: var(--color-primary);
+                .icon-chevron-arrow-up {
+                    color: var(--text-color);
                     transform: rotate(180deg);
                 }
             }

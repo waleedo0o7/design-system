@@ -301,39 +301,52 @@
 
             <div class="tab-pane fade show active" id="day1">
 
-                <div class="accordion" id="accordionDay1">
 
-                    <div class="card">
 
-                        <div class="card-header flex-between" data-toggle="collapse" data-target="#collapseOne">
+                <div id="accordion" class="accordion">
 
-                            <div class="flex-start gap-2">
-                                <p class="d-inline-block">12:00 PM ← 9:00 AM</p>
-                                <img src="imgs/tv.svg">
-                                <p class="fw-bold">عرض مشاريع مستقبلية محلية</p>
-                            </div>
+                    <?php foreach (range(0, 4) as $i) { ?>
 
-                            <div class="flex-end gap-2">
-                                <i class="icon icon-location-2"></i>
-                                <p>القاعة الرئيسية</p>
-                                <i class="icon icon-chevron-arrow-down"></i>
-                            </div>
+                        <div class="card">
 
-                        </div>
+                            <div class="card-header flex-between <?php echo $i > 0 ? 'collapsed' : ''; ?> " data-toggle="collapse" data-target="#collapse<?php echo $i ?>">
 
-                        <div id="collapseOne" class="collapse show" data-parent="#accordionDay1">
-                            <div class="card-body">
-                                <p class="text-color-2">يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العملsponsors-lable
-                                <div class="flex-start mt-3 gap-2">
-                                    <img src="imgs/user-circle.svg" alt="">
-                                    <span class="user-name"> د.فهد الحقباني</span>
+                                <div class="flex-start gap-2">
+                                    <p class="d-inline-block">12:00 PM ← 9:00 AM</p>
+                                    <img src="imgs/tv.svg">
+                                    <p class="fw-bold">عرض مشاريع مستقبلية محلية</p>
                                 </div>
+
+                                <div class="flex-end gap-2">
+                                    <i class="icon icon-location-2"></i>
+                                    <p>القاعة الرئيسية</p>
+                                    <i class="icon icon-chevron-arrow-up"></i>
+                                </div>
+
                             </div>
+
+                            <div id="collapse<?php echo $i; ?>" class="collapse <?php echo $i == 0 ? 'show' : ''; ?>" data-parent="#accordion">
+
+
+                                <div class="card-body">
+
+                                    <p class="text-color-2">يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العملsponsors-lable
+
+                                    <div class="flex-start mt-3 gap-2">
+                                        <img src="imgs/user-circle.svg" alt="">
+                                        <span class="user-name"> د.فهد الحقباني</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
                         </div>
 
-                    </div> <!-- card -->
+                    <?php } ?>
 
-                </div> <!-- accordion -->
+                </div>
+
 
             </div>
 

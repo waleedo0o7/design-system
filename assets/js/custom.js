@@ -5,6 +5,7 @@ let breakpointLg = 992;
 let breakpointXl = 1250;
 let breakpoint2xl = 1600;
 
+
 $(document).ready(function () {
     initSwiperSlider();
     initIntroCountdown();
