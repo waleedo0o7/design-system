@@ -7,7 +7,7 @@
 
     <div class="hero-content color-white">
         <img src="imgs/gfpf-2026.png" class="mb-2" alt="">
-        <h1 class="color-white-white">المنتدى العالمي للمشاريع المستقبلية</h1>
+        <h1 class="color-white-white font-watad">المنتدى العالمي للمشاريع المستقبلية</h1>
         <div class="countdown">
             <div class="box">
                 <h2 id="days">00</h2>
@@ -124,7 +124,7 @@
                 <span class="badge badge-1 mb-4">عن المنتدى</span>
 
                 <div class="about-us-content mb-4">
-                    <h1 class="about-us-headline mb-3">منتدى ومعرض المشاريع المستقبلية <span>الدولي</span> </h1>
+                    <h1 class="about-us-headline mb-3 font-watad">منتدى ومعرض المشاريع المستقبلية <span>الدولي</span> </h1>
                     <p>يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العمل، ويمثل الحدث مساحة تفاعلية لاستعراض المشاريع المستقبلية ، وتمكين فرص التمويل، وتعزيز الابتكار، وتبادل الخبرات، وبناء الشراكات الاستراتيجية، بما يسهم في دعم نمو قطاع المقاولات ورفع تنافسيته.</p>
 
                 </div>
@@ -133,37 +133,37 @@
 
                     <div class="row">
                         <div class="col-lg-6 ">
-                            <div class="flex-start card-4 gap-2 my-2">
+                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
                                 <img src="imgs/about-icon-1.svg">
                                 <span class="">تواصل عالمي</span>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="flex-start card-4 gap-2 my-2">
+                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
                                 <img src="imgs/about-icon-2.svg">
                                 <span class="">تفاصيل للمشاريع المستقبلية </span>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="flex-start card-4 gap-2 my-2">
+                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
                                 <img src="imgs/about-icon-3.svg">
                                 <span class="">حلول تمويلية مبتكرة </span>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="flex-start card-4 gap-2 my-2">
+                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
                                 <img src="imgs/about-icon-4.svg">
                                 <span class="">معرض ضخم</span>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="flex-start card-4 gap-2 my-2">
+                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
                                 <img src="imgs/about-icon-5.svg">
                                 <span class="">فرص للمقاولين</span>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="flex-start card-4 gap-2 my-2">
+                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
                                 <img src="imgs/about-icon-6.svg">
                                 <span class="">تعزيز شبكه علاقاتك </span>
 
@@ -219,7 +219,7 @@
 </div>
 
 <div class="events-section py-5">
-    <h1 class="text-center font-weight-bold mb-4">الفعاليات</h1>
+    <h1 class="text-center font-weight-bold mb-4 font-watad">الفعاليات</h1>
     <div class="container">
 
         <div class="row">
@@ -279,98 +279,100 @@
 
 <div class="agenda-section py-5">
 
-    <h1 class="text-center font-weight-bold mb-4">اجندة المنتدى</h1>
+    <h1 class="text-center font-weight-bold mb-4 font-watad">اجندة المنتدى</h1>
 
     <div class="container">
 
-        <div class="taps-wrapper mb-2">
-            <ul class="nav nav-tabs" id="agendaTabs" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active font-weight-bold text-color" data-toggle="tab" href="#day1">اليوم الاول <br><span class="date-of-day">15 مارس، 2026</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link font-weight-bold text-color" data-toggle="tab" href="#day2">اليوم الثاني <br><span class="date-of-day">16 مارس، 2026</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link font-weight-bold text-color" data-toggle="tab" href="#day3">اليوم الثالث <br><span class="date-of-day">17 مارس، 2026</span></a>
-                </li>
-            </ul>
-        </div>
+        <div class="col-lg-10 mx-auto">
+            <div class="taps-wrapper mb-2">
+                <ul class="nav nav-tabs" id="agendaTabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active font-weight-bold text-color" data-toggle="tab" href="#day1">اليوم الاول <br><span class="date-of-day">15 مارس، 2026</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold text-color" data-toggle="tab" href="#day2">اليوم الثاني <br><span class="date-of-day">16 مارس، 2026</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold text-color" data-toggle="tab" href="#day3">اليوم الثالث <br><span class="date-of-day">17 مارس، 2026</span></a>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="tab-content">
+            <div class="tab-content">
 
-            <div class="tab-pane fade show active" id="day1">
+                <div class="tab-pane fade show active" id="day1">
 
 
 
-                <div id="accordion" class="accordion">
+                    <div id="accordion" class="accordion">
 
-                    <?php foreach (range(0, 4) as $i) { ?>
+                        <?php foreach (range(0, 4) as $i) { ?>
 
-                        <div class="card">
+                            <div class="card">
 
-                            <div class="card-header flex-between <?php echo $i > 0 ? 'collapsed' : ''; ?> " data-toggle="collapse" data-target="#collapse<?php echo $i ?>">
+                                <div class="card-header flex-between <?php echo $i > 0 ? 'collapsed' : ''; ?> " data-toggle="collapse" data-target="#collapse<?php echo $i ?>">
 
-                                <div class="flex-start gap-2">
-                                    <p class="d-inline-block">12:00 PM ← 9:00 AM</p>
-                                    <img src="imgs/tv.svg">
-                                    <p class="fw-bold">عرض مشاريع مستقبلية محلية</p>
+                                    <div class="flex-start gap-2">
+                                        <p class="d-inline-block">12:00 PM ← 9:00 AM</p>
+                                        <img src="imgs/tv.svg">
+                                        <p class="fw-bold">عرض مشاريع مستقبلية محلية</p>
+                                    </div>
+
+                                    <div class="flex-end gap-2">
+                                        <i class="icon icon-location-1"></i>
+                                        <p>القاعة الرئيسية</p>
+                                        <i class="icon icon-chevron-arrow-up mx-3"></i>
+                                    </div>
+
                                 </div>
 
-                                <div class="flex-end gap-2">
-                                    <i class="icon icon-location-2"></i>
-                                    <p>القاعة الرئيسية</p>
-                                    <i class="icon icon-chevron-arrow-up"></i>
-                                </div>
-
-                            </div>
-
-                            <div id="collapse<?php echo $i; ?>" class="collapse <?php echo $i == 0 ? 'show' : ''; ?>" data-parent="#accordion">
+                                <div id="collapse<?php echo $i; ?>" class="collapse <?php echo $i == 0 ? 'show' : ''; ?>" data-parent="#accordion">
 
 
-                                <div class="card-body">
+                                    <div class="card-body">
 
-                                    <p class="text-color-2">يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العملsponsors-lable
+                                        <p class="text-color-2">يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العملsponsors-lable
 
-                                    <div class="flex-start mt-3 gap-2">
-                                        <img src="imgs/user-circle.svg" alt="">
-                                        <span class="user-name"> د.فهد الحقباني</span>
+                                        <div class="flex-start mt-3 gap-2">
+                                            <img src="imgs/user-circle.svg" alt="">
+                                            <span class="user-name"> د.فهد الحقباني</span>
+                                        </div>
+
                                     </div>
 
                                 </div>
 
                             </div>
 
-                        </div>
+                        <?php } ?>
 
-                    <?php } ?>
+                    </div>
 
+
+                </div>
+
+                <div class="tab-pane fade" id="day2">
+                    محتوى اليوم الثاني
+                </div>
+
+                <div class="tab-pane fade" id="day3">
+                    محتوى اليوم الثالث
                 </div>
 
 
             </div>
-
-            <div class="tab-pane fade" id="day2">
-                محتوى اليوم الثاني
-            </div>
-
-            <div class="tab-pane fade" id="day3">
-                محتوى اليوم الثالث
-            </div>
-
-
         </div>
     </div>
 </div>
 
 <div class="our-sponsors py-5">
-    <h1 class="text-center font-weight-bold mb-4"> الرعاة</h1>
+    <h1 class="text-center font-weight-bold mb-4 font-watad"> الرعاة</h1>
     <div class="container">
         <div class="row mb-4">
             <div class="col-lg-12">
                 <div class="sponsors-card p-3 my-1">
                     <div class="sponsors-label">
-                        راعي ماسي
+                        <span>راعي ماسي</span>
                     </div>
                     <div class="img-wrapper my-5 flex-center">
                         <img src="imgs/logo-1.png" alt="">
@@ -388,7 +390,7 @@
 
 <div class="testimonials pt-5">
 
-    <h1 class="text-center font-weight-bold mb-4"> التوصيات</h1>
+    <h1 class="text-center font-weight-bold mb-4 font-watad"> التوصيات</h1>
 
     <div class="container">
 

@@ -7,7 +7,7 @@
             <div class="start">
 
                 <div class="logo d-inline-block">
-                    <img src="imgs/logo.png" class="img-fluid w-10" alt="">
+                    <img src="imgs/logo.png" class="img-fluid w-10 " alt="">
                 </div>
 
                 <div class="d-inline-block">
@@ -42,14 +42,14 @@
                     <li><a href="#">العربية</a></li>
 
                     <li>
-                        <a href="#" class="btn btn-outline-light flex-center gap-1">
+                        <a href="#" class="btn btn-outline-light flex-center gap-2 my-account">
                             <i class="icon icon-user"></i>
                             <span>حسابي</span>
                         </a>
                     </li>
 
                     <li>
-                        <a href="#" class="btn btn-outline-light" id="toggle-dark-mode">
+                        <a href="#" class="btn btn-outline-light dark-mode" id="toggle-dark-mode">
                             <i class="icon icon-moon"></i>
                         </a>
                     </li>
