@@ -12707,7 +12707,7 @@ footer.footer .custom-accordion .accordion-item {
 
 @font-face {
   font-family: "Watad";
-  src: url("/fonts/Watad.otf") format("opentype");
+  src: url("../../fonts/watad.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
