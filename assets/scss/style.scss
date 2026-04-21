@@ -322,8 +322,6 @@
     .swiper-button-prev {
         left: 0;
 
-
-
         [dir="rtl"] & {
             left: auto;
             right: 0;
@@ -333,8 +331,6 @@
 
     .swiper-button-next {
         right: 0;
-
-
 
         [dir="rtl"] & {
             right: auto;
@@ -512,22 +508,6 @@ hr {
     border-color: var(--color-warning);
 }
 
-
-.badge-1 {
-    border-radius: var(--border-radius-500);
-    border: 1px solid #4B5561;
-    background-color: #E9EBEC;
-}
-
-body {
-    &.dark {
-        .badge-1 {
-            background-color: transparent;
-            border-color: #4B5561;
-        }
-    }
-}
-
 body {
     font-family: 'Tajawal', sans-serif;
     color: var(--text-color);
@@ -536,8 +516,38 @@ body {
     &.dark {
         --color-white: #1F252D;
         --text-color: #FFF;
+
+        .btn.bg-beige {
+            color: #0E1E40;
+            border: none;
+        }
+
+        .card-1,
+        .card-2,
+        .card-3 {
+            background: linear-gradient(122.6deg, #262D36 34.19%, #303740 92.32%) !important;
+
+            p {
+                color: var(--light-gray);
+            }
+        }
     }
 }
+
+.badge-1 {
+    border-radius: var(--border-radius-500);
+    border: 1px solid #4B5561;
+    background-color: #E9EBEC;
+
+    body.dark & {
+        background-color: transparent;
+        border-color: #4B5561;
+        color: var(--light-gray);
+
+    }
+}
+
+
 
 
 .top-header {
@@ -787,9 +797,6 @@ body {
                 font-size: 12px;
             }
 
-
-
-
             p {
                 margin: 0;
                 font-weight: bold;
@@ -842,6 +849,21 @@ body {
                 bottom: -60px;
             }
         }
+
+        body.dark & {
+
+            .top,
+            .bottom {
+                color: var(--light-gray);
+                background-color: #1F252D;
+                border-color: var(--color-gray);
+                box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.12);
+
+                p {
+                    color: var(--color-primary-dark);
+                }
+            }
+        }
     }
 
 }
@@ -850,6 +872,15 @@ body {
     background-color: transparent;
     border: 1px solid var(--color-gray);
     transition: all 0.3s ease-in-out;
+
+    body.dark & {
+        border-color: white;
+        color: white;
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
 
     span {
         display: inline-block;
@@ -872,9 +903,14 @@ body {
 .card-1 {
     position: relative;
     background: linear-gradient(137.21deg, #F2F5F7 45.35%, #DDE8EF 101.63%);
-
     border-radius: var(--border-radius);
     overflow: hidden;
+
+    body.dark & {
+        p {
+            color: white;
+        }
+    }
 
     &::before {
         content: "";
@@ -896,13 +932,13 @@ body {
         z-index: 1;
     }
 
-
     @media (max-width: 768px) {
         margin-top: 15px;
         margin-bottom: 15px;
         flex-direction: column;
         text-align: center;
     }
+
 }
 
 .card-2 {
@@ -911,9 +947,10 @@ body {
     align-items: stretch;
     overflow: hidden;
 
+
+
     @media (max-width: 768px) {
         text-align: center;
-
     }
 
     .img-wrapper {
@@ -924,7 +961,6 @@ body {
             height: 100%;
             object-fit: cover;
         }
-
     }
 
     .card-2-content {
@@ -966,14 +1002,7 @@ body {
 }
 
 
-body {
-    &.dark {
-        .card-2 {
-            background-color: transparent;
-            border-color: #4B5561;
-        }
-    }
-}
+
 
 
 .card-3 {
@@ -993,25 +1022,29 @@ body {
     border-radius: var(--border-radius);
     padding: 8px 12px;
 
+    body.dark & {
+        background-color: transparent;
+        border-color: #4B5561;
+        color: var(--light-gray);
+    }
+
     img {
         max-width: 30px;
     }
 }
 
-body {
-    &.dark {
-        .card-4 {
-            background-color: transparent;
-            border-color: #4B5561;
-        }
-    }
-}
 
 .agenda-section {
 
     .taps-wrapper {
         background-color: #F9FBFC;
         padding: 20px;
+        border-radius: 16px;
+
+        body.dark & {
+            background-color: #1D2228;
+
+        }
 
         ul {
             @media (max-width: 768px) {
@@ -1037,6 +1070,7 @@ body {
 
                 &:hover {
                     border-radius: var(--border-radius);
+                    border-color: var(--color-primary-dark);
                 }
 
                 .date-of-day {
@@ -1053,6 +1087,12 @@ body {
             border: 1px solid #CBDCDE;
             border-radius: var(--border-radius);
 
+            body.dark & {
+                background-color: #1F252D;
+                color: white;
+                border-color: var(--color-primary-dark);
+            }
+
         }
 
         .nav-tabs {
@@ -1063,8 +1103,19 @@ body {
     .card {
         border-radius: var(--border-radius);
 
+        body.dark & {
+            border-color: var(--color-primary-dark);
+
+        }
+
         .card-header {
-            margin-bottom: 0px;
+            margin-bottom: 0px; 
+            text-align: center;
+
+            body.dark & {
+                background-color: #1f252d;
+
+            }
 
         }
 
@@ -1080,11 +1131,23 @@ body {
 
     .card-body {
         background-color: #FAFDFF;
+
+        body.dark & {
+            background-color: #262D36;
+
+            p {
+                color: var(--light-gray);
+            }
+        }
     }
 }
 
 .our-sponsors {
     background-color: #FAFBFD;
+
+    body.dark & {
+        background-color: #1F242B;
+    }
 }
 
 .sponsors-card {
@@ -1092,6 +1155,11 @@ body {
     border-radius: var(--border-radius);
     position: relative;
     border: 1px solid #E1E5EC;
+
+    body.dark & {
+        background-color: #262D36;
+        border-color: #1D2228;
+    }
 
     .sponsors-label {
         position: absolute;
@@ -1101,6 +1169,10 @@ body {
         padding: 10px;
         border-radius: var(--border-radius) 10px 23px 0;
 
+        body.dark & {
+            background-color: #1D2228;
+            color: white;
+        }
     }
 
     .img-wrapper {
@@ -1120,6 +1192,11 @@ body {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: var(--border-radius);
     border-top: 3px solid var(--color-primary);
+
+    body.dark & {
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.06);
+
+    }
 
     .img-wrapper {
         img {
@@ -1183,6 +1260,43 @@ html[dir=rtl] {
 
 p {
     line-height: 1.8;
+}
+
+.accordion {
+    .card {
+        border-radius: var(--border-radius);
+
+        .card-header {
+            margin-bottom: 0px;
+
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .card-header {
+            background-color: white;
+
+            .icon-chevron-arrow-down {
+                font-size: 10px;
+            }
+
+            &.collapsed {
+                .icon-chevron-arrow-down {
+                    color: var(--color-primary);
+                    transform: rotate(180deg);
+                }
+            }
+
+
+        }
+
+    }
+
+    .card-body {
+        background-color: #FAFDFF;
+    }
 }
 
 

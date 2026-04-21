@@ -182,11 +182,11 @@
                     </div>
                     <div class="top">
                         <p>2025</p>
-                        <span class="color-black-black">النسخة الثانية</span>
+                        <span class="">النسخة الثانية</span>
                     </div>
                     <div class="bottom">
                         <p>+10K</p>
-                        <span class="color-black-black"> مشارك</span>
+                        <span class=""> مشارك</span>
                     </div>
                 </div>
             </div>
@@ -316,6 +316,7 @@
                             <div class="flex-end gap-2">
                                 <i class="icon icon-location-2"></i>
                                 <p>القاعة الرئيسية</p>
+                                <i class="icon icon-chevron-arrow-down"></i>
                             </div>
 
                         </div>
@@ -323,7 +324,7 @@
                         <div id="collapseOne" class="collapse show" data-parent="#accordionDay1">
                             <div class="card-body">
                                 <p class="text-color-2">يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العملsponsors-lable
-                                <div class="flex-start mt-3">
+                                <div class="flex-start mt-3 gap-2">
                                     <img src="imgs/user-circle.svg" alt="">
                                     <span class="user-name"> د.فهد الحقباني</span>
                                 </div>
