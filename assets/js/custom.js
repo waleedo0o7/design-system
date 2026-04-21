@@ -10,6 +10,8 @@ $(document).ready(function () {
     initSwiperSlider();
     initIntroCountdown();
     toggleDarkMode();
+    toggleMobileMenu();
+    toggleDropdownMobileMenu();
 });
 
 function initSwiperSlider() {
@@ -138,3 +140,44 @@ function initIntroCountdown() {
     }, 1000);
 
 }
+
+function toggleMobileMenu() {
+    $(".toggle-mobile-menu-button").on("click", function () {
+        $(".mobile-menu-popup").toggleClass("show");
+        $("body").toggleClass("overflow-hidden");
+
+    });
+}
+
+function toggleDropdownMobileMenu() {
+
+    $(document).on('click', '.mobile-menu-popup .links-list .dropdown-toggle', function (e) {
+
+        e.preventDefault();
+
+        const $this = $(this);
+        const $menu = $this.next('.dropdown-menu');
+
+        // اقفل أي dropdowns مفتوحة في نفس المستوى
+        $this.closest('li')
+            .siblings()
+            .find('.dropdown-menu')
+            .addClass('d-none');
+
+        // toggle الحالي
+        $menu.toggleClass('d-none');
+    });
+
+}
+
+
+
+$(document).ready(function () {
+    if (window.innerWidth > breakpointXl) {
+        $('.footer .accordion-button').each(function () {
+            $(this).attr("data-toggle", "none");
+        });
+    }
+});
+
+
