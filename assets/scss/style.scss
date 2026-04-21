@@ -1109,7 +1109,7 @@ body {
         }
 
         .card-header {
-            margin-bottom: 0px; 
+            margin-bottom: 0px;
             text-align: center;
 
             body.dark & {
@@ -1189,13 +1189,11 @@ body {
 }
 
 .testimonials-card {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.06);
     border-radius: var(--border-radius);
     border-top: 3px solid var(--color-primary);
-
     body.dark & {
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.06);
-
     }
 
     .img-wrapper {
@@ -1299,7 +1297,24 @@ p {
     }
 }
 
+.swiper-pagination {
+    transition: 0.3s;
 
+    .swiper-pagination-bullet {
+        background-color: #D1D5DC;
+        transition: 0.3s;
+
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: var(--color-primary-dark);
+        width: 32px;
+        height: 8px;
+        border-radius: 30px;
+        transition: 0.3s;
+
+    }
+}
 
 
 // @font-face {
