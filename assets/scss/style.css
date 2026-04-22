@@ -12302,11 +12302,9 @@ body.dark .btn-main:hover {
 body.dark .card-1 p {
   color: white;
 }
-.card-1::before {
-  content: "";
+.card-1 .shape-bg {
   position: absolute;
   inset: 0;
-  background-image: url(../../imgs/rectangles.png);
   background-repeat: no-repeat;
   background-position: calc(100% - 10px) 10px;
   z-index: 0;
@@ -12349,6 +12347,9 @@ body.dark .card-1 p {
   opacity: 0;
   visibility: hidden;
   transition: 0.3s ease-in-out;
+}
+[dir=rtl] .card-2:after {
+  background: linear-gradient(119deg, rgb(137, 206, 215) 0%, rgba(137, 206, 215, 0) 40%);
 }
 .card-2:hover {
   border: 1px solid var(--color-primary);
@@ -12408,6 +12409,35 @@ body.dark .card-1 p {
 .card-3 {
   background: linear-gradient(137.21deg, #F2F5F7 45.35%, #DDE8EF 101.63%);
   border-radius: var(--border-radius);
+  align-items: stretch;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid transparent;
+}
+.card-3:after {
+  content: "";
+  background: linear-gradient(210deg, rgb(137, 206, 215) 0%, rgba(137, 206, 215, 0) 40%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+[dir=rtl] .card-3:after {
+  background: linear-gradient(119deg, rgb(137, 206, 215) 0%, rgba(137, 206, 215, 0) 40%);
+}
+.card-3:hover {
+  border: 1px solid var(--color-primary);
+  transition: 0.3s ease-in-out;
+}
+.card-3:hover:after {
+  opacity: 0.7;
+  visibility: visible;
 }
 .card-3 .card-3-content {
   background-image: url(../../imgs/shape-3.svg);

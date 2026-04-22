@@ -307,6 +307,8 @@
 
                         <div class="card-1 p-3">
 
+                            <div class="shape-bg" style="background-image: url(imgs/rectangles.png);"></div>
+
                             <div class="img-wrapper mb-3">
                                 <img src="imgs/logos/ncf-light.svg" class="h-70px w-auto">
                             </div>
@@ -330,6 +332,8 @@
                     <div class="col-lg-6">
 
                         <div class="card-1 p-3">
+
+                            <div class="shape-bg" style="background-image: url(imgs/rectangles.png);"></div>
 
                             <div class="img-wrapper mb-3">
                                 <img src="imgs/logos/icc-light.svg" class="h-70px w-auto">
@@ -366,6 +370,8 @@
 
                 <div class="card-1 p-3">
 
+                    <div class="shape-bg" style="background-image: url(imgs/rectangles.png);"></div>
+
                     <div class="img-wrapper mb-3">
                         <img src="imgs/logos/ic-light.svg" class="h-70px w-auto">
                     </div>
@@ -390,6 +396,8 @@
             <div class="col-lg-3">
 
                 <div class="card-1 p-3">
+
+                    <div class="shape-bg" style="background-image: url(imgs/rectangles.png);"></div>
 
                     <div class="img-wrapper mb-3">
                         <img src="imgs/logos/cea-light.svg" class="h-70px w-auto">
@@ -416,6 +424,8 @@
 
                 <div class="card-1 p-3">
 
+                    <div class="shape-bg" style="background-image: url(imgs/rectangles.png);"></div>
+
                     <div class="img-wrapper mb-3">
                         <img src="imgs/logos/gfpf-light.svg" class="h-70px w-auto">
                     </div>
@@ -440,6 +450,8 @@
             <div class="col-lg-3">
 
                 <div class="card-1 p-3">
+
+                    <div class="shape-bg" style="background-image: url(imgs/rectangles.png);"></div>
 
                     <div class="img-wrapper mb-3">
                         <img src="imgs/logos/gfpf-light.svg" class="h-70px w-auto">

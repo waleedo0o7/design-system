@@ -1006,11 +1006,13 @@ body {
     }
 }
 
+
 .card-1 {
     position: relative;
     background: linear-gradient(137.21deg, #F2F5F7 45.35%, #DDE8EF 101.63%);
     border-radius: var(--border-radius);
     overflow: hidden;
+
 
     body.dark & {
         p {
@@ -1018,11 +1020,9 @@ body {
         }
     }
 
-    &::before {
-        content: "";
+    .shape-bg {
         position: absolute;
         inset: 0;
-        background-image: url(../../imgs/rectangles.png);
         background-repeat: no-repeat;
         background-position: calc(100% - 10px) 10px;
         z-index: 0;
@@ -1069,8 +1069,12 @@ body {
         opacity: 0;
         visibility: hidden;
         transition: 0.3s ease-in-out;
+    }
 
-
+    [dir="rtl"] & {
+        &:after {
+            background: linear-gradient(119deg, rgba(137, 206, 215, 1) 0%, rgba(137, 206, 215, 0) 40%);
+        }
     }
 
     &:hover {
@@ -1141,13 +1145,47 @@ body {
     }
 }
 
-
-
-
-
 .card-3 {
+
     background: linear-gradient(137.21deg, #F2F5F7 45.35%, #DDE8EF 101.63%);
     border-radius: var(--border-radius);
+    align-items: stretch;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid transparent;
+
+    &:after {
+        content: "";
+        background: linear-gradient(210deg, rgba(137, 206, 215, 1) 0%, rgba(137, 206, 215, 0) 40%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    [dir="rtl"] & {
+        &:after {
+            background: linear-gradient(119deg, rgba(137, 206, 215, 1) 0%, rgba(137, 206, 215, 0) 40%);
+        }
+    }
+
+    &:hover {
+        border: 1px solid var(--color-primary);
+        transition: 0.3s ease-in-out;
+
+        &:after {
+            opacity: 0.7;
+            visibility: visible;
+        }
+    }
+
+
 
     .card-3-content {
         background-image: url(../../imgs/shape-3.svg);
