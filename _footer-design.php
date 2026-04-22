@@ -33,10 +33,12 @@
                             <div id="collapse-footer-1" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
                                 <div class="accordion-item-body">
                                     <ul class="footer__list list-unstyled p-0">
-                                        <li><a href="#" class="footer-link hover-move"> من نحن </a></li>
-                                        <li><a href="#" class="footer-link hover-move"> خدماتنا </a></li>
-                                        <li><a href="#" class="footer-link hover-move"> مشاريعنا </a></li>
-                                        <li><a href="#" class="footer-link hover-move"> احجز استشارة </a></li>
+                                        <li><a href="#" class="footer-link hover-move">الرئيسية</a></li>
+                                        <li><a href="#" class="footer-link hover-move"> عن المنتدى </a></li>
+                                        <li><a href="#" class="footer-link hover-move">الفعاليات</a></li>
+                                        <li><a href="#" class="footer-link hover-move">الرعاة</a></li>
+                                        <li><a href="#" class="footer-link hover-move">المركز الاعلامي</a></li>
+                                        <li><a href="#" class="footer-link hover-move">تواصل معنا</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -63,10 +65,11 @@
                             <div id="collapse-footer-2" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
                                 <div class="accordion-item-body">
                                     <ul class="footer__list list-unstyled p-0">
-                                        <li><a href="#" class="footer-link hover-move"> المركز الإعلامي </a></li>
-                                        <li><a href="#" class="footer-link hover-move"> فروعنا </a></li>
-                                        <li><a href="#" class="footer-link hover-move"> شركاتنا </a></li>
-                                        <li><a href="#" class="footer-link hover-move"> المدونة </a></li>
+                                        <li><a href="#" class="footer-link hover-move">مؤتمر تمويل المقاولين</a></li>
+                                        <li><a href="#" class="footer-link hover-move"> المهرجان الوطني للبناء </a></li>
+                                        <li><a href="#" class="footer-link hover-move"> مؤتمر المقاولات الدولي </a></li>
+                                        <li><a href="#" class="footer-link hover-move"> المعرض الدولي </a></li>
+                                        <li><a href="#" class="footer-link hover-move">ورش العمل</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -93,6 +96,12 @@
                             </a>
                             <a href="#" class="social-media-icon">
                                 <i class="icon icon-lg icon-instagram"></i>
+                            </a>
+                            <a href="#" class="social-media-icon">
+                                <i class="icon icon-lg  icon-facebook"></i>
+                            </a>
+                            <a href="#" class="social-media-icon">
+                                <i class="icon icon-lg   icon-youtube"></i>
                             </a>
 
                         </div>

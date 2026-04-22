@@ -813,7 +813,7 @@ body {
 
         .top {
             position: absolute;
-            right: 30px;
+            left: 30px;
             top: -10px;
             background-color: white;
             width: 135px;
@@ -862,7 +862,7 @@ body {
 
         .bottom {
             position: absolute;
-            left: 30px;
+            right: 30px;
             bottom: -42px;
             background-color: white;
             width: 135px;
@@ -1014,12 +1014,13 @@ body {
         opacity: 0;
         visibility: hidden;
         transition: 0.3s ease-in-out;
+
+
     }
 
     &:hover {
         border: 1px solid var(--color-primary);
         transition: 0.3s ease-in-out;
-
         &:after {
             opacity: 0.7;
             visibility: visible;
@@ -1353,12 +1354,13 @@ html[dir=rtl] {
     .about-us {
         .img-side {
             .top {
-                left: 30px;
-                right: auto;
+                right: 30px;
+                left: auto;
             }
 
             .bottom {
-                right: 30px;
+                left: 30px;
+                right: auto;
             }
         }
     }
@@ -1507,10 +1509,29 @@ button {
         transition: 0.3s;
         position: relative;
 
-        &:hover {
-            color: white;
-        }
+        &:not(.my-account):not(.dark-mode) {
 
+            &:hover {
+                color: white;
+
+                &::after {
+                    width: 40%;
+                    height: 2px;
+                }
+            }
+
+            &::after {
+                content: "";
+                width: 0px;
+                height: 2px;
+                background-color: white;
+                position: absolute;
+                top: calc(100% + 0px);
+                left: 50%;
+                transform: translate(-50%, -50%);
+                transition: 0.3s ease-in-out;
+            }
+        }
     }
 
 

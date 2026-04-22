@@ -11474,6 +11474,9 @@ a:hover {
 .menu-items-wrapper .menu-item .menu-link:hover {
   text-decoration: none;
 }
+.menu-items-wrapper .menu-item.has-sub-menu:hover::after {
+  margin-top: 10px;
+}
 .menu-items-wrapper .menu-item.has-sub-menu:after {
   content: "\e960";
   font-family: "icomoon" !important;
@@ -11483,6 +11486,7 @@ a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 12px;
+  transition: 0.3s ease-in-out;
 }
 .menu-items-wrapper .menu-item.has-sub-menu .sub-menu {
   position: absolute;
@@ -11524,7 +11528,7 @@ a:hover {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  top: calc(100% + 15px);
+  top: calc(100% + 30px);
 }
 
 .home-page {
@@ -12169,7 +12173,7 @@ body.dark .badge-1 {
 }
 .about-us .img-side .top {
   position: absolute;
-  right: 30px;
+  left: 30px;
   top: -10px;
   background-color: white;
   width: 135px;
@@ -12213,7 +12217,7 @@ body.dark .badge-1 {
 }
 .about-us .img-side .bottom {
   position: absolute;
-  left: 30px;
+  right: 30px;
   bottom: -42px;
   background-color: white;
   width: 135px;
@@ -12594,11 +12598,12 @@ html[dir=rtl] .sponsors-label {
   border-radius: var(--border-radius) 10px 0px 23px;
 }
 html[dir=rtl] .about-us .img-side .top {
-  left: 30px;
-  right: auto;
+  right: 30px;
+  left: auto;
 }
 html[dir=rtl] .about-us .img-side .bottom {
-  right: 30px;
+  left: 30px;
+  right: auto;
 }
 html[dir=rtl] .btn-main:hover span {
   transform: translateX(5px);
@@ -12700,8 +12705,23 @@ button {
   transition: 0.3s;
   position: relative;
 }
-.top-header a:hover {
+.top-header a:not(.my-account):not(.dark-mode):hover {
   color: white;
+}
+.top-header a:not(.my-account):not(.dark-mode):hover::after {
+  width: 40%;
+  height: 2px;
+}
+.top-header a:not(.my-account):not(.dark-mode)::after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: calc(100% + 0px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease-in-out;
 }
 .top-header a.my-account i {
   transition: 0.3s ease-in-out;
