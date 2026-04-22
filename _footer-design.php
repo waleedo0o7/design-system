@@ -6,8 +6,8 @@
 
             <div class="row">
 
-
                 <div class="col-lg-3">
+
                     <div class="flex-start gap-4 mb-3">
                         <img src="imgs/logo.png" class="img-fluid h-60px" alt="logo">
                         <img src="imgs/footer-icons-0.png" class="img-fluid h-60px">
@@ -141,7 +141,7 @@
                 <ul class="reset-ul flex-start gap-3 mb-0 mb-lg-3">
                     <li class="w-auto w-lg-20">
                         <a href="terms-and-conditions.php" class="footer-link no-hover "> الشروط والأحكام </a>
-                        
+
                     </li>
 
                     <li class="w-auto w-lg-20">

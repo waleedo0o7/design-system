@@ -2,8 +2,14 @@
 <?php include '_header-design.php' ?>
 
 <div class="hero-section">
+ 
 
-    <img src="imgs/hero-background.png" class="hero-img" alt="">
+    <div class="video-wrapper">
+        <video autoplay muted loop class="w-100 h-100 cover">
+            <source src="videos/1.mp4" type="video/mp4">
+        </video>
+    </div>
+
 
     <div class="hero-content color-white">
         <img src="imgs/gfpf-2026.png" class="mb-4" alt="">
@@ -30,8 +36,8 @@
             </div>
         </div>
 
-        <button type="button" class="btn bg-beige py-2 mt-4 btn-main flex-center mx-auto gap-3">
-            <span class="lead font-wight-medium">سجل اهتمامك بمنتدى المشاريع المستقبلية</span>
+        <button type="button" class="btn bg-beige py-1 mt-4 btn-main flex-center mx-auto gap-3">
+            <span class="font-wight-medium">سجل اهتمامك بمنتدى المشاريع المستقبلية</span>
             <i class="icon icon-arrow-right"></i>
         </button>
         <div class="hero-bage flex-between gap-2">
@@ -122,7 +128,7 @@
 
                 <div class="about-us-content mb-4">
                     <h1 class="about-us-headline mb-3 font-watad">منتدى ومعرض المشاريع المستقبلية <span>الدولي</span> </h1>
-                    <p>يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العمل، ويمثل الحدث مساحة تفاعلية لاستعراض المشاريع المستقبلية ، وتمكين فرص التمويل، وتعزيز الابتكار، وتبادل الخبرات، وبناء الشراكات الاستراتيجية، بما يسهم في دعم نمو قطاع المقاولات ورفع تنافسيته.</p>
+                    <p class="text-justify">يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العمل، ويمثل الحدث مساحة تفاعلية لاستعراض المشاريع المستقبلية ، وتمكين فرص التمويل، وتعزيز الابتكار، وتبادل الخبرات، وبناء الشراكات الاستراتيجية، بما يسهم في دعم نمو قطاع المقاولات ورفع تنافسيته.</p>
 
                 </div>
                 <div class="">

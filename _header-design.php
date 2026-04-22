@@ -1,12 +1,13 @@
 <div class="top-header">
 
-    <div class="container">
+
+    <div class="container pt-2">
 
         <div class="flex-between py-4">
 
             <div class="start">
 
-                <div class="logo d-inline-block">
+                <div class="logo d-inline-block me-4">
                     <img src="imgs/logo.png" class="img-fluid w-90px" alt="">
                 </div>
 
@@ -18,16 +19,78 @@
                             <a class="menu-link" href="homepage.php">الرئيسية</a>
                         </li>
 
-                        <li>
+                        <li class="menu-item has-sub-menu">
+
                             <a class="menu-link" href="#">عن المنتدى</a>
+
+                            <ul class="sub-menu">
+
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link"> عن المنتدي </a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link"> عن المنتدي </a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link"> عن المنتدي </a>
+                                </li>
+
+                            </ul>
+
                         </li>
 
-                        <li><a class="menu-link" href="#">الفعاليات</a></li>
-                        <li><a class="menu-link" href="#">الرعاة</a></li>
-                        <li><a class="menu-link" href="#">المركز الإعلامي</a></li>
-                        <li><a class="menu-link" href="#">تواصل معنا</a></li>
-                    </ul>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">الفعاليات</a>
+                        </li>
 
+                        <li class="menu-item"><a class="menu-link" href="#">الرعاة</a></li>
+
+                        <li class="menu-item has-sub-menu">
+
+                            <a class="menu-link" href="#">المركز الإعلامي</a>
+
+                            <ul class="sub-menu">
+
+                                <li class="menu-item">
+                                    <a class="menu-link" href="#">المركز الإعلامي</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a class="menu-link" href="#">المركز الإعلامي</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a class="menu-link" href="#">المركز الإعلامي</a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                        <li class="menu-item has-sub-menu">
+                            <a class="menu-link" href="#">تواصل معنا</a>
+
+                            <ul class="sub-menu">
+
+                                <li class="menu-item">
+                                    <a class="menu-link" href="#">تواصل معنا</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a class="menu-link" href="#">تواصل معنا</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a class="menu-link" href="#">تواصل معنا</a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                    </ul>
 
                 </div>
 
@@ -35,11 +98,44 @@
 
             <div class="end">
 
-                <ul class="d-flex gap-3">
+                <ul class="menu-items-wrapper">
 
-                    <li><a href="#">السفر والتآشيرة</a></li>
+                    <li class="menu-item has-sub-menu">
 
-                    <li><a href="#">العربية</a></li>
+                        <a class="menu-link" href="#"> السفر والتآشيرة </a>
+
+                        <ul class="sub-menu">
+
+                            <li class="menu-item">
+                                <a class="menu-link" href="#"> أماكن للزيارة </a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a class="menu-link" href="#"> تأشيرة </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+ 
+                    <li class="menu-item has-sub-menu">
+
+                        <a class="menu-link" href="#"> العربية </a>
+
+                        <ul class="sub-menu">
+
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">  العربية   </a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a class="menu-link" href="#"> English </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
 
                     <li>
                         <a href="#" class="btn btn-outline-light flex-center gap-2 my-account">

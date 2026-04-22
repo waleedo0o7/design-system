@@ -591,8 +591,9 @@ body {
     position: relative;
     height: 100vh;
     z-index: 1;
+    margin-top: -96px;
 
-    .hero-img {
+    .video-wrapper {
         position: absolute;
         inset: 0;
         width: 100%;
@@ -610,7 +611,7 @@ body {
         flex-direction: column;
 
         h1 {
-            font-size: 48px;
+            font-size: 42px;
         }
 
         .btn.bg-beige {
@@ -642,7 +643,7 @@ body {
             margin: 20px 0;
 
             h2 {
-                font-size: 92px;
+                font-size: 55px;
                 margin: 0;
             }
 
@@ -694,7 +695,7 @@ body {
     border-radius: 50px 50px 0 0;
     margin-top: -130px;
     background-color: var(--color-white);
-    z-index: 10;
+    z-index: 3;
     position: relative;
 
     .project-stats-card {
@@ -703,8 +704,25 @@ body {
         padding: 7px 16px;
         width: 100%;
         border: 1px solid transparent;
-        transition: 0.3s ease-in-out;
         border-right: none;
+        position: relative;
+        overflow: hidden;
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background: linear-gradient(270deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+        }
+
+        * {
+            z-index: 2;
+        }
 
         .project-stats-card-content {
             transition: 0.3s ease-in-out;
@@ -712,7 +730,6 @@ body {
 
         &:hover {
             border: 1px solid var(--color-primary);
-            border-right: none;
 
             .project-stats-card-content {
                 padding-inline-start: 10px;
@@ -976,8 +993,40 @@ body {
     border-radius: var(--border-radius);
     align-items: stretch;
     overflow: hidden;
+    position: relative;
+    border: 1px solid transparent;
 
 
+    &:after {
+        content: "";
+        background: linear-gradient(210deg, rgba(137, 206, 215, 1) 0%, rgba(137, 206, 215, 0) 40%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    &:hover {
+        border: 1px solid var(--color-primary);
+        transition: 0.3s ease-in-out;
+
+        &:after {
+            opacity: 0.7;
+            visibility: visible;
+        }
+    }
+
+
+    * {
+        position: relative;
+        z-index: 1;
+    }
 
     @media (max-width: 768px) {
         text-align: center;
@@ -1388,12 +1437,12 @@ button {
 
 .top-header {
     display: block;
-    position: relative;
-    position: absolute;
+    // position: absolute;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 9999;
 
 
     @media all and (max-width : $breakpoint-xl) {
@@ -1410,7 +1459,7 @@ button {
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 1) 38%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
     }
 
     * {
@@ -1467,6 +1516,10 @@ button {
             background-color: transparent;
         }
     }
+}
+
+.sticky-header {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .mobile-top-bar {

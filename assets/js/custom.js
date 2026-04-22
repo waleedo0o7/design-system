@@ -181,3 +181,25 @@ $(document).ready(function () {
 });
 
 
+
+
+
+
+
+$(document).ready(function () {
+
+
+    window.addEventListener('scroll', () => {
+        const header = document.querySelector('.top-header');
+        const currentScroll = window.pageYOffset;
+
+        if (currentScroll > 200) {
+            header.classList.add('sticky-header');
+        } else {
+            header.classList.remove('sticky-header');
+        }
+
+
+    });
+});
+
