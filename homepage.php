@@ -153,59 +153,98 @@
 
                 <div class="row about-us-custom-accordion-wrapper">
 
-                    <?php foreach (range(0, 6) as $i) { ?>
+                    <div class="col-lg-6">
 
-                        <div class="col-lg-6">
+                        <div class="about-us-badge-wrapper">
 
-                            <div class="about-us-badge-wrapper">
-
-                                <div class="flex-start card-4 gap-2 my-2 about-us-badge">
-                                    <img src="imgs/icons/about-icon-1.svg">
-                                    <span class="">تواصل عالمي</span>
-                                </div>
-
-                                <p class="about-us-badge-hidden-content"> as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd </p>
-
+                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
+                                <img src="imgs/icons/about-icon-1.svg">
+                                <span class="">تواصل عالمي</span>
                             </div>
-                            
+
+                            <p class="about-us-badge-hidden-content"> as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd </p>
+
                         </div>
 
-                    <?php } ?>
-
-
-
-
-                    <!-- <div class="col-lg-6">
-                        <div class="flex-start card-4 gap-2 my-2 about-us-badge">
-                            <img src="imgs/icons/about-icon-2.svg">
-                            <span class="">تفاصيل للمشاريع المستقبلية </span>
-                        </div>
                     </div>
+
                     <div class="col-lg-6">
-                        <div class="flex-start card-4 gap-2 my-2 about-us-badge">
-                            <img src="imgs/icons/about-icon-3.svg">
-                            <span class="">حلول تمويلية</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="flex-start card-4 gap-2 my-2 about-us-badge">
-                            <img src="imgs/icons/about-icon-4.svg">
-                            <span class="">معرض دولي</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="flex-start card-4 gap-2 my-2 about-us-badge">
-                            <img src="imgs/icons/about-icon-5.svg">
-                            <span class="">فرص للمقاولين</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="flex-start card-4 gap-2 my-2 about-us-badge">
-                            <img src="imgs/icons/about-icon-6.svg">
-                            <span class="">تعزيز شبكه علاقاتك </span>
+
+                        <div class="about-us-badge-wrapper">
+
+                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
+                                <img src="imgs/icons/about-icon-2.svg">
+                                <span class=""> تفاصيل للمشاريع المستقبلية </span>
+                            </div>
+
+                            <p class="about-us-badge-hidden-content"> as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd </p>
 
                         </div>
-                    </div> -->
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="about-us-badge-wrapper">
+
+                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
+                                <img src="imgs/icons/about-icon-3.svg">
+                                <span class=""> حلول تمويلية </span>
+                            </div>
+
+                            <p class="about-us-badge-hidden-content"> as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="about-us-badge-wrapper">
+
+                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
+                                <img src="imgs/icons/about-icon-4.svg">
+                                <span class=""> معرض دولي </span>
+                            </div>
+
+                            <p class="about-us-badge-hidden-content"> as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="about-us-badge-wrapper">
+
+                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
+                                <img src="imgs/icons/about-icon-5.svg">
+                                <span class=""> فرص للمقاولين </span>
+                            </div>
+
+                            <p class="about-us-badge-hidden-content"> as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="about-us-badge-wrapper">
+
+                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
+                                <img src="imgs/icons/about-icon-6.svg">
+                                <span class=""> تعزيز شبكه علاقاتك </span>
+                            </div>
+
+                            <p class="about-us-badge-hidden-content"> as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd </p>
+
+                        </div>
+
+                    </div>
+
+
+
                 </div>
 
             </div>
@@ -273,7 +312,6 @@
                             </div>
 
                             <p class="font-weight-bold">المهرجان الوطني للبناء</p>
-                            <!--<h4 class="card-3-title font-weight-bold">المهرجان الوطني <span class="color-primary">للبناء</span></h4>-->
                             <p class="card-3-paragraph">تجربة جماهيرية مبتكرة تسلط الضوء تقنيات البناء الحديثة وتتيح استكشاف أساليب التشييد عبر ورش تفاعلية</p>
                             <!---->
                             <!--<button type="button" class="btn btn-main flex-center gap-2 color-gray">-->
