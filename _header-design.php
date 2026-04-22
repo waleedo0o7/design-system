@@ -8,7 +8,7 @@
             <div class="start">
 
                 <div class="logo d-inline-block me-4">
-                    <img src="imgs/logo.png" class="img-fluid w-90px" alt="">
+                    <img src="imgs/logos/gfpf-dark.svg" class="img-fluid w-90px" alt="">
                 </div>
 
                 <div class="d-inline-block">
@@ -117,7 +117,7 @@
                         </ul>
 
                     </li>
- 
+
                     <li class="menu-item has-sub-menu">
 
                         <a class="menu-link" href="#"> العربية </a>
@@ -125,7 +125,7 @@
                         <ul class="sub-menu">
 
                             <li class="menu-item">
-                                <a class="menu-link" href="#">  العربية   </a>
+                                <a class="menu-link" href="#"> العربية </a>
                             </li>
 
                             <li class="menu-item">
@@ -162,7 +162,7 @@
 
     <div class="start flex-start gap-3">
         <a href="homepage.php?dir=rtl">
-            <img src="imgs/logo.png" class="w-80px">
+            <img src="imgs/logos/gfpf-dark.svg" class="w-80px">
         </a>
     </div>
 
@@ -182,7 +182,7 @@
 
             <div class="start">
                 <a href="homepage.php">
-                    <img src="imgs/logo.png" class="w-80px">
+                    <img src="imgs/logos/gfpf-dark.svg" class="w-80px">
                 </a>
             </div>
 
@@ -281,19 +281,19 @@
                     </a>
                 </li>
 
-                <li class="nav-item"> <a href="#" class="nav-link"> تسجيل دخول </a> </li>
+                <li class="nav-item"><a href="#" class="nav-link"> تسجيل دخول </a></li>
 
-                <li class="nav-item"> <a href="#" class="nav-link"> لوحة التحكم </a> </li>
+                <li class="nav-item"><a href="#" class="nav-link"> لوحة التحكم </a></li>
 
-                <li class="nav-item"> <a href="#" class="nav-link"> رابط </a> </li>
+                <li class="nav-item"><a href="#" class="nav-link"> رابط </a></li>
 
-                <li class="nav-item"> <a href="#" class="nav-link"> رابط </a> </li>
+                <li class="nav-item"><a href="#" class="nav-link"> رابط </a></li>
 
-                <li class="nav-item"> <a href="#" class="nav-link"> رابط </a> </li>
+                <li class="nav-item"><a href="#" class="nav-link"> رابط </a></li>
 
-                <li class="nav-item"> <a href="#" class="nav-link"> رابط </a> </li>
+                <li class="nav-item"><a href="#" class="nav-link"> رابط </a></li>
 
-                <li class="nav-item"> <a href="#" class="nav-link"> رابط </a> </li>
+                <li class="nav-item"><a href="#" class="nav-link"> رابط </a></li>
 
 
             </ul>

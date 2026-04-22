@@ -9,7 +9,7 @@
                 <div class="col-lg-3">
 
                     <div class="flex-start gap-4 mb-3">
-                        <img src="imgs/logo.png" class="img-fluid h-60px" alt="logo">
+                        <img src="imgs/logos/gfpf-dark.svg" class="img-fluid h-60px" alt="logo">
                         <img src="imgs/footer-icons-0.png" class="img-fluid h-60px">
                     </div>
 
@@ -98,8 +98,6 @@
                         </div>
 
                     </div>
-
-
 
 
                     <div class="mb-0">
