@@ -118,28 +118,45 @@ function toggleDarkMode() {
     });
 }
 
-function initIntroCountdown() {
-    let countDownDate = new Date();
-    countDownDate.setDate(countDownDate.getDate() + 70);
+const daysEl = document.getElementById("days");
+const hoursEl = document.getElementById("hours");
+const minutesEl = document.getElementById("minutes");
+const secondsEl = document.getElementById("seconds");
 
-    let x = setInterval(function () {
+// لو مفيش تاريخ محفوظ نحسب 67 يوم من دلوقتي
+let targetDate = localStorage.getItem("countdownDate");
 
-        let now = new Date().getTime();
-        let distance = countDownDate - now;
-
-        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        document.getElementById("days").innerHTML = String(days).padStart(2, '0');
-        document.getElementById("hours").innerHTML = String(hours).padStart(2, '0');
-        document.getElementById("minutes").innerHTML = String(minutes).padStart(2, '0');
-        document.getElementById("seconds").innerHTML = String(seconds).padStart(2, '0');
-
-    }, 1000);
-
+if (!targetDate) {
+    const now = new Date();
+    now.setDate(now.getDate() + 67);
+    targetDate = now.getTime();
+    localStorage.setItem("countdownDate", targetDate);
 }
+
+targetDate = parseInt(targetDate);
+
+function updateCountdown() {
+    const now = new Date().getTime();
+    const diff = targetDate - now;
+
+    if (diff <= 0) {
+        clearInterval(interval);
+        return;
+    }
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((diff / (1000 * 60)) % 60);
+    const seconds = Math.floor((diff / 1000) % 60);
+
+    daysEl.textContent = String(days).padStart(2, '0');
+    hoursEl.textContent = String(hours).padStart(2, '0');
+    minutesEl.textContent = String(minutes).padStart(2, '0');
+    secondsEl.textContent = String(seconds).padStart(2, '0');
+}
+
+updateCountdown();
+const interval = setInterval(updateCountdown, 1000);
 
 function toggleMobileMenu() {
     $(".toggle-mobile-menu-button").on("click", function () {

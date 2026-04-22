@@ -22,7 +22,6 @@
                         <li class="menu-item has-sub-menu">
 
                             <a class="menu-link" href="#">عن المنتدى</a>
-
                             <ul class="sub-menu">
 
                                 <li class="menu-item">
