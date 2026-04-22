@@ -8,7 +8,7 @@ let breakpoint2xl = 1600;
 
 $(document).ready(function () {
     initSwiperSlider();
-    initIntroCountdown(new Date(2026, 3, 26, 0, 0, 0));
+    initIntroCountdown(new Date(2026, 4, 1, 0, 0, 0));
     toggleDarkMode();
     toggleMobileMenu();
     toggleDropdownMobileMenu();
