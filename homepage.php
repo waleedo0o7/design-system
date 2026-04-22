@@ -295,7 +295,7 @@
     <h1 class="text-center font-weight-bold mb-4 font-watad">الفعاليات</h1>
     <div class="container">
 
-        <div class="row">
+        <div class="row ">
 
             <div class="col-lg-8">
 
@@ -333,7 +333,7 @@
 
                         <div class="card-1 p-3">
 
-                            <div class="shape-bg" style="background-image: url(imgs/rectangles.png);"></div>
+                            <div class="shape-bg" style="background-image: url(imgs/icc-shape.png);"></div>
 
                             <div class="img-wrapper mb-3">
                                 <img src="imgs/logos/icc-light.svg" class="h-70px w-auto">
@@ -370,7 +370,7 @@
 
                 <div class="card-1 p-3">
 
-                    <div class="shape-bg" style="background-image: url(imgs/rectangles.png);"></div>
+                    <div class="shape-bg" style="background-image: url(imgs/innc-shape.png);"></div>
 
                     <div class="img-wrapper mb-3">
                         <img src="imgs/logos/ic-light.svg" class="h-70px w-auto">
@@ -397,7 +397,7 @@
 
                 <div class="card-1 p-3">
 
-                    <div class="shape-bg" style="background-image: url(imgs/rectangles.png);"></div>
+                    <div class="shape-bg" style="background-image: url(imgs/cea-shape.png);"></div>
 
                     <div class="img-wrapper mb-3">
                         <img src="imgs/logos/cea-light.svg" class="h-70px w-auto">
@@ -424,7 +424,7 @@
 
                 <div class="card-1 p-3">
 
-                    <div class="shape-bg" style="background-image: url(imgs/rectangles.png);"></div>
+                    <div class="shape-bg" style="background-image: url(imgs/gfpf-shape.png);"></div>
 
                     <div class="img-wrapper mb-3">
                         <img src="imgs/logos/gfpf-light.svg" class="h-70px w-auto">
@@ -451,7 +451,7 @@
 
                 <div class="card-1 p-3">
 
-                    <div class="shape-bg" style="background-image: url(imgs/rectangles.png);"></div>
+                    <div class="shape-bg" style="background-image: url(imgs/gfpf-shape.png);"></div>
 
                     <div class="img-wrapper mb-3">
                         <img src="imgs/logos/gfpf-light.svg" class="h-70px w-auto">

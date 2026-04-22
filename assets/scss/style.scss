@@ -1029,7 +1029,7 @@ body {
         pointer-events: none;
     }
 
-    [dir="rtl"] &::before {
+    [dir="rtl"] & .shape-bg {
         transform: scaleX(-1);
     }
 
