@@ -1113,6 +1113,7 @@ body {
 }
 
 
+
 .agenda-section {
 
     .taps-wrapper {
@@ -1183,8 +1184,21 @@ body {
         }
     }
 
+
+    .accordion-card {
+        border-radius: var(--border-radius) !important;
+
+        .card-body{
+            .card-body-content{
+                @media all and (min-width : $breakpoint-lg) {
+                    padding-inline-start: 190px;
+                }
+            }
+        }
+    }
+
+
     .card {
-        border-radius: var(--border-radius);
 
         body.dark & {
             border-color: var(--color-primary-dark);
@@ -1247,15 +1261,16 @@ body {
 
     &:hover {
         background: linear-gradient(270deg, rgba(79, 196, 204, 0.1) 0%, rgba(79, 195, 204, 0) 80%);
+        transition: 0.3s ease-in-out;
 
         .sponsors-label {
-            color: red;
+            transition: 0.3s ease-in-out;
             background-color: var(--color-primary);
             color: white;
+            padding-inline-start: 30px;
             padding-inline-end: 30px;
 
             span {
-                padding-inline-start: 10px;
                 transition: 0.3s ease-in-out;
             }
 

@@ -12429,8 +12429,13 @@ body.dark .agenda-section .taps-wrapper .nav-tabs .nav-item.show .nav-link {
 .agenda-section .taps-wrapper .nav-tabs {
   border: none;
 }
-.agenda-section .card {
-  border-radius: var(--border-radius);
+.agenda-section .accordion-card {
+  border-radius: var(--border-radius) !important;
+}
+@media all and (min-width: 992px) {
+  .agenda-section .accordion-card .card-body .card-body-content {
+    padding-inline-start: 190px;
+  }
 }
 body.dark .agenda-section .card {
   border-color: var(--color-primary-dark);
@@ -12478,15 +12483,16 @@ body.dark .our-sponsors {
 }
 .sponsors-card:hover {
   background: linear-gradient(270deg, rgba(79, 196, 204, 0.1) 0%, rgba(79, 195, 204, 0) 80%);
+  transition: 0.3s ease-in-out;
 }
 .sponsors-card:hover .sponsors-label {
-  color: red;
+  transition: 0.3s ease-in-out;
   background-color: var(--color-primary);
   color: white;
+  padding-inline-start: 30px;
   padding-inline-end: 30px;
 }
 .sponsors-card:hover .sponsors-label span {
-  padding-inline-start: 10px;
   transition: 0.3s ease-in-out;
 }
 body.dark .sponsors-card {

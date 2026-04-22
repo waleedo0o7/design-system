@@ -2,7 +2,7 @@
 <?php include '_header-design.php' ?>
 
 <div class="hero-section">
- 
+
 
     <div class="video-wrapper">
         <video autoplay muted loop class="w-100 h-100 cover">
@@ -305,13 +305,11 @@
 
                 <div class="tab-pane fade show active" id="day1">
 
-
-
                     <div id="accordion" class="accordion">
 
                         <?php foreach (range(0, 4) as $i) { ?>
 
-                            <div class="card">
+                            <div class="card accordion-card mb-3">
 
                                 <div class="card-header flex-between <?php echo $i > 0 ? 'collapsed' : ''; ?> " data-toggle="collapse" data-target="#collapse<?php echo $i ?>">
 
@@ -333,12 +331,15 @@
 
 
                                     <div class="card-body">
+                                        
+                                        <div class="card-body-content">
 
-                                        <p class="text-color-2">يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العملsponsors-lable
+                                            <p class="text-color-2">يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العملsponsors-lable
 
-                                        <div class="flex-start mt-3 gap-2">
-                                            <img src="imgs/user-circle.svg" alt="">
-                                            <span class="user-name"> د.فهد الحقباني</span>
+                                            <div class="flex-start mt-3 gap-2">
+                                                <img src="imgs/user-circle.svg" alt="">
+                                                <span class="user-name"> د.فهد الحقباني</span>
+                                            </div>
                                         </div>
 
                                     </div>
