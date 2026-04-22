@@ -7,7 +7,6 @@ $isRTL = isset($_GET['dir']) && $_GET['dir'] === 'rtl';
 <html dir="<?php echo (isset($_GET['dir'])) ? $_GET['dir'] : 'ltr'; ?>">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,10 +17,13 @@ $isRTL = isset($_GET['dir']) && $_GET['dir'] === 'rtl';
     <!-- icomoon -->
     <link rel="stylesheet" href="assets/css/icomoon/style.css">
 
+    <!-- flag icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
     <!-- Custom CSS -->
     <link href="assets/scss/style.css" rel="stylesheet">
 
-    <title>  GFPF 2026 | Home </title>
+    <title> GFPF 2026 | Home </title>
 
 </head>
 

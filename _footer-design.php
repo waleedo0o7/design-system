@@ -147,16 +147,16 @@
 
                 <ul class="reset-ul flex-start gap-3 mb-0 mb-lg-3">
                     <li class="w-auto w-lg-20">
-                        <a href="terms-and-conditions.php" class="footer-link no-hover "> الشروط والأحكام </a>
+                        <a href="terms-and-conditions.php" class="footer-link text-decoration-underline"> الشروط والأحكام </a>
 
                     </li>
 
                     <li class="w-auto w-lg-20">
-                        <a href="privacy-policy.php" class="footer-link no-hover "> سياسة الخصوصية </a>
+                        <a href="privacy-policy.php" class="footer-link text-decoration-underline"> سياسة الخصوصية </a>
                     </li>
 
                     <li class="w-auto w-lg-20">
-                        <a href="sitemap.php" class="footer-link no-hover "> خريطة الموقع </a>
+                        <a href="sitemap.php" class="footer-link text-decoration-underline"> خريطة الموقع </a>
                     </li>
                 </ul>
 

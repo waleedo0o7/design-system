@@ -135,63 +135,79 @@
 </div>
 
 <div class="about-us pt-5 pb-5 mb-4">
+
     <div class="container">
+
         <div class="row">
+
             <div class="col-lg-6">
 
                 <span class="badge badge-1 mb-4">عن المنتدى</span>
 
                 <div class="about-us-content mb-4">
+
                     <h1 class="about-us-headline mb-3 font-watad">منتدى ومعرض المشاريع المستقبلية <span>الدولي</span></h1>
                     <p class="text-justify">يُعد منتدى ومعرض المشاريع المستقبلية الدولي منصة وطنية رائدة تجمع تحت مظلتها مجموعة من الفعاليات المتخصصة التي تخدم مختلف أطراف منظومة المقاولات، وتشمل المنتدى، المؤتمرات المتخصصة، المعرض الدولي، المهرجان الوطني للبناء ,تحدي الابتكار، وورش العمل. ويمثل الحدث مساحة تفاعلية لاستعراض المشاريع المستقبلية ، وتمكين فرص التمويل، وتعزيز الابتكار، وتبادل الخبرات، وبناء الشراكات الاستراتيجية، بما يسهم في دعم نمو قطاع المقاولات ورفع تنافسيته.</p>
 
                 </div>
-                <div class="">
 
+                <div class="row about-us-custom-accordion-wrapper">
 
-                    <div class="row">
-                        <div class="col-lg-6 ">
-                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
-                                <img src="imgs/icons/about-icon-1.svg">
-                                <span class="">تواصل عالمي</span>
-                            </div>
+                    <?php foreach (range(0, 6) as $i) { ?>
 
-                        </div>
                         <div class="col-lg-6">
-                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
-                                <img src="imgs/icons/about-icon-2.svg">
-                                <span class="">تفاصيل للمشاريع المستقبلية </span>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
-                                <img src="imgs/icons/about-icon-3.svg">
-                                <span class="">حلول تمويلية</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
-                                <img src="imgs/icons/about-icon-4.svg">
-                                <span class="">معرض دولي</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
-                                <img src="imgs/icons/about-icon-5.svg">
-                                <span class="">فرص للمقاولين</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="flex-start card-4 gap-2 my-2 about-us-badge">
-                                <img src="imgs/icons/about-icon-6.svg">
-                                <span class="">تعزيز شبكه علاقاتك </span>
+
+                            <div class="about-us-badge-wrapper">
+
+                                <div class="flex-start card-4 gap-2 my-2 about-us-badge">
+                                    <img src="imgs/icons/about-icon-1.svg">
+                                    <span class="">تواصل عالمي</span>
+                                </div>
+
+                                <p class="about-us-badge-hidden-content"> as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd as2d3 1as32d 1a32sd1 3a2s1d3 21a3s2d1 a3s1d3 2a1s3d1 312asd </p>
 
                             </div>
+                            
+                        </div>
+
+                    <?php } ?>
+
+
+
+
+                    <!-- <div class="col-lg-6">
+                        <div class="flex-start card-4 gap-2 my-2 about-us-badge">
+                            <img src="imgs/icons/about-icon-2.svg">
+                            <span class="">تفاصيل للمشاريع المستقبلية </span>
                         </div>
                     </div>
+                    <div class="col-lg-6">
+                        <div class="flex-start card-4 gap-2 my-2 about-us-badge">
+                            <img src="imgs/icons/about-icon-3.svg">
+                            <span class="">حلول تمويلية</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="flex-start card-4 gap-2 my-2 about-us-badge">
+                            <img src="imgs/icons/about-icon-4.svg">
+                            <span class="">معرض دولي</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="flex-start card-4 gap-2 my-2 about-us-badge">
+                            <img src="imgs/icons/about-icon-5.svg">
+                            <span class="">فرص للمقاولين</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="flex-start card-4 gap-2 my-2 about-us-badge">
+                            <img src="imgs/icons/about-icon-6.svg">
+                            <span class="">تعزيز شبكه علاقاتك </span>
 
-
+                        </div>
+                    </div> -->
                 </div>
+
             </div>
             <div class="col-lg-6">
                 <div class="img-side">
@@ -575,11 +591,11 @@
 
                         <div class="arrows-wrapper w-100px flex-end gap-3">
                             <div class="swiper-button-prev" id="test2-button-prev">
-                                <i class="icon icon-arrow-circle-left"></i>
+                                <i class="icon icon-chevron-left"></i>
                             </div>
 
                             <div class="swiper-button-next" id="test2-button-next">
-                                <i class="icon icon-arrow-circle-right"></i>
+                                <i class="icon icon-chevron-right"></i>
                             </div>
 
                         </div>

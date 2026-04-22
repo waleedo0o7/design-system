@@ -47,11 +47,12 @@
         }
 
         &.has-sub-menu {
-             &:hover {
-                &::after{
+            &:hover {
+                &::after {
                     margin-top: 10px;
                 }
-                }
+            }
+
             &:after {
                 content: "\e960";
                 font-family: "icomoon" !important;
@@ -62,9 +63,13 @@
                 transform: translate(-50%, -50%);
                 font-size: 12px;
                 transition: 0.3s ease-in-out;
-
+  
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                padding: 15px 0;
             }
-            
+
 
             .sub-menu {
                 position: absolute;

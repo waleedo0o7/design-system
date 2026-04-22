@@ -8,7 +8,7 @@ let breakpoint2xl = 1600;
 
 $(document).ready(function () {
     initSwiperSlider();
-    initIntroCountdown();
+    initIntroCountdown(new Date(2026, 3, 26, 0, 0, 0));
     toggleDarkMode();
     toggleMobileMenu();
     toggleDropdownMobileMenu();
@@ -118,45 +118,51 @@ function toggleDarkMode() {
     });
 }
 
-const daysEl = document.getElementById("days");
-const hoursEl = document.getElementById("hours");
-const minutesEl = document.getElementById("minutes");
-const secondsEl = document.getElementById("seconds");
+function initIntroCountdown(targetDateInput) {
 
-// لو مفيش تاريخ محفوظ نحسب 67 يوم من دلوقتي
-let targetDate = localStorage.getItem("countdownDate");
+    const daysEl = document.getElementById("days");
+    const hoursEl = document.getElementById("hours");
+    const minutesEl = document.getElementById("minutes");
+    const secondsEl = document.getElementById("seconds");
 
-if (!targetDate) {
-    const now = new Date();
-    now.setDate(now.getDate() + 67);
-    targetDate = now.getTime();
-    localStorage.setItem("countdownDate", targetDate);
-}
+    // تحويل التاريخ لـ timestamp
+    const targetDate = new Date(targetDateInput).getTime();
 
-targetDate = parseInt(targetDate);
+    function updateCountdown() {
+        const now = Date.now();
+        const diff = targetDate - now;
 
-function updateCountdown() {
-    const now = new Date().getTime();
-    const diff = targetDate - now;
+        if (diff <= 0) {
+            clearInterval(interval);
 
-    if (diff <= 0) {
-        clearInterval(interval);
-        return;
+            // optional: reset UI أو trigger event
+            daysEl.textContent = "00";
+            hoursEl.textContent = "00";
+            minutesEl.textContent = "00";
+            secondsEl.textContent = "00";
+
+            return;
+        }
+
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+        const minutes = Math.floor((diff / (1000 * 60)) % 60);
+        const seconds = Math.floor((diff / 1000) % 60);
+
+        daysEl.textContent = String(days).padStart(2, '0');
+        hoursEl.textContent = String(hours).padStart(2, '0');
+        minutesEl.textContent = String(minutes).padStart(2, '0');
+        secondsEl.textContent = String(seconds).padStart(2, '0');
     }
 
-    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
-    const minutes = Math.floor((diff / (1000 * 60)) % 60);
-    const seconds = Math.floor((diff / 1000) % 60);
-
-    daysEl.textContent = String(days).padStart(2, '0');
-    hoursEl.textContent = String(hours).padStart(2, '0');
-    minutesEl.textContent = String(minutes).padStart(2, '0');
-    secondsEl.textContent = String(seconds).padStart(2, '0');
+    updateCountdown();
+    const interval = setInterval(updateCountdown, 1000);
 }
 
-updateCountdown();
-const interval = setInterval(updateCountdown, 1000);
+
+
+
+
 
 function toggleMobileMenu() {
     $(".toggle-mobile-menu-button").on("click", function () {

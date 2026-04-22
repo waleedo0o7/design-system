@@ -124,11 +124,17 @@
                         <ul class="sub-menu">
 
                             <li class="menu-item">
-                                <a class="menu-link" href="#"> العربية </a>
+                                <a class="menu-link" href="#">
+                                    <span class="flag-icon flag-icon-sa me-1"></span>
+                                    العربية
+                                </a>
                             </li>
 
                             <li class="menu-item">
-                                <a class="menu-link" href="#"> English </a>
+                                <a class="menu-link" href="#">
+                                    <span class="flag-icon flag-icon-us me-1"></span>
+                                    English
+                                </a>
                             </li>
 
                         </ul>
