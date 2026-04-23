@@ -1,10 +1,6 @@
-<?php
-$isRTL = isset($_GET['dir']) && $_GET['dir'] === 'rtl';
-?>
-
 <!doctype html>
 
-<html dir="<?php echo (isset($_GET['dir'])) ? $_GET['dir'] : 'ltr'; ?>">
+<html dir="rtl">
 
 <head>
     <meta charset="utf-8">
@@ -23,8 +19,8 @@ $isRTL = isset($_GET['dir']) && $_GET['dir'] === 'rtl';
     <!-- Custom CSS -->
     <link href="assets/scss/style.css" rel="stylesheet">
 
-    <title> GFPF 2026 | Home </title>
+    <title> منتدى ومعرض المشاريع المستقبلية الدولي</title>
 
 </head>
 
-<body dir="<?php echo (isset($_GET['dir'])) ? $_GET['dir'] : 'ltr'; ?>">
+<body dir="rtl">

@@ -8,7 +8,7 @@ let breakpoint2xl = 1600;
 
 $(document).ready(function () {
     initSwiperSlider();
-    initIntroCountdown(new Date(2026, 4, 1, 0, 0, 0));
+    initIntroCountdown(new Date(2026, 12, 7, 0, 0, 0));
     toggleDarkMode();
     toggleMobileMenu();
     toggleDropdownMobileMenu();
@@ -39,8 +39,6 @@ function initSwiperSlider() {
         let perViewSm = $el.attr('data-per-view-sm') || 1;
 
         let perViewXs = $el.attr('data-per-view-xs') || 1;
-
-
 
 
         let options = {
@@ -80,13 +78,10 @@ function initSwiperSlider() {
         let swiperInstance = new Swiper(element, options);
 
 
-
         // swiperInstance.appendSlide(`<div class="swiper-slide">new new</div>`);
 
         allSwipers[swiperName] = swiperInstance;
         // console.log(`Initialized ${swiperName}`);
-
-
 
 
         // console.log(allSwipers)
@@ -160,10 +155,6 @@ function initIntroCountdown(targetDateInput) {
 }
 
 
-
-
-
-
 function toggleMobileMenu() {
     $(".toggle-mobile-menu-button").on("click", function () {
         $(".mobile-menu-popup").toggleClass("show");
@@ -194,7 +185,6 @@ function toggleDropdownMobileMenu() {
 }
 
 
-
 $(document).ready(function () {
     if (window.innerWidth > breakpointXl) {
         $('.footer .accordion-button').each(function () {
@@ -202,11 +192,6 @@ $(document).ready(function () {
         });
     }
 });
-
-
-
-
-
 
 
 $(document).ready(function () {

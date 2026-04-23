@@ -16,52 +16,37 @@
                     <ul class="menu-items-wrapper">
 
                         <li class="menu-item active">
-                            <a class="menu-link" href="homepage.php">الرئيسية</a>
+                            <a class="menu-link">الرئيسية</a>
                         </li>
 
-                        <li class="menu-item has-sub-menu">
+                        <li class="menu-item">
 
-                            <a class="menu-link" href="#">عن المنتدى</a>
-                            <ul class="sub-menu">
-
-                                <li class="menu-item">
-                                    <a href="#" class="menu-link"> عن المنتدي </a>
-                                </li>
-
-                                <li class="menu-item">
-                                    <a href="#" class="menu-link"> عن المنتدي </a>
-                                </li>
-
-                                <li class="menu-item">
-                                    <a href="#" class="menu-link"> عن المنتدي </a>
-                                </li>
-
-                            </ul>
+                            <a class="menu-link">عن المنتدى</a>
 
                         </li>
 
                         <li class="menu-item">
-                            <a class="menu-link" href="#">الفعاليات</a>
+                            <a class="menu-link">الفعاليات</a>
                         </li>
 
-                        <li class="menu-item"><a class="menu-link" href="#">الرعاة</a></li>
+                        <li class="menu-item"><a class="menu-link">الرعاة</a></li>
 
                         <li class="menu-item has-sub-menu">
 
-                            <a class="menu-link" href="#">المركز الإعلامي</a>
+                            <a class="menu-link">المركز الإعلامي</a>
 
                             <ul class="sub-menu">
 
                                 <li class="menu-item">
-                                    <a class="menu-link" href="#">المركز الإعلامي</a>
+                                    <a class="menu-link">الأخبار</a>
                                 </li>
 
                                 <li class="menu-item">
-                                    <a class="menu-link" href="#">المركز الإعلامي</a>
+                                    <a class="menu-link">معرض الصور</a>
                                 </li>
 
                                 <li class="menu-item">
-                                    <a class="menu-link" href="#">المركز الإعلامي</a>
+                                    <a class="menu-link">معرض الفيديوهات</a>
                                 </li>
 
                             </ul>
@@ -69,21 +54,18 @@
                         </li>
 
                         <li class="menu-item has-sub-menu">
-                            <a class="menu-link" href="#">تواصل معنا</a>
+                            <a class="menu-link">تواصل معنا</a>
 
                             <ul class="sub-menu">
 
                                 <li class="menu-item">
-                                    <a class="menu-link" href="#">تواصل معنا</a>
+                                    <a class="menu-link">الأسئلة الشائعة</a>
                                 </li>
 
                                 <li class="menu-item">
-                                    <a class="menu-link" href="#">تواصل معنا</a>
+                                    <a class="menu-link">تواصل معنا</a>
                                 </li>
 
-                                <li class="menu-item">
-                                    <a class="menu-link" href="#">تواصل معنا</a>
-                                </li>
 
                             </ul>
 
@@ -101,16 +83,16 @@
 
                     <li class="menu-item has-sub-menu">
 
-                        <a class="menu-link" href="#"> السفر والتآشيرة </a>
+                        <a class="menu-link"> السفر والتآشيرة </a>
 
                         <ul class="sub-menu">
 
                             <li class="menu-item">
-                                <a class="menu-link" href="#"> أماكن للزيارة </a>
+                                <a class="menu-link" href="https://www.visitsaudi.com/ar"> أماكن للزيارة </a>
                             </li>
 
                             <li class="menu-item">
-                                <a class="menu-link" href="#"> تأشيرة </a>
+                                <a class="menu-link" href="https://visa.visitsaudi.com/"> تأشيرة </a>
                             </li>
 
                         </ul>
@@ -119,19 +101,19 @@
 
                     <li class="menu-item has-sub-menu">
 
-                        <a class="menu-link" href="#"> العربية </a>
+                        <a class="menu-link"> العربية </a>
 
                         <ul class="sub-menu">
 
                             <li class="menu-item">
-                                <a class="menu-link" href="#">
+                                <a class="menu-link">
                                     <span class="flag-icon flag-icon-sa me-1"></span>
                                     العربية
                                 </a>
                             </li>
 
                             <li class="menu-item">
-                                <a class="menu-link" href="#">
+                                <a class="menu-link">
                                     <span class="flag-icon flag-icon-us me-1"></span>
                                     English
                                 </a>
@@ -143,42 +125,66 @@
 
 
                     <li>
-                        <a href="#" class="btn btn-outline-light flex-center gap-2 my-account">
+                        <a class="btn btn-outline-light flex-center gap-2 my-account">
                             <i class="icon icon-user"></i>
                             <span>حسابي</span>
                         </a>
                     </li>
 
                     <li>
-                        <a href="#" class=" btn btn-action btn-action-lg  btn-outline-light dark-mode" id="toggle-dark-mode">
+                        <a class=" btn btn-action btn-action-lg  btn-outline-light dark-mode" id="toggle-dark-mode">
                             <i class="icon icon-moon"></i>
                         </a>
                     </li>
 
                 </ul>
 
+
+                <style>
+                    .menu-items-wrapper .menu-item.has-sub-menu .sub-menu .menu-link {
+                        text-align: right;
+                    }
+                </style>
             </div>
         </div>
     </div>
 </div>
 
-
 <div class="mobile-top-bar">
 
     <div class="start flex-start gap-3">
-        <a href="homepage.php?dir=rtl">
+        <a>
             <img src="imgs/logos/gfpf-dark.svg" class="w-80px">
         </a>
     </div>
 
     <div class="end flex-start align-items-center justify-content-center gap-3">
         <a class="toggle-mobile-menu-button cursor-pointer">
-            <img src="imgs/bars.svg" class="w-25px h-25px" alt="Menu icon">
+            <img src="imgs/bars.svg" class="bar w-25px h-25px" alt="Menu icon">
         </a>
     </div>
 
 </div> <!-- mobile-top-bar -->
+<style>
+    @media (max-width: 1250px) {
 
+        .mobile-menu-popup .mobile-menu-popup-top-bar {
+            background-color: #1b1d21;
+        }
+
+        .mobile-top-bar {
+            background-color: #1b1d21;
+        }
+
+        .hero-section .countdown .box h2 {
+            font-size: 40px;
+        }
+
+        .bar {
+            filter: brightness(0) invert(1);
+        }
+    }
+</style>
 <div class="mobile-menu-popup">
 
     <div class="top">
@@ -186,14 +192,14 @@
         <div class="flex-between w-100 mobile-menu-popup-top-bar px-3 py-3">
 
             <div class="start">
-                <a href="homepage.php">
+                <a>
                     <img src="imgs/logos/gfpf-dark.svg" class="w-80px">
                 </a>
             </div>
 
             <div class="end">
                 <a class="toggle-mobile-menu-button">
-                    <img src="imgs/close.svg" class="w-15px h-15px" alt="">
+                    <img src="imgs/close.svg" class="bar w-15px h-15px" alt="">
                 </a>
             </div>
 
@@ -205,100 +211,66 @@
 
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#"> الرئيسية </a>
+                    <a class="nav-link"> الرئيسية </a>
                 </li>
 
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#"> عن الموقع </a>
+                    <a class="nav-link"> عن المنتدى </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"> الفعاليات </a>
                 </li>
 
 
                 <li class="nav-item">
-                    <a class="nav-link dropdown-toggle" href="#"> مينيو 1 </a>
+                    <a class="nav-link"> الرعاة </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle"> المركز الإعلامي </a>
 
                     <ul class="dropdown-menu d-none">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                مينيو 1-1
+                            <a class="nav-link">
+                                الأخبار
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                مينيو 1-2
+                            <a class="nav-link">
+                                معرض الصور
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                معرض الفيديوهات
                             </a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link dropdown-toggle" href="#"> مينيو 1-3 </a>
-
-                            <ul class="dropdown-menu d-none">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        مينيو 3-1-1
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        مينيو 3-1-2
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        مينيو 3-1-3
-                                    </a>
-                                </li>
-                                <li class="nav-item ">
-
-                                    <a href="#" class="nav-link  dropdown-toggle">
-                                        مينيو 3-1-4
-                                    </a>
-
-                                    <ul class="dropdown-menu d-none">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                مينيو 3-1-4-1
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                مينيو 3-1-4-2
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                مينيو 1-4
-                            </a>
-                        </li>
                     </ul>
 
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        اتصل بنا
-                    </a>
+                    <a class="nav-link dropdown-toggle"> تواصل معنا </a>
+
+                    <ul class="dropdown-menu d-none">
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                الأسئلة الشائعة
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                تواصل معنا
+                            </a>
+                        </li>
+
+                    </ul>
+
                 </li>
-
-                <li class="nav-item"><a href="#" class="nav-link"> تسجيل دخول </a></li>
-
-                <li class="nav-item"><a href="#" class="nav-link"> لوحة التحكم </a></li>
-
-                <li class="nav-item"><a href="#" class="nav-link"> رابط </a></li>
-
-                <li class="nav-item"><a href="#" class="nav-link"> رابط </a></li>
-
-                <li class="nav-item"><a href="#" class="nav-link"> رابط </a></li>
-
-                <li class="nav-item"><a href="#" class="nav-link"> رابط </a></li>
-
-                <li class="nav-item"><a href="#" class="nav-link"> رابط </a></li>
 
 
             </ul>
@@ -306,36 +278,33 @@
 
         </div> <!-- menu-wrapper -->
 
+
     </div>
 
     <div class="bottom">
 
         <div class="dropdown w-100">
 
-            <a class="btn btn-primary dropdown-toggle w-100" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="btn btn-primary dropdown-toggle w-100" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 تغيير اللغة
             </a>
 
             <div class="dropdown-menu text-start w-100" aria-labelledby="dropdownMenuLink">
 
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item">
                     <span class="flag-icon flag-icon-sa me-1"></span>
                     عربي
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item">
                     <span class="flag-icon flag-icon-us me-1"></span>
                     English
-                </a>
-                <a class="dropdown-item" href="#">
-                    <span class="flag-icon flag-icon-fr me-1"></span>
-                    Frensh
                 </a>
 
             </div>
 
         </div>
 
-        <a href="#" class="btn btn-outline-primary color-black w-100 mt-2"> تسجيل خروج </a>
+        <a class="btn btn-outline-primary color-black w-100 mt-2"> حسابي </a>
 
     </div>
 

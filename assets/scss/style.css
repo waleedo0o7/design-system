@@ -888,6 +888,89 @@ button.swiper-pagination-bullet {
   --swiper-theme-color: #89ced7;
 }
 
+.card-2.flip-card .card-2-content {
+  perspective: 1000px;
+  position: relative;
+}
+.card-2.flip-card .flip-inner {
+  position: relative;
+  width: 100%;
+  transition: transform 0.7s ease;
+  transform-style: preserve-3d;
+}
+.card-2.flip-card:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+.card-2.flip-card .flip-face {
+  width: 100%;
+  backface-visibility: hidden;
+}
+.card-2.flip-card .flip-front {
+  position: relative;
+}
+.card-2.flip-card .flip-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateY(180deg);
+}
+.card-2.flip-card {
+  /* مهم عشان ما يكسرش الـ grid */
+}
+.card-2.flip-card .card-2-content {
+  display: block;
+  min-height: 100%;
+}
+.card-2.flip-card .flip-face > * {
+  position: relative;
+  z-index: 1;
+}
+
+.card-3.flip-card {
+  perspective: 1200px;
+}
+.card-3.flip-card .flip-inner {
+  position: relative;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.7s ease;
+}
+.card-3.flip-card:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+.card-3.flip-card .flip-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card-3.flip-card .flip-front {
+  position: relative;
+}
+.card-3.flip-card .flip-back {
+  transform: rotateY(180deg);
+}
+.card-3.flip-card .btn {
+  width: auto;
+}
+.card-3.flip-card .logo img {
+  transition: 0.3s ease;
+}
+.card-3.flip-card:hover .logo img {
+  transform: scale(0.9);
+}
+
+.card-3 .card-3-content button.btn,
+.card-3 .card-3-content .btn {
+  width: auto !important;
+  max-width: -moz-fit-content !important;
+  max-width: fit-content !important;
+  flex: 0 0 auto !important;
+  display: inline-flex !important;
+  align-self: flex-start !important;
+}
+
 /*!
  * Bootstrap v4.6.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -11543,6 +11626,171 @@ a:hover {
   min-height: 100vh;
 }
 
+.color-effect {
+  border: 1px solid transparent;
+}
+.color-effect:after {
+  content: "";
+  background: linear-gradient(210deg, rgb(137, 206, 215) 0%, rgba(137, 206, 215, 0) 40%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+[dir=rtl] .color-effect:after {
+  background: linear-gradient(119deg, rgb(137, 206, 215) 0%, rgba(137, 206, 215, 0) 40%);
+}
+.color-effect:hover {
+  border: 1px solid var(--color-primary);
+  transition: 0.3s ease-in-out;
+}
+.color-effect:hover:after {
+  opacity: 0.7;
+  visibility: visible;
+}
+.color-effect * {
+  position: relative;
+  z-index: 1;
+}
+
+.color-effect-red {
+  border: 1px solid transparent;
+}
+.color-effect-red:after {
+  content: "";
+  background: linear-gradient(119deg, rgb(161, 59, 34) 0%, rgba(161, 59, 34, 0.1) 50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+[dir=rtl] .color-effect-red:after {
+  background: linear-gradient(119deg, rgb(161, 59, 34) 0%, rgba(161, 59, 34, 0.1) 50%);
+}
+.color-effect-red:hover {
+  border: 1px solid rgb(161, 59, 34);
+  transition: 0.3s ease-in-out;
+}
+.color-effect-red:hover:after {
+  opacity: 0.7;
+  visibility: visible;
+}
+.color-effect-red * {
+  position: relative;
+  z-index: 1;
+}
+
+.color-effect-green {
+  border: 1px solid transparent;
+}
+.color-effect-green:after {
+  content: "";
+  background: linear-gradient(119deg, rgb(68, 163, 87) 0%, rgba(68, 163, 87, 0) 50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+[dir=rtl] .color-effect-green:after {
+  background: linear-gradient(119deg, rgb(68, 163, 87) 0%, rgba(68, 163, 87, 0) 50%);
+}
+.color-effect-green:hover {
+  border: 1px solid rgb(68, 163, 87);
+  transition: 0.3s ease-in-out;
+}
+.color-effect-green:hover:after {
+  opacity: 0.7;
+  visibility: visible;
+}
+.color-effect-green * {
+  position: relative;
+  z-index: 1;
+}
+
+.color-effect-orang {
+  border: 1px solid transparent;
+}
+.color-effect-orang:after {
+  content: "";
+  background: linear-gradient(119deg, rgb(231, 96, 74) 0%, rgba(231, 96, 74, 0) 50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+[dir=rtl] .color-effect-orang:after {
+  background: linear-gradient(119deg, rgb(231, 96, 74) 0%, rgba(231, 96, 74, 0) 50%);
+}
+.color-effect-orang:hover {
+  border: 1px solid rgb(231, 96, 74);
+  transition: 0.3s ease-in-out;
+}
+.color-effect-orang:hover:after {
+  opacity: 0.7;
+  visibility: visible;
+}
+.color-effect-orang * {
+  position: relative;
+  z-index: 1;
+}
+
+.color-effect-yellow {
+  border: 1px solid transparent;
+}
+.color-effect-yellow:after {
+  content: "";
+  background: linear-gradient(119deg, rgb(237, 216, 177) 0%, rgba(237, 216, 177, 0) 50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+[dir=rtl] .color-effect-yellow:after {
+  background: linear-gradient(119deg, rgb(237, 216, 177) 0%, rgba(237, 216, 177, 0) 50%);
+}
+.color-effect-yellow:hover {
+  border: 1px solid rgb(237, 216, 177);
+  transition: 0.3s ease-in-out;
+}
+.color-effect-yellow:hover:after {
+  opacity: 0.7;
+  visibility: visible;
+}
+.color-effect-yellow * {
+  position: relative;
+  z-index: 1;
+}
+
 /* here you can write draft code if there is no time to handel it BUT WE will handel it in future */
 .custom-tabs-wrapper .nav-link {
   height: 40px;
@@ -11927,10 +12175,8 @@ hr {
 }
 
 .badge-primary-faded {
-  border: 1px solid;
   color: var(--color-primary);
   background-color: var(--color-primary-faded);
-  border-color: var(--color-primary);
 }
 
 .badge-success-faded {
@@ -12368,6 +12614,61 @@ body.dark .card-1 p {
     flex-direction: column;
     text-align: center;
   }
+}
+
+/* ================= FLIP FIX ================= */
+.col-lg-3 .card-1.flip-card {
+  height: 270px;
+}
+
+.card-1.flip-card {
+  position: relative;
+  perspective: 1200px;
+}
+.card-1.flip-card .flip-inner {
+  position: relative;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.7s ease;
+}
+.card-1.flip-card:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+.card-1.flip-card .flip-face {
+  position: relative;
+  backface-visibility: hidden;
+  border-radius: inherit;
+}
+.card-1.flip-card .flip-front,
+.card-1.flip-card .flip-back {
+  width: 100%;
+}
+.card-1.flip-card .flip-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateY(180deg);
+}
+.card-1.flip-card .flip-face {
+  overflow: hidden;
+}
+.card-1.flip-card .flip-face .shape-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.card-1.flip-card .flip-face > * {
+  position: relative;
+  z-index: 1;
+}
+.card-1.flip-card .img-wrapper img {
+  transition: 0.4s ease;
+}
+.card-1.flip-card:hover .img-wrapper img {
+  transform: scale(0.85);
+}
+.card-1.flip-card .btn {
+  width: auto;
 }
 
 .card-2 {
@@ -13033,7 +13334,6 @@ footer.footer .footer-hr {
   border-color: rgb(50, 52, 56);
 }
 footer.footer .footer-card-title {
-  border-bottom: 1px solid rgb(50, 52, 56);
   padding: 9px 0 15px 0;
   margin-bottom: 10px;
   height: 45px;
@@ -13098,4 +13398,18 @@ h1.font-watad {
   width: 48px;
   height: 48px;
   font-size: 16px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4FC3CC;
+  border-radius: 10px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4FC3CC transparent;
 }/*# sourceMappingURL=style.css.map */

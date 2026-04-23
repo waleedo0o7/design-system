@@ -2,7 +2,7 @@
     <div class="top flex-between">
         <div class="start flex-center gap-2">
             <div class="img-wrapper">
-                <img src="imgs/testimonials-img.png">
+                <img src="imgs/testimonials/3.webp">
             </div>
             <div class="">
                 <p class="testimonial-name fw-bold mb-1">م. بدر بورشيد</p>
