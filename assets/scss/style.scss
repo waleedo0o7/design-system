@@ -502,10 +502,8 @@ hr {
 }
 
 .badge-primary-faded {
-    border: 1px solid;
     color: var(--color-primary);
     background-color: var(--color-primary-faded);
-    border-color: var(--color-primary);
 }
 
 .badge-success-faded {
@@ -1013,7 +1011,6 @@ body {
     border-radius: var(--border-radius);
     overflow: hidden;
 
-
     body.dark & {
         p {
             color: white;
@@ -1044,7 +1041,78 @@ body {
         flex-direction: column;
         text-align: center;
     }
+}
 
+/* ================= FLIP FIX ================= */
+.col-lg-3 {
+    .card-1.flip-card {
+        height: 270px;
+
+    }
+}
+
+
+.card-1.flip-card {
+    position: relative;
+    perspective: 1200px;
+
+    .flip-inner {
+        position: relative;
+        width: 100%;
+        transform-style: preserve-3d;
+        transition: transform .7s ease;
+    }
+
+    &:hover .flip-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-face {
+        position: relative;
+        backface-visibility: hidden;
+        border-radius: inherit;
+    }
+
+    .flip-front,
+    .flip-back {
+        width: 100%;
+    }
+
+    .flip-back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: rotateY(180deg);
+    }
+
+    .flip-face {
+        overflow: hidden;
+    }
+
+    .flip-face .shape-bg {
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+    }
+
+    .flip-face>* {
+        position: relative;
+        z-index: 1;
+    }
+
+    .img-wrapper img {
+        transition: .4s ease;
+    }
+
+    &:hover {
+        .img-wrapper img {
+            transform: scale(.85);
+        }
+    }
+
+    .btn {
+        width: auto;
+    }
 }
 
 .card-2 {
@@ -2035,4 +2103,18 @@ h1.font-watad {
         height: 48px;
         font-size: 16px;
     }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4FC3CC;
+    border-radius: 10px;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #4FC3CC transparent;
 }

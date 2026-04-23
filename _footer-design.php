@@ -1,15 +1,15 @@
-<footer class="footer py-5">
+<footer class="footer py-4">
 
     <div class="container">
 
-        <div class="top mb-3 mb-lg-5">
+        <div class="top mb-3 mb-lg-2">
 
             <div class="row">
 
                 <div class="col-lg-3">
 
                     <div class="flex-start gap-4 mb-3">
-                        <img src="imgs/logos/gfpf-dark.svg" class="img-fluid h-60px" alt="logo">
+                        <img src="imgs/logos/gfpf-dark.svg" class="img-fluid h-45px mt-3" alt="logo">
                         <img src="imgs/footer-icons-0.png" class="img-fluid h-60px">
                     </div>
 
