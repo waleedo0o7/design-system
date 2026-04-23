@@ -305,25 +305,49 @@
 
                     <div class="col-lg-6">
 
-                        <div class="card-1 p-3">
+                        <div class="card-1 flip-card p-3 color-effect-red">
 
-                            <div class="shape-bg" style="background-image: url(imgs/rectangles.png);"></div>
+                            <div class="flip-inner">
 
-                            <div class="img-wrapper mb-3">
-                                <img src="imgs/logos/ncf-light.svg" class="h-70px w-auto">
+                                <!-- FRONT -->
+                                <div class="flip-face flip-front">
+
+                                    <div class="shape-bg" style="background-image: url(imgs/rectangles.png);"></div>
+
+                                    <div class="img-wrapper mb-3">
+                                        <img src="imgs/logos/ncf-light.svg" class="h-70px w-auto">
+                                    </div>
+
+                                    <p class="font-weight-bold">المهرجان الوطني للبناء</p>
+
+                                    <button type="button" class="btn btn-main flex-center gap-2 color-gray">
+                                        <span>تفاصيل الفعالية</span>
+                                        <i class="icone icon-arrow-right"></i>
+                                    </button>
+
+                                </div>
+
+                                <!-- BACK -->
+                                <div class="flip-face flip-back">
+
+                                    <div class="shape-bg" style="background-image: url(imgs/rectangles.png);"></div>
+
+                                    <div class="img-wrapper mb-0">
+                                        <img src="imgs/logos/ncf-light.svg" class="h-70px w-auto">
+                                    </div>
+
+                                    <p class="card-3-paragraph mb-1">
+                                        تجربة جماهيرية مبتكرة تسلط الضوء تقنيات البناء الحديثة وتتيح استكشاف أساليب التشييد عبر ورش تفاعلية
+                                    </p>
+
+                                    <button type="button" class="btn btn-main flex-center gap-2 color-gray">
+                                        <span>تفاصيل الفعالية</span>
+                                        <i class="icone icon-arrow-right"></i>
+                                    </button>
+
+                                </div>
+
                             </div>
-
-                            <p class="font-weight-bold">المهرجان الوطني للبناء</p>
-                            <p class="card-3-paragraph">تجربة جماهيرية مبتكرة تسلط الضوء تقنيات البناء الحديثة وتتيح استكشاف أساليب التشييد عبر ورش تفاعلية</p>
-                            <!---->
-                            <!--<button type="button" class="btn btn-main flex-center gap-2 color-gray">-->
-                            <!---->
-                            <!--    <span>تفاصيل الفعالية</span>-->
-                            <!---->
-                            <!--    <i class="icone icon-arrow-right"></i>-->
-                            <!---->
-                            <!--</button>-->
-
 
                         </div>
 
@@ -331,26 +355,46 @@
 
                     <div class="col-lg-6">
 
-                        <div class="card-1 p-3">
+                        <div class="card-1 flip-card p-3 color-effect-green">
 
-                            <div class="shape-bg" style="background-image: url(imgs/icc-shape.png);"></div>
+                            <div class="flip-inner">
 
-                            <div class="img-wrapper mb-3">
-                                <img src="imgs/logos/icc-light.svg" class="h-70px w-auto">
+                                <!-- FRONT -->
+                                <div class="flip-face flip-front">
+
+                                    <div class="shape-bg" style="background-image: url(imgs/icc-shape.png);"></div>
+
+                                    <div class="img-wrapper mb-3">
+                                        <img src="imgs/logos/icc-light.svg" class="h-70px w-auto">
+                                    </div>
+
+                                    <p class="font-weight-bold">مؤتمر المقاولات الدولي</p>
+                                    <button type="button" class="btn btn-main flex-center gap-2 color-gray">
+                                        <span>تفاصيل الفعالية</span>
+                                        <i class="icone icon-arrow-right"></i>
+                                    </button>
+
+                                </div>
+
+                                <!-- BACK -->
+                                <div class="flip-face flip-back">
+
+                                    <div class="shape-bg" style="background-image: url(imgs/icc-shape.png);"></div>
+
+                                    <div class="img-wrapper mb-1">
+                                        <img src="imgs/logos/icc-light.svg" class="h-70px w-auto">
+                                    </div>
+
+                                    <p class="card-3-paragraph mb-1">
+                                        مناقشة أحدث التوجهات والابتكارات التي ترسم قطاع التشييد والبناء على المستويين المحلي والعالمي
+                                    </p>
+                                    <button type="button" class="btn btn-main flex-center gap-2 color-gray">
+                                        <span>تفاصيل الفعالية</span>
+                                        <i class="icone icon-arrow-right"></i>
+                                    </button>
+                                </div>
+
                             </div>
-
-                            <p class="font-weight-bold">مؤتمر المقاولات الدولي</p>
-                            <!--<h4 class="card-3-title font-weight-bold">مؤتمر المقاولات <span class="color-primary">الدولي</span></h4>-->
-                            <p class="card-3-paragraph">مناقشة أحدث التوجهات والابتكارات التي ترسم قطاع التشييد والبناء على المستويين المحلي والعالمي</p>
-                            <!---->
-                            <!--<button type="button" class="btn btn-main flex-center gap-2 color-gray">-->
-                            <!---->
-                            <!--    <span>تفاصيل الفعالية</span>-->
-                            <!---->
-                            <!--    <i class="icone icon-arrow-right"></i>-->
-                            <!---->
-                            <!--</button>-->
-
 
                         </div>
 
@@ -368,26 +412,51 @@
         <div class="row mt-4">
             <div class="col-lg-3">
 
-                <div class="card-1 p-3">
+                <div class="card-1 flip-card p-3 color-effect-orang">
 
-                    <div class="shape-bg" style="background-image: url(imgs/innc-shape.png);"></div>
+                    <div class="flip-inner">
 
-                    <div class="img-wrapper mb-3">
-                        <img src="imgs/logos/ic-light.svg" class="h-70px w-auto">
+                        <!-- FRONT -->
+                        <div class="flip-face flip-front">
+
+                            <div class="shape-bg" style="background-image: url(imgs/innc-shape.png);"></div>
+
+                            <div class="img-wrapper mb-3">
+                                <img src="imgs/logos/ic-light.svg" class="h-70px w-auto">
+                            </div>
+
+                            <p class="font-weight-bold mt-4">ﺗﺤﺪي اﻻﺑﺘﻜﺎر ﻓﻲ اﻟﻤﻘﺎوﻻت</p>
+
+
+
+                            <button type="button" class="btn btn-main flex-center gap-2 color-gray mt-3">
+                                <span>تفاصيل الفعالية</span>
+                                <i class="icone icon-arrow-right"></i>
+                            </button>
+
+                        </div>
+
+                        <!-- BACK -->
+                        <div class="flip-face flip-back">
+
+                            <div class="shape-bg" style="background-image: url(imgs/innc-shape.png);"></div>
+
+                            <div class="img-wrapper mb-3">
+                                <img src="imgs/logos/ic-light.svg" class="h-70px w-auto">
+                            </div>
+
+                            <p class="card-3-paragraph">
+                                تطوير حلول ابتكارية لتحديات قطاع البناء والتشييد عبر منافسة تركز على المواد وأساليب البناء الحديثة
+                            </p>
+
+                            <button type="button" class="btn btn-main flex-center gap-2 color-gray ">
+                                <span>تفاصيل الفعالية</span>
+                                <i class="icone icon-arrow-right"></i>
+                            </button>
+
+                        </div>
+
                     </div>
-
-                    <p class="font-weight-bold">ﺗﺤﺪي اﻻﺑﺘﻜﺎر ﻓﻲ اﻟﻤﻘﺎوﻻت</p>
-                    <!--<h4 class="card-3-title font-weight-bold">ﺗﺤﺪي اﻻﺑﺘﻜﺎر ﻓﻲ <span class="color-primary">اﻟﻤﻘﺎوﻻت</span></h4>-->
-                    <p class="card-3-paragraph">تطوير حلول ابتكارية لتحديات قطاع البناء والتشييد عبر منافسة تركز على المواد وأساليب البناء الحديثة</p>
-
-                    <!--<button type="button" class="btn btn-main flex-center gap-2 color-gray">-->
-                    <!---->
-                    <!--    <span>تفاصيل الفعالية</span>-->
-                    <!---->
-                    <!--    <i class="icone icon-arrow-right"></i>-->
-                    <!---->
-                    <!--</button>-->
-
 
                 </div>
 
@@ -395,26 +464,49 @@
 
             <div class="col-lg-3">
 
-                <div class="card-1 p-3">
+                <div class="card-1 flip-card p-3 color-effect-yellow">
 
-                    <div class="shape-bg" style="background-image: url(imgs/cea-shape.png);"></div>
+                    <div class="flip-inner">
 
-                    <div class="img-wrapper mb-3">
-                        <img src="imgs/logos/cea-light.svg" class="h-70px w-auto">
+                        <!-- FRONT -->
+                        <div class="flip-face flip-front">
+
+                            <div class="shape-bg" style="background-image: url(imgs/cea-shape.png);"></div>
+
+                            <div class="img-wrapper mb-3">
+                                <img src="imgs/logos/cea-light.svg" class="h-70px w-auto">
+                            </div>
+
+                            <p class="font-weight-bold">ﺟﻮاﺋﺰ اﻟﺘﻤﻴﺰ ﻓﻲ ﻗﻄﺎع اﻟﻤﻘﺎوﻻت</p>
+
+                            <button type="button" class="btn btn-main flex-center gap-2 color-gray">
+                                <span>تفاصيل الفعالية</span>
+                                <i class="icone icon-arrow-right"></i>
+                            </button>
+
+                        </div>
+
+                        <!-- BACK -->
+                        <div class="flip-face flip-back">
+
+                            <div class="shape-bg" style="background-image: url(imgs/cea-shape.png);"></div>
+
+                            <div class="img-wrapper mb-3">
+                                <img src="imgs/logos/cea-light.svg" class="h-70px w-auto">
+                            </div>
+
+                            <p class="card-3-paragraph">
+                                احتفال سنوي يكرّم أبرز المشاريع والشركات والأفراد لإنجازاتهم الاستثنائية في قطاع المقاولات السعودي
+                            </p>
+
+                            <button type="button" class="btn btn-main flex-center gap-2 color-gray">
+                                <span>تفاصيل الفعالية</span>
+                                <i class="icone icon-arrow-right"></i>
+                            </button>
+
+                        </div>
+
                     </div>
-
-                    <p class="font-weight-bold">ﺟﻮاﺋﺰ اﻟﺘﻤﻴﺰ ﻓﻲ ﻗﻄﺎع اﻟﻤﻘﺎوﻻت</p>
-                    <!--<h4 class="card-3-title font-weight-bold">ﺟﻮاﺋﺰ اﻟﺘﻤﻴﺰ ﻓﻲ <span class="color-primary">ﻗﻄﺎع اﻟﻤﻘﺎوﻻت</span></h4>-->
-                    <p class="card-3-paragraph">احتفال سنوي يكرّم أبرز المشاريع والشركات والأفراد لإنجازاتهم الاستثنائية في قطاع المقاولات السعودي</p>
-
-                    <!--<button type="button" class="btn btn-main flex-center gap-2 color-gray">-->
-                    <!---->
-                    <!--    <span>تفاصيل الفعالية</span>-->
-                    <!---->
-                    <!--    <i class="icone icon-arrow-right"></i>-->
-                    <!---->
-                    <!--</button>-->
-
 
                 </div>
 
@@ -422,26 +514,49 @@
 
             <div class="col-lg-3">
 
-                <div class="card-1 p-3">
+                <div class="card-1 flip-card p-3 color-effect">
 
-                    <div class="shape-bg" style="background-image: url(imgs/gfpf-shape.png);"></div>
+                    <div class="flip-inner">
 
-                    <div class="img-wrapper mb-3">
-                        <img src="imgs/logos/gfpf-light.svg" class="h-70px w-auto">
+                        <!-- FRONT -->
+                        <div class="flip-face flip-front">
+
+                            <div class="shape-bg" style="background-image: url(imgs/gfpf-shape.png);"></div>
+
+                            <div class="img-wrapper mb-3">
+                                <img src="imgs/logos/gfpf-light.svg" class="h-70px w-auto">
+                            </div>
+
+                            <p class="font-weight-bold">اﻟﻤﻌﺮض اﻟﺪوﻟﻲ</p>
+
+                            <button type="button" class="btn btn-main flex-center gap-2 color-gray">
+                                <span>تفاصيل الفعالية</span>
+                                <i class="icone icon-arrow-right"></i>
+                            </button>
+
+                        </div>
+
+                        <!-- BACK -->
+                        <div class="flip-face flip-back">
+
+                            <div class="shape-bg" style="background-image: url(imgs/gfpf-shape.png);"></div>
+
+                            <div class="img-wrapper mb-3">
+                                <img src="imgs/logos/gfpf-light.svg" class="h-70px w-auto">
+                            </div>
+
+                            <p class="card-3-paragraph">
+                                معرض متخصص يجمع ملاك المشاريع والمقاولين والموردين والمستثمرين لعرض أحدث تقنيات البناء والتشييد وتعزيز الشراكات
+                            </p>
+
+                            <button type="button" class="btn btn-main flex-center gap-2 color-gray">
+                                <span>تفاصيل الفعالية</span>
+                                <i class="icone icon-arrow-right"></i>
+                            </button>
+
+                        </div>
+
                     </div>
-
-                    <p class="font-weight-bold">اﻟﻤﻌﺮض اﻟﺪوﻟﻲ</p>
-                    <!--<h4 class="card-3-title font-weight-bold">اﻟﻤﻌﺮض <span class="color-primary">اﻟﺪوﻟﻲ</span></h4>-->
-                    <p class="card-3-paragraph">معرض متخصص يجمع ملاك المشاريع والمقاولين والموردين والمستثمرين لعرض أحدث تقنيات البناء والتشييد وتعزيز الشراكات</p>
-
-                    <!--<button type="button" class="btn btn-main flex-center gap-2 color-gray">-->
-                    <!---->
-                    <!--    <span>تفاصيل الفعالية</span>-->
-                    <!---->
-                    <!--    <i class="icone icon-arrow-right"></i>-->
-                    <!---->
-                    <!--</button>-->
-
 
                 </div>
 
@@ -449,27 +564,49 @@
 
             <div class="col-lg-3">
 
-                <div class="card-1 p-3">
+                <div class="card-1 flip-card p-3 color-effect">
 
-                    <div class="shape-bg" style="background-image: url(imgs/gfpf-shape.png);"></div>
+                    <div class="flip-inner">
 
-                    <div class="img-wrapper mb-3">
-                        <img src="imgs/logos/gfpf-light.svg" class="h-70px w-auto">
+                        <!-- FRONT -->
+                        <div class="flip-face flip-front">
+
+                            <div class="shape-bg" style="background-image: url(imgs/gfpf-shape.png);"></div>
+
+                            <div class="img-wrapper mb-3">
+                                <img src="imgs/logos/gfpf-light.svg" class="h-70px w-auto">
+                            </div>
+
+                            <p class="font-weight-bold">ورش عمل متخصصة</p>
+
+                            <button type="button" class="btn btn-main flex-center gap-2 color-gray">
+                                <span>تفاصيل الفعالية</span>
+                                <i class="icone icon-arrow-right"></i>
+                            </button>
+
+                        </div>
+
+                        <!-- BACK -->
+                        <div class="flip-face flip-back">
+
+                            <div class="shape-bg" style="background-image: url(imgs/gfpf-shape.png);"></div>
+
+                            <div class="img-wrapper mb-0">
+                                <img src="imgs/logos/gfpf-light.svg" class="h-70px w-auto">
+                            </div>
+
+                            <p class="card-3-paragraph mb-1">
+                                جلسات تفاعلية يقودها خبراء محليون ودوليون تسلط الضوء على موضوعات قطاع المقاولات وتمنح المشاركين معرفة وأدوات تطويرية مباشرة
+                            </p>
+
+                            <button type="button" class="btn btn-main flex-center gap-2 color-gray mt-0">
+                                <span>تفاصيل الفعالية</span>
+                                <i class="icone icon-arrow-right"></i>
+                            </button>
+
+                        </div>
+
                     </div>
-
-                    <p class="font-weight-bold">ورش عمل متخصصة</p>
-                    <!--<h4 class="card-3-title font-weight-bold">ورش عمل <span class="color-primary">متخصصة</span></h4>-->
-                    <p class="card-3-paragraph">جلسات تفاعلية يقودها خبراء محليون ودوليون تسلط الضوء على موضوعات قطاع المقاولات وتمنح المشاركين معرفة وأدوات تطويرية مباشرة</p>
-
-
-                    <!--<button type="button" class="btn btn-main flex-center gap-2 color-gray">-->
-                    <!---->
-                    <!--    <span>تفاصيل الفعالية</span>-->
-                    <!---->
-                    <!--    <i class="icone icon-arrow-right"></i>-->
-                    <!---->
-                    <!--</button>-->
-
 
                 </div>
 
